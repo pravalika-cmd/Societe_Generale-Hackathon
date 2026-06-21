@@ -1,9 +1,28 @@
-# Guardrail IAM Console & Identity Sprawl Detection Engine
+# 🛡️ Guardrail IAM Console
+### Identity Sprawl & Privileged Access Abuse Detection Engine for Hybrid Enterprises
 
-An advanced hybrid enterprise risk governance and threat monitoring solution designed to identify identity sprawl, track privileged access abuse, detect offboarding security gaps, and automate security analyst workflows using an integrated Identity Security Copilot.
+![Hackathon](https://img.shields.io/badge/Societe_Generale-Hiring_Hackathon_2025-red)
+![Track](https://img.shields.io/badge/Track-Identity_%26_Access_Risk_Governance-blue)
+![Team](https://img.shields.io/badge/Team-PI_%7C_RVCE_College-green)
+![Python](https://img.shields.io/badge/Python-3.10%2B-purple)
+
+> *"When a service account is granted Domain Admin in AD and simultaneously given S3 full-access in AWS, the risk is invisible to both teams."* — Problem Statement
+
+Guardrail is our answer to that problem. A full-stack identity risk platform that correlates identities across Active Directory, AWS IAM, and Okta — computing effective privilege through nested group inheritance, scoring risk with an explainable rule engine aligned to MITRE ATT&CK, and surfacing findings through an analyst-grade investigation console with an AI-powered Security Copilot.
 
 ---
 
+## ⚡ What Makes This Different
+
+Most identity tools flag individual platform anomalies. Guardrail finds the risks that only appear when you look across all three platforms simultaneously.
+
+- **Nested group inheritance traversal** — detects "hidden admins" whose direct assignment looks standard but whose effective privilege is Domain Admin through 2–3 levels of group nesting. 28 such cases detected in our dataset.
+- **Cross-platform unjustified admin detection** — flags identities with admin on 2+ platforms with no recorded business justification, distinct from legitimately privileged users. Exactly 40 flagged vs 95 total cross-platform admins — the distinction between signal and noise.
+- **Independent platform offboarding gaps** — each platform's disable status tracked separately, catching the real-world pattern where AD is disabled but Okta/AWS remain active.
+- **Explainable scoring, not a black box** — every risk score decomposes into named rules, each citing a MITRE ATT&CK technique, a NIST SP 800-53 control, and a platform-specific remediation command.
+- **AI Security Copilot** — powered by Claude, with real backend context injected per query, generating incident narratives, audit notes, and remediation runbooks on demand.
+
+---
 ## ⚙️ System Architecture & Data Flow
 
 The project consists of a multi-stage Python data generation/analysis pipeline and a Dash dashboard visualizer. Below is the system flow depicting the pipeline steps and the risk engine correlation process.
