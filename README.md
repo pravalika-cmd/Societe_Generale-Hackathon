@@ -4,6 +4,14 @@ An advanced hybrid enterprise risk governance and threat monitoring solution des
 
 ---
 
+## ⚙️ System Architecture & Data Flow
+
+The project consists of a multi-stage Python data generation/analysis pipeline and a Dash dashboard visualizer. Below is the system flow depicting the pipeline steps and the risk engine correlation process.
+
+![System Architecture & Data Flow Diagram](images/architecture_diagram.png)
+
+---
+
 ## 📁 Repository Structure
 
 The project is split into two primary components: the data pipeline (backend) and the visual console (frontend).
@@ -33,6 +41,32 @@ SG_Hackathon/
     ├── assets/                    # Styling sheets & static assets
     └── requirements.txt           # Dashboard dependencies
 ```
+
+---
+
+## 🖥️ Console Screen Previews
+
+Here is a look at the Guardrail IAM Console in action:
+
+### 1. Executive Summary
+Provides a high-level visual posture of global risks, active directory/cloud threats, and SOC system integrity status.
+![Executive Summary Dashboard](images/executive_summary.png)
+
+### 2. Identity Risk List
+Searchable registry of all monitored enterprise identities, displaying threat severity, detected risks, and risk scores.
+![Identity Risk List](images/identity_risk_list.png)
+
+### 3. Cross-Platform Privilege View
+Maps direct and inherited privilege paths to resolve effective permissions across Active Directory, Okta, and AWS IAM.
+![Cross-Platform Privilege View](images/privilege_matrix.png)
+
+### 4. Offboarding Gap Detector
+Identifies terminated employees with lingering active cloud platform sessions, calculating real-time security exposure windows.
+![Offboarding Gap Detector](images/offboarding_detector.png)
+
+### 5. Dormancy Analysis
+Flags stale login tokens, inactive API keys, and dormant admin accounts requiring credential rotation or de-provisioning.
+![Dormancy Analysis](images/dormancy_analysis.png)
 
 ---
 
@@ -88,3 +122,4 @@ This console helps security teams ensure compliance with key security controls:
 * **CIS Controls**: Access Control Management, Account Monitoring.
 * **ISO 27001**: Annex A.9 (Access Control).
 * **SOX / SOC 2**: Privilege access reviews and user termination verification.
+
