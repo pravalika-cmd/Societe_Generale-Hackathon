@@ -60,7 +60,41 @@ SG_Hackathon/
     └── requirements.txt           # Dashboard dependencies
 ```
 
+## 📊 Results on Simulated Enterprise Data
+
+| Metric | Value |
+|---|---|
+| Identities assessed | 400 across AD, AWS IAM, Okta |
+| Identity coverage | 100% — no identity falls through |
+| CRITICAL risk identities | 41 (10.3%) |
+| HIGH risk identities | 61 (15.3%) |
+| Hidden admin paths detected | 28 via nested group traversal |
+| Unjustified cross-platform admins | 40 out of 95 total cross-platform admins |
+| Offboarding gaps surfaced | 49 terminated identities still active on ≥1 platform |
+| Total anomalies with remediation | 299 structured findings across 8 rule types |
+| Alert consolidation | 860 raw events → 299 structured findings (65% reduction) |
+
 ---
+## 🧠 Risk Engine — 8 Scoring Rules
+
+| Rule | Condition | Points | MITRE | NIST |
+|---|---|---|---|---|
+| 1. Offboarding Gap | Terminated but active on any platform | +40 | T1078 | AC-2 |
+| 2. Dormant Admin | Admin + no login 90+ days | +35 | T1078 | AC-2, AC-6 |
+| 3. Unjustified Cross-Platform Admin | Admin on 2+ platforms, no justification | +30 | T1098 | AC-6 |
+| 4. Hidden/Inherited Admin | Admin via nested group traversal only | +25 | T1098 | AC-6 |
+| 5. Stale API Token | AWS key > 365 days, still active | +20 | T1550 | IA-4 |
+| 6. Privilege Escalation | Unexpected group-addition in audit log | +35 | T1098 | AC-2 |
+| 7. Dormant Admin + HR Role Change | Inactive 90d + role changed within 60d | +15 | AC-2 | AC-2 |
+| 8. Token Scope Mismatch | Read-only token making write API calls | +30 | T1550 | AC-6 |
+| Dampener | IT dept + admin = expected role | −15 | — | — |
+
+Score 0–100, capped. Bands: **CRITICAL ≥60 / HIGH ≥40 / MEDIUM ≥20 / LOW <20**
+
+Every triggered rule writes a row to `anomalies.csv` with severity, human-readable detail, MITRE citation, and platform-specific remediation — making every score fully auditable.
+
+---
+
 
 ## 🖥️ Console Screen Previews
 
