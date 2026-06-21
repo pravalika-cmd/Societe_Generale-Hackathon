@@ -1,7 +1,6 @@
 # 🛡️ Guardrail IAM Console
 ### Identity Sprawl & Privileged Access Abuse Detection Engine for Hybrid Enterprises
 
-![Hackathon](https://img.shields.io/badge/Societe_Generale-Hiring_Hackathon_2025-red)
 ![Track](https://img.shields.io/badge/Track-Identity_%26_Access_Risk_Governance-blue)
 ![Team](https://img.shields.io/badge/Team-PI_%7C_RVCE_College-green)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-purple)
