@@ -1,0 +1,407 @@
+risk_type,count,severity,username,risk_score,privilege_breadth_score,dormancy_score,platform_spread_score,offboarding_score,risk_breakdown,recommended_action
+Offboarding Gap,49.0,Critical,,,,,,,,
+Token Abuse,46.0,Critical,,,,,,,,
+Privilege Spike,49.0,High,,,,,,,,
+Hidden Admin,28.0,High,,,,,,,,
+Dormant Admin,75.0,Medium,,,,,,,,
+Cross-Platform Admin,95.0,Medium,,,,,,,,
+,,,allison.hill,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,"Immediately disable accounts on: AWS, Okta"
+,,,david.guzman,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,caitlin.henderson,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,renee.blair,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,michele.williams,35.0,35.0,0.0,0.0,0.0,Breadth: 35.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Review and revert all recent privilege changes
+,,,roy.martin,55.0,20.0,35.0,0.0,0.0,Breadth: 20.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification | Review and revert all recent privilege changes
+,,,william.bowman,20.0,0.0,20.0,0.0,0.0,Breadth: 0.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately
+,,,austin.gentry,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: Okta
+,,,nicole.patterson,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,rebecca.henderson,35.0,35.0,0.0,0.0,0.0,Breadth: 35.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Review and revert all recent privilege changes
+,,,ashley.dyer,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,pamela.romero,20.0,0.0,20.0,0.0,0.0,Breadth: 0.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately
+,,,paula.moreno,35.0,35.0,0.0,0.0,0.0,Breadth: 35.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Review and revert all recent privilege changes
+,,,shawn.arroyo,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,joseph.obrien,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,joseph.martinez,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,taylor.heath,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,dana.kennedy,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,victoria.garcia,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,javier.ramirez,85.0,10.0,35.0,0.0,40.0,Breadth: 10.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 40.0,"Immediately disable accounts on: AWS, Okta | Revoke admin privileges or force re-certification | Flatten group hierarchy or remove from GG-Domain-Admins"
+,,,tammy.allison,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,mrs..gibson,100.0,0.0,70.0,30.0,0.0,Breadth: 0.0 | Dormancy: 70.0 | Spread: 30.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Review and reduce admin scope on AD, AWS | Rotate AWS access key immediately | Confirm with HR/manager whether this is an active transition; if not, revoke admin access"
+,,,lauren.daniels,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,cody.larson,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,krystal.stewart,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,timothy.walls,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,timothy.ibarra,20.0,0.0,20.0,0.0,0.0,Breadth: 0.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately
+,,,robert.evans,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,douglas.clark,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,jeff.hill,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,ashley.landry,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,rebecca.valencia,20.0,0.0,20.0,0.0,0.0,Breadth: 0.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately
+,,,nicole.frost,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,evelyn.galvan,65.0,0.0,35.0,30.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 30.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Review and reduce admin scope on AD, AWS"
+,,,robert.stevens,50.0,10.0,0.0,0.0,40.0,Breadth: 10.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: Okta | Flatten group hierarchy or remove from GG-Domain-Admins
+,,,benjamin.ayala,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,"Immediately disable accounts on: AWS, Okta"
+,,,victor.baker,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,kenneth.scott,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,benjamin.beck,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,cheryl.ortega,45.0,10.0,35.0,0.0,0.0,Breadth: 10.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification | Flatten group hierarchy or remove from GG-Domain-Admins
+,,,jeffrey.carpenter,30.0,0.0,0.0,30.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 30.0 | Offboarding: 0.0,"Review and reduce admin scope on AD, AWS"
+,,,diane.beck,35.0,35.0,0.0,0.0,0.0,Breadth: 35.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Review and revert all recent privilege changes
+,,,william.carr,5.0,0.0,20.0,0.0,0.0,Breadth: 0.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately
+,,,michael.stafford,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,robert.contreras,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,natasha.wells,65.0,0.0,35.0,30.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 30.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Review and reduce admin scope on AD, AWS"
+,,,cynthia.rogers,20.0,20.0,0.0,0.0,0.0,Breadth: 20.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Review and revert all recent privilege changes
+,,,jennifer.clark,20.0,0.0,20.0,0.0,0.0,Breadth: 0.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately
+,,,aaron.bell,85.0,10.0,35.0,0.0,40.0,Breadth: 10.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 40.0,"Immediately disable accounts on: AWS, Okta | Revoke admin privileges or force re-certification | Flatten group hierarchy or remove from GG-Domain-Admins"
+,,,don.md,20.0,0.0,35.0,0.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification
+,,,leslie.alvarado,20.0,0.0,20.0,0.0,0.0,Breadth: 0.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately
+,,,gabriel.juarez,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,trevor.walker,100.0,35.0,35.0,30.0,0.0,Breadth: 35.0 | Dormancy: 35.0 | Spread: 30.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Review and reduce admin scope on AD, AWS | Review and revert all recent privilege changes"
+,,,cynthia.wells,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,carla.collins,50.0,10.0,0.0,0.0,40.0,Breadth: 10.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: AWS | Flatten group hierarchy or remove from GG-Domain-Admins
+,,,sandra.sanchez,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,matthew.smith,35.0,35.0,0.0,0.0,0.0,Breadth: 35.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Review and revert all recent privilege changes
+,,,jessica.gross,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,david.michael,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,daniel.salinas,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,peter.dds,20.0,0.0,20.0,0.0,0.0,Breadth: 0.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately
+,,,kevin.kennedy,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,nathan.stewart,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: AWS
+,,,veronica.wall,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,"Immediately disable accounts on: AWS, Okta"
+,,,anthony.carter,35.0,35.0,0.0,0.0,0.0,Breadth: 35.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Review and revert all recent privilege changes
+,,,jeremiah.lopez,20.0,0.0,35.0,0.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification
+,,,mark.brown,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,lisa.gibbs,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,marc.lynch,70.0,0.0,55.0,30.0,0.0,Breadth: 0.0 | Dormancy: 55.0 | Spread: 30.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Review and reduce admin scope on AD, AWS | Rotate AWS access key immediately"
+,,,juan.moore,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,jordan.mcdaniel,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,samantha.jones,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,terri.mason,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,allison.perez,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,matthew.moon,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,michael.hodge,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,david.wilson,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,peter.garrett,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,mark.lloyd,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,bruce.collier,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,juan.reyes,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,diane.evans,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,frank.lopez,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: Okta
+,,,matthew.hoover,20.0,0.0,20.0,0.0,0.0,Breadth: 0.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately
+,,,thomas.smith,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,jennifer.miller,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,amanda.jones,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,michael.berger,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,michael.white,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,david.scott,10.0,10.0,0.0,0.0,0.0,Breadth: 10.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Flatten group hierarchy or remove from GG-Domain-Admins
+,,,victoria.evans,35.0,35.0,0.0,0.0,0.0,Breadth: 35.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Review and revert all recent privilege changes
+,,,james.howard,20.0,0.0,35.0,0.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification
+,,,natasha.wall,30.0,0.0,0.0,30.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 30.0 | Offboarding: 0.0,"Review and reduce admin scope on AD, AWS"
+,,,michelle.hopkins,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,ann.phillips,65.0,0.0,35.0,30.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 30.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Review and reduce admin scope on AD, AWS"
+,,,dawn.summers,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,vincent.dalton,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,jacob.curry,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,leonard.holland,20.0,0.0,20.0,0.0,0.0,Breadth: 0.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately
+,,,audrey.dds,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,mary.bass,35.0,0.0,50.0,0.0,0.0,Breadth: 0.0 | Dormancy: 50.0 | Spread: 0.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Confirm with HR/manager whether this is an active transition; if not, revoke admin access"
+,,,david.cox,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,daniel.fowler,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,kristen.willis,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,rebecca.rodriguez,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,cameron.fisher,100.0,35.0,35.0,30.0,0.0,Breadth: 35.0 | Dormancy: 35.0 | Spread: 30.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Review and reduce admin scope on AD, AWS | Review and revert all recent privilege changes"
+,,,luis.acosta,35.0,35.0,0.0,0.0,0.0,Breadth: 35.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Review and revert all recent privilege changes
+,,,theodore.jr.,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,jody.jacobs,55.0,35.0,20.0,0.0,0.0,Breadth: 35.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately | Review and revert all recent privilege changes
+,,,stephen.gutierrez,65.0,0.0,35.0,30.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 30.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Review and reduce admin scope on AD, AWS"
+,,,christian.leblanc,55.0,35.0,20.0,0.0,0.0,Breadth: 35.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately | Review and revert all recent privilege changes
+,,,laurie.hoffman,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,lindsay.bell,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,donald.perez,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,donald.farmer,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,joseph.bennett,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,sophia.moore,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,ashley.jordan,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,dan.dougherty,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,james.padilla,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,laura.mckinney,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,michael.cox,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,nichole.walker,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,charles.gonzalez,60.0,10.0,50.0,0.0,0.0,Breadth: 10.0 | Dormancy: 50.0 | Spread: 0.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Flatten group hierarchy or remove from GG-Domain-Admins | Confirm with HR/manager whether this is an active transition; if not, revoke admin access"
+,,,justin.riley,20.0,0.0,35.0,0.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification
+,,,leslie.bell,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,vanessa.davis,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,john.hernandez,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,michael.ritter,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: AWS
+,,,mark.cook,85.0,10.0,35.0,0.0,40.0,Breadth: 10.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 40.0,"Immediately disable accounts on: AWS, Okta | Revoke admin privileges or force re-certification | Flatten group hierarchy or remove from GG-Domain-Admins"
+,,,felicia.aguilar,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,james.conner,100.0,5.0,55.0,0.0,40.0,Breadth: 5.0 | Dormancy: 55.0 | Spread: 0.0 | Offboarding: 40.0,"Immediately disable accounts on: AWS, Okta | Revoke admin privileges or force re-certification | Flatten group hierarchy or remove from GG-Domain-Admins | Rotate AWS access key immediately"
+,,,alicia.parker,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,ryan.garcia,35.0,35.0,0.0,0.0,0.0,Breadth: 35.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Review and revert all recent privilege changes
+,,,carol.kim,10.0,10.0,0.0,0.0,0.0,Breadth: 10.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Flatten group hierarchy or remove from GG-Domain-Admins
+,,,rachel.young,20.0,0.0,35.0,0.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification
+,,,mrs..reyes,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,"Immediately disable accounts on: AWS, Okta"
+,,,ashley.singleton,60.0,0.0,20.0,0.0,40.0,Breadth: 0.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 40.0,"Immediately disable accounts on: AWS, Okta | Rotate AWS access key immediately"
+,,,thomas.velasquez,65.0,35.0,0.0,30.0,0.0,Breadth: 35.0 | Dormancy: 0.0 | Spread: 30.0 | Offboarding: 0.0,"Review and reduce admin scope on AD, AWS | Review and revert all recent privilege changes"
+,,,alfred.galvan,50.0,0.0,35.0,30.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 30.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Review and reduce admin scope on AD, AWS"
+,,,julie.gilbert,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,ashley.roberts,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,alexis.robertson,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,matthew.miller,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,james.brooks,80.0,0.0,50.0,30.0,0.0,Breadth: 0.0 | Dormancy: 50.0 | Spread: 30.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Review and reduce admin scope on AD, AWS | Confirm with HR/manager whether this is an active transition; if not, revoke admin access"
+,,,nancy.cook,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,robin.brown,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,kaylee.hays,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: AWS
+,,,robert.kim,35.0,0.0,50.0,0.0,0.0,Breadth: 0.0 | Dormancy: 50.0 | Spread: 0.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Confirm with HR/manager whether this is an active transition; if not, revoke admin access"
+,,,robert.adams,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,matthew.parker,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,jessica.fowler,65.0,0.0,35.0,30.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 30.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Review and reduce admin scope on AD, AWS"
+,,,brenda.lawson,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,keith.jacobs,50.0,0.0,35.0,30.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 30.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Review and reduce admin scope on AD, AWS"
+,,,ernest.ramirez,10.0,10.0,0.0,0.0,0.0,Breadth: 10.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Flatten group hierarchy or remove from GG-Domain-Admins
+,,,cindy.carr,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,rita.dvm,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,katie.martinez,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,william.anderson,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,william.day,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,catherine.burch,20.0,20.0,0.0,0.0,0.0,Breadth: 20.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Review and revert all recent privilege changes
+,,,timothy.perez,65.0,35.0,0.0,30.0,0.0,Breadth: 35.0 | Dormancy: 0.0 | Spread: 30.0 | Offboarding: 0.0,"Review and reduce admin scope on AD, AWS | Review and revert all recent privilege changes"
+,,,kathryn.jackson,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: Okta
+,,,travis.wise,50.0,0.0,35.0,30.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 30.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Review and reduce admin scope on AD, AWS"
+,,,elizabeth.sanchez,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,charles.hensley,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,david.martinez,35.0,35.0,0.0,0.0,0.0,Breadth: 35.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Review and revert all recent privilege changes
+,,,victor.barrera,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,mr..md,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,adam.rodriguez,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,heidi.roberts,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,brent.brooks,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,andrew.reeves,65.0,0.0,35.0,30.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 30.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Review and reduce admin scope on AD, AWS"
+,,,william.stevenson,30.0,0.0,0.0,30.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 30.0 | Offboarding: 0.0,"Review and reduce admin scope on AD, AWS"
+,,,michael.whitney,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,mikayla.silva,30.0,0.0,0.0,30.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 30.0 | Offboarding: 0.0,"Review and reduce admin scope on AD, AWS"
+,,,melody.lee,65.0,35.0,0.0,30.0,0.0,Breadth: 35.0 | Dormancy: 0.0 | Spread: 30.0 | Offboarding: 0.0,"Review and reduce admin scope on AD, AWS | Review and revert all recent privilege changes"
+,,,shelley.fitzgerald,15.0,0.0,0.0,30.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 30.0 | Offboarding: 0.0,"Review and reduce admin scope on AD, AWS"
+,,,julia.patel,20.0,0.0,20.0,0.0,0.0,Breadth: 0.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately
+,,,todd.hendrix,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,kenneth.daniels,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,jeremy.scott,80.0,0.0,50.0,30.0,0.0,Breadth: 0.0 | Dormancy: 50.0 | Spread: 30.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Review and reduce admin scope on AD, AWS | Confirm with HR/manager whether this is an active transition; if not, revoke admin access"
+,,,patrick.allen,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,randy.smith,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,matthew.velez,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,ryan.peck,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,"Immediately disable accounts on: AWS, Okta"
+,,,alexandra.bradley,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,brandi.gordon,85.0,10.0,35.0,0.0,40.0,Breadth: 10.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: Okta | Revoke admin privileges or force re-certification | Flatten group hierarchy or remove from GG-Domain-Admins
+,,,alexis.rogers,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: Okta
+,,,james.davis,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,tiffany.turner,55.0,20.0,35.0,0.0,0.0,Breadth: 20.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification | Review and revert all recent privilege changes
+,,,jared.shaw,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: AWS
+,,,lisa.perry,35.0,35.0,0.0,0.0,0.0,Breadth: 35.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Review and revert all recent privilege changes
+,,,angela.griffin,20.0,20.0,0.0,0.0,0.0,Breadth: 20.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Review and revert all recent privilege changes
+,,,brittany.murphy,65.0,35.0,0.0,30.0,0.0,Breadth: 35.0 | Dormancy: 0.0 | Spread: 30.0 | Offboarding: 0.0,"Review and reduce admin scope on AD, AWS | Review and revert all recent privilege changes"
+,,,jose.bryant,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,laura.williams,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,christopher.taylor,55.0,35.0,20.0,0.0,0.0,Breadth: 35.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately | Review and revert all recent privilege changes
+,,,victor.baxter,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,william.davenport,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,christopher.lopez,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,kirk.griffin,40.0,0.0,55.0,0.0,0.0,Breadth: 0.0 | Dormancy: 55.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification | Rotate AWS access key immediately
+,,,wyatt.young,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: Okta
+,,,eric.brown,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,emma.butler,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,suzanne.hart,20.0,0.0,20.0,0.0,0.0,Breadth: 0.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately
+,,,sarah.davis,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,kristin.mendoza,20.0,0.0,35.0,0.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification
+,,,melissa.padilla,5.0,0.0,20.0,0.0,0.0,Breadth: 0.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately
+,,,elizabeth.ward,55.0,35.0,20.0,0.0,0.0,Breadth: 35.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately | Review and revert all recent privilege changes
+,,,angel.shields,35.0,35.0,0.0,0.0,0.0,Breadth: 35.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Review and revert all recent privilege changes
+,,,kelly.sanchez,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,joshua.white,100.0,0.0,70.0,30.0,0.0,Breadth: 0.0 | Dormancy: 70.0 | Spread: 30.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Review and reduce admin scope on AD, AWS | Rotate AWS access key immediately | Confirm with HR/manager whether this is an active transition; if not, revoke admin access"
+,,,jennifer.kirby,35.0,0.0,50.0,0.0,0.0,Breadth: 0.0 | Dormancy: 50.0 | Spread: 0.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Confirm with HR/manager whether this is an active transition; if not, revoke admin access"
+,,,mary.jensen,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,nathan.nichols,35.0,0.0,50.0,0.0,0.0,Breadth: 0.0 | Dormancy: 50.0 | Spread: 0.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Confirm with HR/manager whether this is an active transition; if not, revoke admin access"
+,,,manuel.king,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,courtney.dvm,35.0,35.0,0.0,0.0,0.0,Breadth: 35.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Review and revert all recent privilege changes
+,,,mr..phd,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,anthony.jones,65.0,0.0,35.0,30.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 30.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Review and reduce admin scope on AD, AWS"
+,,,laurie.goodwin,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,kimberly.reyes,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,david.jones,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,juan.bennett,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,angela.moore,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,derrick.anderson,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,rachel.shields,55.0,35.0,20.0,0.0,0.0,Breadth: 35.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately | Review and revert all recent privilege changes
+,,,carolyn.james,20.0,0.0,35.0,0.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification
+,,,john.jones,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,manuel.brock,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,christopher.sanders,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,timothy.gonzalez,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,andrea.abbott,35.0,35.0,0.0,0.0,0.0,Breadth: 35.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Review and revert all recent privilege changes
+,,,angela.ewing,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,heather.woodard,20.0,0.0,20.0,0.0,0.0,Breadth: 0.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately
+,,,erin.hogan,40.0,0.0,55.0,0.0,0.0,Breadth: 0.0 | Dormancy: 55.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification | Rotate AWS access key immediately
+,,,james.barton,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,monica.bailey,65.0,0.0,35.0,30.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 30.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Review and reduce admin scope on AD, AWS"
+,,,eric.patrick,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,kristen.rivera,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,omar.ware,35.0,35.0,0.0,0.0,0.0,Breadth: 35.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Review and revert all recent privilege changes
+,,,rhonda.brown,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: AWS
+,,,katherine.church,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,michele.evans,30.0,0.0,0.0,30.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 30.0 | Offboarding: 0.0,"Review and reduce admin scope on AD, AWS"
+,,,kayla.barnes,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,katherine.taylor,30.0,10.0,20.0,0.0,0.0,Breadth: 10.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Flatten group hierarchy or remove from GG-Domain-Admins | Rotate AWS access key immediately
+,,,tracey.wagner,65.0,0.0,35.0,30.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 30.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Review and reduce admin scope on AD, AWS"
+,,,andre.juarez,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,ashley.wilson,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,zachary.cole,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,leah.bell,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,douglas.ryan,80.0,0.0,50.0,30.0,0.0,Breadth: 0.0 | Dormancy: 50.0 | Spread: 30.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Review and reduce admin scope on AD, AWS | Confirm with HR/manager whether this is an active transition; if not, revoke admin access"
+,,,paul.jenkins,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,frank.wright,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,paul.neal,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,melissa.horn,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,kenneth.knight,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,timothy.moore,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,timothy.hill,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,brandon.davis,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,greg.martinez,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,"Immediately disable accounts on: AWS, Okta"
+,,,jacob.evans,65.0,35.0,0.0,30.0,0.0,Breadth: 35.0 | Dormancy: 0.0 | Spread: 30.0 | Offboarding: 0.0,"Review and reduce admin scope on AD, AWS | Review and revert all recent privilege changes"
+,,,justin.bishop,20.0,0.0,20.0,0.0,0.0,Breadth: 0.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately
+,,,angelica.garcia,30.0,0.0,0.0,30.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 30.0 | Offboarding: 0.0,"Review and reduce admin scope on AD, AWS"
+,,,danielle.burke,100.0,35.0,35.0,30.0,0.0,Breadth: 35.0 | Dormancy: 35.0 | Spread: 30.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Review and reduce admin scope on AD, AWS | Review and revert all recent privilege changes"
+,,,elizabeth.brown,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,dr..valencia,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,alexis.lewis,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,james.davidson,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,mark.davenport,35.0,35.0,0.0,0.0,0.0,Breadth: 35.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Review and revert all recent privilege changes
+,,,logan.brown,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,michelle.jackson,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,austin.joseph,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,david.garcia,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,"Immediately disable accounts on: AWS, Okta"
+,,,jack.mora,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,jason.cortez,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,jose.williams,60.0,0.0,20.0,0.0,40.0,Breadth: 0.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: AWS | Rotate AWS access key immediately
+,,,aimee.gonzalez,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,"Immediately disable accounts on: AWS, Okta"
+,,,kimberly.flynn,35.0,35.0,0.0,0.0,0.0,Breadth: 35.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Review and revert all recent privilege changes
+,,,april.sandoval,55.0,35.0,20.0,0.0,0.0,Breadth: 35.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately | Review and revert all recent privilege changes
+,,,anna.morse,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,mandy.foster,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,nancy.stewart,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: Okta
+,,,joshua.oconnell,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,melissa.williams,100.0,15.0,55.0,30.0,0.0,Breadth: 15.0 | Dormancy: 55.0 | Spread: 30.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Review and reduce admin scope on AD, AWS | Rotate AWS access key immediately | Review and revert all recent privilege changes"
+,,,carrie.crane,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,antonio.norman,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,deanna.hess,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,tom.williams,85.0,10.0,35.0,0.0,40.0,Breadth: 10.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: Okta | Revoke admin privileges or force re-certification | Flatten group hierarchy or remove from GG-Domain-Admins
+,,,terry.hill,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,karen.miller,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,virginia.casey,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,alyssa.cochran,35.0,0.0,50.0,0.0,0.0,Breadth: 0.0 | Dormancy: 50.0 | Spread: 0.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Confirm with HR/manager whether this is an active transition; if not, revoke admin access"
+,,,matthew.adams,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,kevin.drake,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,casey.johnson,35.0,0.0,50.0,0.0,0.0,Breadth: 0.0 | Dormancy: 50.0 | Spread: 0.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Confirm with HR/manager whether this is an active transition; if not, revoke admin access"
+,,,christopher.lang,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,jacqueline.mcmahon,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: Okta
+,,,toni.banks,20.0,0.0,20.0,0.0,0.0,Breadth: 0.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately
+,,,nicholas.phillips,20.0,0.0,20.0,0.0,0.0,Breadth: 0.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately
+,,,evan.lamb,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: Okta
+,,,patrick.young,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,daniel.steele,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: Okta
+,,,nicholas.costa,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,ashley.mendoza,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: Okta
+,,,fernando.lynn,20.0,0.0,20.0,0.0,0.0,Breadth: 0.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately
+,,,kimberly.villanueva,65.0,0.0,35.0,30.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 30.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Review and reduce admin scope on AD, AWS"
+,,,jessica.valdez,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,colton.terry,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,kenneth.larsen,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,"Immediately disable accounts on: AWS, Okta"
+,,,matthew.greene,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,"Immediately disable accounts on: AWS, Okta"
+,,,bradley.anthony,65.0,0.0,35.0,30.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 30.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Review and reduce admin scope on AD, AWS"
+,,,martin.hughes,35.0,35.0,0.0,0.0,0.0,Breadth: 35.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Review and revert all recent privilege changes
+,,,jeremiah.baker,60.0,0.0,20.0,0.0,40.0,Breadth: 0.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: AWS | Rotate AWS access key immediately
+,,,rhonda.gutierrez,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: Okta
+,,,joseph.camacho,65.0,0.0,35.0,30.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 30.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Review and reduce admin scope on AD, AWS"
+,,,james.nash,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,"Immediately disable accounts on: AWS, Okta"
+,,,lisa.martinez,35.0,35.0,0.0,0.0,0.0,Breadth: 35.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Review and revert all recent privilege changes
+,,,beth.henderson,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: Okta
+,,,deanna.bartlett,35.0,35.0,0.0,0.0,0.0,Breadth: 35.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Review and revert all recent privilege changes
+,,,donald.ellis,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,ashley.hernandez,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,sharon.beard,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,kara.jackson,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,amanda.preston,60.0,0.0,20.0,0.0,40.0,Breadth: 0.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: AWS | Rotate AWS access key immediately
+,,,alicia.roth,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: AWS
+,,,william.ramos,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,jeremy.mcintyre,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: Okta
+,,,samantha.robertson,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: AWS
+,,,samuel.suarez,20.0,0.0,20.0,0.0,0.0,Breadth: 0.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately
+,,,danielle.bryant,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: AWS
+,,,madison.martinez,35.0,35.0,0.0,0.0,0.0,Breadth: 35.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Review and revert all recent privilege changes
+,,,seth.matthews,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,anthony.nash,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,matthew.palmer,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,alejandra.king,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,judy.robinson,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,jorge.bates,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,brian.brown,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,stephanie.evans,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,"Immediately disable accounts on: AWS, Okta"
+,,,rebekah.greene,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: AWS
+,,,jason.price,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,micheal.parks,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,"Immediately disable accounts on: AWS, Okta"
+,,,sarah.pittman,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,robert.hines,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: Okta
+,,,henry.garner,40.0,0.0,0.0,0.0,40.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 40.0,Immediately disable accounts on: Okta
+,,,julie.wilson,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,steve.mason,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,brittany.gay,30.0,0.0,0.0,30.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 30.0 | Offboarding: 0.0,"Review and reduce admin scope on AD, AWS"
+,,,mike.maxwell,35.0,35.0,0.0,0.0,0.0,Breadth: 35.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Review and revert all recent privilege changes
+,,,svc-protect-test,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,svc-article-prod,70.0,35.0,35.0,0.0,0.0,Breadth: 35.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification | Review and revert all recent privilege changes
+,,,svc-above-dev,35.0,0.0,35.0,0.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification
+,,,svc-live-dev,45.0,10.0,35.0,0.0,0.0,Breadth: 10.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification | Flatten group hierarchy or remove from GG-Domain-Admins
+,,,svc-eye-dev,45.0,45.0,0.0,0.0,0.0,Breadth: 45.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Flatten group hierarchy or remove from GG-Domain-Admins | Review and revert all recent privilege changes
+,,,svc-determine-dev,5.0,0.0,20.0,0.0,0.0,Breadth: 0.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately
+,,,svc-sort-test,35.0,0.0,35.0,0.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification
+,,,svc-staff-test,5.0,0.0,20.0,0.0,0.0,Breadth: 0.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately
+,,,svc-concern-test,10.0,10.0,0.0,0.0,0.0,Breadth: 10.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Flatten group hierarchy or remove from GG-Domain-Admins
+,,,svc-part-dev,30.0,10.0,20.0,0.0,0.0,Breadth: 10.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Flatten group hierarchy or remove from GG-Domain-Admins | Rotate AWS access key immediately
+,,,svc-south-prod,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,svc-cold-test,10.0,10.0,0.0,0.0,0.0,Breadth: 10.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Flatten group hierarchy or remove from GG-Domain-Admins
+,,,svc-might-test,35.0,0.0,35.0,0.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification
+,,,svc-stock-test,45.0,10.0,35.0,0.0,0.0,Breadth: 10.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification | Flatten group hierarchy or remove from GG-Domain-Admins
+,,,svc-source-dev,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,svc-state-dev,80.0,45.0,35.0,0.0,0.0,Breadth: 45.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification | Flatten group hierarchy or remove from GG-Domain-Admins | Review and revert all recent privilege changes
+,,,svc-behavior-dev,20.0,0.0,35.0,0.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification
+,,,svc-carry-test,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,svc-possible-test,20.0,0.0,35.0,0.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification
+,,,svc-leader-test,45.0,10.0,35.0,0.0,0.0,Breadth: 10.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification | Flatten group hierarchy or remove from GG-Domain-Admins
+,,,svc-property-test,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,svc-laugh-test,5.0,0.0,20.0,0.0,0.0,Breadth: 0.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately
+,,,svc-international-dev,35.0,35.0,0.0,0.0,0.0,Breadth: 35.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Review and revert all recent privilege changes
+,,,svc-laugh-test2,20.0,0.0,35.0,0.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification
+,,,svc-me-dev,35.0,0.0,35.0,0.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification
+,,,svc-identify-dev,30.0,10.0,20.0,0.0,0.0,Breadth: 10.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Flatten group hierarchy or remove from GG-Domain-Admins | Rotate AWS access key immediately
+,,,svc-above-dev2,10.0,10.0,0.0,0.0,0.0,Breadth: 10.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Flatten group hierarchy or remove from GG-Domain-Admins
+,,,svc-always-prod,10.0,10.0,0.0,0.0,0.0,Breadth: 10.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Flatten group hierarchy or remove from GG-Domain-Admins
+,,,svc-none-prod,50.0,0.0,35.0,30.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 30.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Review and reduce admin scope on AD, AWS"
+,,,svc-decision-test,20.0,0.0,35.0,0.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification
+,,,svc-side-prod,10.0,10.0,0.0,0.0,0.0,Breadth: 10.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Flatten group hierarchy or remove from GG-Domain-Admins
+,,,svc-hour-test,70.0,0.0,55.0,30.0,0.0,Breadth: 0.0 | Dormancy: 55.0 | Spread: 30.0 | Offboarding: 0.0,"Revoke admin privileges or force re-certification | Review and reduce admin scope on AD, AWS | Rotate AWS access key immediately"
+,,,svc-address-prod,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,svc-wait-test,45.0,10.0,35.0,0.0,0.0,Breadth: 10.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification | Flatten group hierarchy or remove from GG-Domain-Admins
+,,,svc-fund-dev,35.0,0.0,35.0,0.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification
+,,,svc-sometimes-prod,35.0,0.0,35.0,0.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification
+,,,svc-these-prod,35.0,0.0,35.0,0.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification
+,,,svc-nice-dev,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,svc-cut-dev,35.0,0.0,35.0,0.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification
+,,,svc-affect-prod,20.0,20.0,0.0,0.0,0.0,Breadth: 20.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Review and revert all recent privilege changes
+,,,svc-require-test,20.0,0.0,20.0,0.0,0.0,Breadth: 0.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately
+,,,svc-above-prod,10.0,10.0,0.0,0.0,0.0,Breadth: 10.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Flatten group hierarchy or remove from GG-Domain-Admins
+,,,svc-produce-prod,35.0,0.0,35.0,0.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification
+,,,svc-similar-prod,35.0,0.0,35.0,0.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification
+,,,svc-energy-dev,0.0,0.0,0.0,0.0,0.0,Breadth: 0.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,No immediate action required.
+,,,svc-draw-prod,35.0,0.0,35.0,0.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification
+,,,svc-rule-prod,35.0,0.0,35.0,0.0,0.0,Breadth: 0.0 | Dormancy: 35.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification
+,,,svc-understand-prod,40.0,0.0,55.0,0.0,0.0,Breadth: 0.0 | Dormancy: 55.0 | Spread: 0.0 | Offboarding: 0.0,Revoke admin privileges or force re-certification | Rotate AWS access key immediately
+,,,svc-guy-test,35.0,35.0,0.0,0.0,0.0,Breadth: 35.0 | Dormancy: 0.0 | Spread: 0.0 | Offboarding: 0.0,Review and revert all recent privilege changes
+,,,svc-forget-prod,55.0,35.0,20.0,0.0,0.0,Breadth: 35.0 | Dormancy: 20.0 | Spread: 0.0 | Offboarding: 0.0,Rotate AWS access key immediately | Review and revert all recent privilege changes

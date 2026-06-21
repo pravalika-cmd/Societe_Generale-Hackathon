@@ -1,0 +1,300 @@
+identity_id,anomaly_type,severity,detail,rule,mitre,remediation
+ID0001,offboarding_gap,CRITICAL,"Active on AWS, Okta after termination",RULE_1,T1078 - Valid Accounts,"Immediately disable accounts on: AWS, Okta"
+ID0005,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0006,dormant_admin,HIGH,No login in 368 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0006,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0007,stale_token,MEDIUM,AWS API key not rotated in 737 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0008,offboarding_gap,CRITICAL,Active on Okta after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: Okta
+ID0010,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0012,stale_token,MEDIUM,AWS API key not rotated in 426 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0013,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0020,offboarding_gap,CRITICAL,"Active on AWS, Okta after termination",RULE_1,T1078 - Valid Accounts,"Immediately disable accounts on: AWS, Okta"
+ID0020,dormant_admin,HIGH,No login in 233 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0020,inherited_admin,HIGH,Effective admin through nested group: GG-Domain-Admins,RULE_4,T1098 - Account Manipulation,Flatten group hierarchy or remove from GG-Domain-Admins
+ID0022,dormant_admin,HIGH,No login in 237 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0022,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0022,stale_token,MEDIUM,AWS API key not rotated in 854 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0022,dormant_admin_role_change,MEDIUM,"Admin inactive 237 days, with a role change on 2023-10-13. Could be a legitimate transition (e.g. new role pending access setup) or a stale account riding on an unrelated HR update.",RULE_7,AC-2 - Account Management (dormancy review),"Confirm with HR/manager whether this is an active transition; if not, revoke admin access"
+ID0027,stale_token,MEDIUM,AWS API key not rotated in 584 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0032,stale_token,MEDIUM,AWS API key not rotated in 499 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0034,dormant_admin,HIGH,No login in 193 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0034,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0035,offboarding_gap,CRITICAL,Active on Okta after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: Okta
+ID0035,inherited_admin,HIGH,Effective admin through nested group: GG-Domain-Admins,RULE_4,T1098 - Account Manipulation,Flatten group hierarchy or remove from GG-Domain-Admins
+ID0036,offboarding_gap,CRITICAL,"Active on AWS, Okta after termination",RULE_1,T1078 - Valid Accounts,"Immediately disable accounts on: AWS, Okta"
+ID0040,dormant_admin,HIGH,No login in 92 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0040,inherited_admin,HIGH,Effective admin through nested group: GG-Domain-Admins,RULE_4,T1098 - Account Manipulation,Flatten group hierarchy or remove from GG-Domain-Admins
+ID0041,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0042,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0043,stale_token,MEDIUM,AWS API key not rotated in 704 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0046,dormant_admin,HIGH,No login in 147 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0046,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0047,privilege_escalation,CRITICAL,2 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0048,stale_token,MEDIUM,AWS API key not rotated in 606 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0049,offboarding_gap,CRITICAL,"Active on AWS, Okta after termination",RULE_1,T1078 - Valid Accounts,"Immediately disable accounts on: AWS, Okta"
+ID0049,dormant_admin,HIGH,No login in 295 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0049,inherited_admin,HIGH,Effective admin through nested group: GG-Domain-Admins,RULE_4,T1098 - Account Manipulation,Flatten group hierarchy or remove from GG-Domain-Admins
+ID0050,dormant_admin,HIGH,No login in 135 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0051,stale_token,MEDIUM,AWS API key not rotated in 621 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0053,dormant_admin,HIGH,No login in 231 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0053,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0053,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0055,offboarding_gap,CRITICAL,Active on AWS after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: AWS
+ID0055,inherited_admin,HIGH,Effective admin through nested group: GG-Domain-Admins,RULE_4,T1098 - Account Manipulation,Flatten group hierarchy or remove from GG-Domain-Admins
+ID0057,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0061,stale_token,MEDIUM,AWS API key not rotated in 804 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0063,offboarding_gap,CRITICAL,Active on AWS after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: AWS
+ID0064,offboarding_gap,CRITICAL,"Active on AWS, Okta after termination",RULE_1,T1078 - Valid Accounts,"Immediately disable accounts on: AWS, Okta"
+ID0065,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0066,dormant_admin,HIGH,No login in 230 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0069,dormant_admin,HIGH,No login in 311 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0069,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0069,stale_token,MEDIUM,AWS API key not rotated in 736 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0083,offboarding_gap,CRITICAL,Active on Okta after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: Okta
+ID0084,stale_token,MEDIUM,AWS API key not rotated in 620 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0090,inherited_admin,HIGH,Effective admin through nested group: GG-Domain-Admins,RULE_4,T1098 - Account Manipulation,Flatten group hierarchy or remove from GG-Domain-Admins
+ID0091,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0092,dormant_admin,HIGH,No login in 240 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0093,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0095,dormant_admin,HIGH,No login in 271 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0095,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0099,stale_token,MEDIUM,AWS API key not rotated in 779 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0101,dormant_admin,HIGH,No login in 105 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0101,dormant_admin_role_change,MEDIUM,"Admin inactive 105 days, with a role change on 2024-05-28. Could be a legitimate transition (e.g. new role pending access setup) or a stale account riding on an unrelated HR update.",RULE_7,AC-2 - Account Management (dormancy review),"Confirm with HR/manager whether this is an active transition; if not, revoke admin access"
+ID0106,dormant_admin,HIGH,No login in 137 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0106,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0106,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0107,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0109,stale_token,MEDIUM,AWS API key not rotated in 850 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0109,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0110,dormant_admin,HIGH,No login in 170 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0110,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0111,stale_token,MEDIUM,AWS API key not rotated in 513 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0111,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0124,dormant_admin,HIGH,No login in 98 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0124,inherited_admin,HIGH,Effective admin through nested group: GG-Domain-Admins,RULE_4,T1098 - Account Manipulation,Flatten group hierarchy or remove from GG-Domain-Admins
+ID0124,dormant_admin_role_change,MEDIUM,"Admin inactive 98 days, with a role change on 2025-02-27. Could be a legitimate transition (e.g. new role pending access setup) or a stale account riding on an unrelated HR update.",RULE_7,AC-2 - Account Management (dormancy review),"Confirm with HR/manager whether this is an active transition; if not, revoke admin access"
+ID0125,dormant_admin,HIGH,No login in 159 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0129,offboarding_gap,CRITICAL,Active on AWS after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: AWS
+ID0130,offboarding_gap,CRITICAL,"Active on AWS, Okta after termination",RULE_1,T1078 - Valid Accounts,"Immediately disable accounts on: AWS, Okta"
+ID0130,dormant_admin,HIGH,No login in 384 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0130,inherited_admin,HIGH,Effective admin through nested group: GG-Domain-Admins,RULE_4,T1098 - Account Manipulation,Flatten group hierarchy or remove from GG-Domain-Admins
+ID0132,offboarding_gap,CRITICAL,"Active on AWS, Okta after termination",RULE_1,T1078 - Valid Accounts,"Immediately disable accounts on: AWS, Okta"
+ID0132,dormant_admin,HIGH,No login in 333 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0132,inherited_admin,HIGH,Effective admin through nested group: GG-Domain-Admins,RULE_4,T1098 - Account Manipulation,Flatten group hierarchy or remove from GG-Domain-Admins
+ID0132,stale_token,MEDIUM,AWS API key not rotated in 412 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0134,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0135,inherited_admin,HIGH,Effective admin through nested group: GG-Domain-Admins,RULE_4,T1098 - Account Manipulation,Flatten group hierarchy or remove from GG-Domain-Admins
+ID0136,dormant_admin,HIGH,No login in 281 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0137,offboarding_gap,CRITICAL,"Active on AWS, Okta after termination",RULE_1,T1078 - Valid Accounts,"Immediately disable accounts on: AWS, Okta"
+ID0138,offboarding_gap,CRITICAL,"Active on AWS, Okta after termination",RULE_1,T1078 - Valid Accounts,"Immediately disable accounts on: AWS, Okta"
+ID0138,stale_token,MEDIUM,AWS API key not rotated in 578 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0139,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0139,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0140,dormant_admin,HIGH,No login in 211 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0140,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0145,dormant_admin,HIGH,No login in 144 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0145,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0145,dormant_admin_role_change,MEDIUM,"Admin inactive 144 days, with a role change on 2025-06-01. Could be a legitimate transition (e.g. new role pending access setup) or a stale account riding on an unrelated HR update.",RULE_7,AC-2 - Account Management (dormancy review),"Confirm with HR/manager whether this is an active transition; if not, revoke admin access"
+ID0148,offboarding_gap,CRITICAL,Active on AWS after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: AWS
+ID0149,dormant_admin,HIGH,No login in 243 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0149,dormant_admin_role_change,MEDIUM,"Admin inactive 243 days, with a role change on 2024-11-07. Could be a legitimate transition (e.g. new role pending access setup) or a stale account riding on an unrelated HR update.",RULE_7,AC-2 - Account Management (dormancy review),"Confirm with HR/manager whether this is an active transition; if not, revoke admin access"
+ID0152,dormant_admin,HIGH,No login in 115 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0152,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0154,dormant_admin,HIGH,No login in 142 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0154,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0155,inherited_admin,HIGH,Effective admin through nested group: GG-Domain-Admins,RULE_4,T1098 - Account Manipulation,Flatten group hierarchy or remove from GG-Domain-Admins
+ID0161,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0162,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0162,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0163,offboarding_gap,CRITICAL,Active on Okta after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: Okta
+ID0164,dormant_admin,HIGH,No login in 267 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0164,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0167,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0173,dormant_admin,HIGH,No login in 159 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0173,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0174,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0176,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0177,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0177,privilege_escalation,CRITICAL,2 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0178,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0179,stale_token,MEDIUM,AWS API key not rotated in 761 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0182,dormant_admin,HIGH,No login in 93 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0182,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0182,dormant_admin_role_change,MEDIUM,"Admin inactive 93 days, with a role change on 2025-02-26. Could be a legitimate transition (e.g. new role pending access setup) or a stale account riding on an unrelated HR update.",RULE_7,AC-2 - Account Management (dormancy review),"Confirm with HR/manager whether this is an active transition; if not, revoke admin access"
+ID0186,offboarding_gap,CRITICAL,"Active on AWS, Okta after termination",RULE_1,T1078 - Valid Accounts,"Immediately disable accounts on: AWS, Okta"
+ID0188,offboarding_gap,CRITICAL,Active on Okta after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: Okta
+ID0188,dormant_admin,HIGH,No login in 103 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0188,inherited_admin,HIGH,Effective admin through nested group: GG-Domain-Admins,RULE_4,T1098 - Account Manipulation,Flatten group hierarchy or remove from GG-Domain-Admins
+ID0189,offboarding_gap,CRITICAL,Active on Okta after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: Okta
+ID0191,dormant_admin,HIGH,No login in 115 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0191,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0192,offboarding_gap,CRITICAL,Active on AWS after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: AWS
+ID0193,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0194,privilege_escalation,CRITICAL,2 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0195,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0195,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0198,stale_token,MEDIUM,AWS API key not rotated in 762 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0198,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0202,dormant_admin,HIGH,No login in 151 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0202,stale_token,MEDIUM,AWS API key not rotated in 570 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0203,offboarding_gap,CRITICAL,Active on Okta after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: Okta
+ID0206,stale_token,MEDIUM,AWS API key not rotated in 550 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0208,dormant_admin,HIGH,No login in 223 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0209,stale_token,MEDIUM,AWS API key not rotated in 781 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0210,stale_token,MEDIUM,AWS API key not rotated in 434 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0210,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0211,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0213,dormant_admin,HIGH,No login in 128 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0213,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0213,stale_token,MEDIUM,AWS API key not rotated in 556 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0213,dormant_admin_role_change,MEDIUM,"Admin inactive 128 days, with a role change on 2021-01-21. Could be a legitimate transition (e.g. new role pending access setup) or a stale account riding on an unrelated HR update.",RULE_7,AC-2 - Account Management (dormancy review),"Confirm with HR/manager whether this is an active transition; if not, revoke admin access"
+ID0214,dormant_admin,HIGH,No login in 135 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0214,dormant_admin_role_change,MEDIUM,"Admin inactive 135 days, with a role change on 2025-06-24. Could be a legitimate transition (e.g. new role pending access setup) or a stale account riding on an unrelated HR update.",RULE_7,AC-2 - Account Management (dormancy review),"Confirm with HR/manager whether this is an active transition; if not, revoke admin access"
+ID0216,dormant_admin,HIGH,No login in 202 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0216,dormant_admin_role_change,MEDIUM,"Admin inactive 202 days, with a role change on 2024-04-25. Could be a legitimate transition (e.g. new role pending access setup) or a stale account riding on an unrelated HR update.",RULE_7,AC-2 - Account Management (dormancy review),"Confirm with HR/manager whether this is an active transition; if not, revoke admin access"
+ID0218,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0220,dormant_admin,HIGH,No login in 280 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0220,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0227,stale_token,MEDIUM,AWS API key not rotated in 637 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0227,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0228,dormant_admin,HIGH,No login in 155 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0233,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0235,stale_token,MEDIUM,AWS API key not rotated in 768 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0236,dormant_admin,HIGH,No login in 131 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0236,stale_token,MEDIUM,AWS API key not rotated in 654 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0238,dormant_admin,HIGH,No login in 186 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0238,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0241,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0242,offboarding_gap,CRITICAL,Active on AWS after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: AWS
+ID0244,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0246,inherited_admin,HIGH,Effective admin through nested group: GG-Domain-Admins,RULE_4,T1098 - Account Manipulation,Flatten group hierarchy or remove from GG-Domain-Admins
+ID0246,stale_token,MEDIUM,AWS API key not rotated in 478 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0247,dormant_admin,HIGH,No login in 211 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0247,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0252,dormant_admin,HIGH,No login in 179 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0252,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0252,dormant_admin_role_change,MEDIUM,"Admin inactive 179 days, with a role change on 2019-09-04. Could be a legitimate transition (e.g. new role pending access setup) or a stale account riding on an unrelated HR update.",RULE_7,AC-2 - Account Management (dormancy review),"Confirm with HR/manager whether this is an active transition; if not, revoke admin access"
+ID0261,offboarding_gap,CRITICAL,"Active on AWS, Okta after termination",RULE_1,T1078 - Valid Accounts,"Immediately disable accounts on: AWS, Okta"
+ID0262,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0262,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0263,stale_token,MEDIUM,AWS API key not rotated in 711 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0264,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0265,dormant_admin,HIGH,No login in 214 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0265,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0265,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0270,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0274,offboarding_gap,CRITICAL,"Active on AWS, Okta after termination",RULE_1,T1078 - Valid Accounts,"Immediately disable accounts on: AWS, Okta"
+ID0277,offboarding_gap,CRITICAL,Active on AWS after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: AWS
+ID0277,stale_token,MEDIUM,AWS API key not rotated in 502 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0278,offboarding_gap,CRITICAL,"Active on AWS, Okta after termination",RULE_1,T1078 - Valid Accounts,"Immediately disable accounts on: AWS, Okta"
+ID0279,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0280,stale_token,MEDIUM,AWS API key not rotated in 795 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0280,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0283,offboarding_gap,CRITICAL,Active on Okta after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: Okta
+ID0285,dormant_admin,HIGH,No login in 196 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0285,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0285,stale_token,MEDIUM,AWS API key not rotated in 718 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0285,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0289,offboarding_gap,CRITICAL,Active on Okta after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: Okta
+ID0289,dormant_admin,HIGH,No login in 194 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0289,inherited_admin,HIGH,Effective admin through nested group: GG-Domain-Admins,RULE_4,T1098 - Account Manipulation,Flatten group hierarchy or remove from GG-Domain-Admins
+ID0293,dormant_admin,HIGH,No login in 134 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0293,dormant_admin_role_change,MEDIUM,"Admin inactive 134 days, with a role change on 2021-08-05. Could be a legitimate transition (e.g. new role pending access setup) or a stale account riding on an unrelated HR update.",RULE_7,AC-2 - Account Management (dormancy review),"Confirm with HR/manager whether this is an active transition; if not, revoke admin access"
+ID0296,dormant_admin,HIGH,No login in 158 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0296,dormant_admin_role_change,MEDIUM,"Admin inactive 158 days, with a role change on 2023-11-26. Could be a legitimate transition (e.g. new role pending access setup) or a stale account riding on an unrelated HR update.",RULE_7,AC-2 - Account Management (dormancy review),"Confirm with HR/manager whether this is an active transition; if not, revoke admin access"
+ID0298,offboarding_gap,CRITICAL,Active on Okta after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: Okta
+ID0299,stale_token,MEDIUM,AWS API key not rotated in 883 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0300,stale_token,MEDIUM,AWS API key not rotated in 787 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0301,offboarding_gap,CRITICAL,Active on Okta after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: Okta
+ID0303,offboarding_gap,CRITICAL,Active on Okta after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: Okta
+ID0305,offboarding_gap,CRITICAL,Active on Okta after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: Okta
+ID0306,stale_token,MEDIUM,AWS API key not rotated in 578 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0307,dormant_admin,HIGH,No login in 154 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0307,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0310,offboarding_gap,CRITICAL,"Active on AWS, Okta after termination",RULE_1,T1078 - Valid Accounts,"Immediately disable accounts on: AWS, Okta"
+ID0311,offboarding_gap,CRITICAL,"Active on AWS, Okta after termination",RULE_1,T1078 - Valid Accounts,"Immediately disable accounts on: AWS, Okta"
+ID0312,dormant_admin,HIGH,No login in 327 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0312,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0313,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0314,offboarding_gap,CRITICAL,Active on AWS after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: AWS
+ID0314,stale_token,MEDIUM,AWS API key not rotated in 789 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0315,offboarding_gap,CRITICAL,Active on Okta after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: Okta
+ID0316,dormant_admin,HIGH,No login in 127 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0316,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0317,offboarding_gap,CRITICAL,"Active on AWS, Okta after termination",RULE_1,T1078 - Valid Accounts,"Immediately disable accounts on: AWS, Okta"
+ID0318,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0319,offboarding_gap,CRITICAL,Active on Okta after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: Okta
+ID0320,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0325,offboarding_gap,CRITICAL,Active on AWS after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: AWS
+ID0325,stale_token,MEDIUM,AWS API key not rotated in 620 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0326,offboarding_gap,CRITICAL,Active on AWS after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: AWS
+ID0328,offboarding_gap,CRITICAL,Active on Okta after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: Okta
+ID0329,offboarding_gap,CRITICAL,Active on AWS after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: AWS
+ID0330,stale_token,MEDIUM,AWS API key not rotated in 829 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0331,offboarding_gap,CRITICAL,Active on AWS after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: AWS
+ID0332,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0340,offboarding_gap,CRITICAL,"Active on AWS, Okta after termination",RULE_1,T1078 - Valid Accounts,"Immediately disable accounts on: AWS, Okta"
+ID0341,offboarding_gap,CRITICAL,Active on AWS after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: AWS
+ID0343,offboarding_gap,CRITICAL,"Active on AWS, Okta after termination",RULE_1,T1078 - Valid Accounts,"Immediately disable accounts on: AWS, Okta"
+ID0345,offboarding_gap,CRITICAL,Active on Okta after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: Okta
+ID0346,offboarding_gap,CRITICAL,Active on Okta after termination,RULE_1,T1078 - Valid Accounts,Immediately disable accounts on: Okta
+ID0349,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0350,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0352,dormant_admin,HIGH,No login in 233 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0352,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0353,dormant_admin,HIGH,No login in 245 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0354,dormant_admin,HIGH,No login in 274 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0354,inherited_admin,HIGH,Effective admin through nested group: GG-Domain-Admins,RULE_4,T1098 - Account Manipulation,Flatten group hierarchy or remove from GG-Domain-Admins
+ID0355,inherited_admin,HIGH,Effective admin through nested group: GG-Domain-Admins,RULE_4,T1098 - Account Manipulation,Flatten group hierarchy or remove from GG-Domain-Admins
+ID0355,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0356,stale_token,MEDIUM,AWS API key not rotated in 836 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0357,dormant_admin,HIGH,No login in 146 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0358,stale_token,MEDIUM,AWS API key not rotated in 735 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0359,inherited_admin,HIGH,Effective admin through nested group: GG-Domain-Admins,RULE_4,T1098 - Account Manipulation,Flatten group hierarchy or remove from GG-Domain-Admins
+ID0360,inherited_admin,HIGH,Effective admin through nested group: GG-Domain-Admins,RULE_4,T1098 - Account Manipulation,Flatten group hierarchy or remove from GG-Domain-Admins
+ID0360,stale_token,MEDIUM,AWS API key not rotated in 854 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0362,inherited_admin,HIGH,Effective admin through nested group: GG-Domain-Admins,RULE_4,T1098 - Account Manipulation,Flatten group hierarchy or remove from GG-Domain-Admins
+ID0363,dormant_admin,HIGH,No login in 189 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0364,dormant_admin,HIGH,No login in 226 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0364,inherited_admin,HIGH,Effective admin through nested group: GG-Domain-Admins,RULE_4,T1098 - Account Manipulation,Flatten group hierarchy or remove from GG-Domain-Admins
+ID0366,dormant_admin,HIGH,No login in 162 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0366,inherited_admin,HIGH,Effective admin through nested group: GG-Domain-Admins,RULE_4,T1098 - Account Manipulation,Flatten group hierarchy or remove from GG-Domain-Admins
+ID0366,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0367,dormant_admin,HIGH,No login in 308 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0369,dormant_admin,HIGH,No login in 176 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0370,dormant_admin,HIGH,No login in 185 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0370,inherited_admin,HIGH,Effective admin through nested group: GG-Domain-Admins,RULE_4,T1098 - Account Manipulation,Flatten group hierarchy or remove from GG-Domain-Admins
+ID0372,stale_token,MEDIUM,AWS API key not rotated in 586 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0373,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0374,dormant_admin,HIGH,No login in 143 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0375,dormant_admin,HIGH,No login in 237 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0376,inherited_admin,HIGH,Effective admin through nested group: GG-Domain-Admins,RULE_4,T1098 - Account Manipulation,Flatten group hierarchy or remove from GG-Domain-Admins
+ID0376,stale_token,MEDIUM,AWS API key not rotated in 422 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0377,inherited_admin,HIGH,Effective admin through nested group: GG-Domain-Admins,RULE_4,T1098 - Account Manipulation,Flatten group hierarchy or remove from GG-Domain-Admins
+ID0378,inherited_admin,HIGH,Effective admin through nested group: GG-Domain-Admins,RULE_4,T1098 - Account Manipulation,Flatten group hierarchy or remove from GG-Domain-Admins
+ID0379,dormant_admin,HIGH,No login in 330 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0379,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0380,dormant_admin,HIGH,No login in 255 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0381,inherited_admin,HIGH,Effective admin through nested group: GG-Domain-Admins,RULE_4,T1098 - Account Manipulation,Flatten group hierarchy or remove from GG-Domain-Admins
+ID0382,dormant_admin,HIGH,No login in 126 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0382,cross_platform_admin,HIGH,"Holds admin on AD, AWS simultaneously, with no recorded business justification",RULE_3,T1098 - Account Manipulation,"Review and reduce admin scope on AD, AWS"
+ID0382,stale_token,MEDIUM,AWS API key not rotated in 378 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0384,dormant_admin,HIGH,No login in 164 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0384,inherited_admin,HIGH,Effective admin through nested group: GG-Domain-Admins,RULE_4,T1098 - Account Manipulation,Flatten group hierarchy or remove from GG-Domain-Admins
+ID0385,dormant_admin,HIGH,No login in 118 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0386,dormant_admin,HIGH,No login in 284 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0387,dormant_admin,HIGH,No login in 150 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0389,dormant_admin,HIGH,No login in 326 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0390,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0391,stale_token,MEDIUM,AWS API key not rotated in 603 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0392,inherited_admin,HIGH,Effective admin through nested group: GG-Domain-Admins,RULE_4,T1098 - Account Manipulation,Flatten group hierarchy or remove from GG-Domain-Admins
+ID0393,dormant_admin,HIGH,No login in 205 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0394,dormant_admin,HIGH,No login in 120 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0396,dormant_admin,HIGH,No login in 182 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0397,dormant_admin,HIGH,No login in 231 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0398,dormant_admin,HIGH,No login in 130 days but holds admin privilege,RULE_2,T1078 - Valid Accounts,Revoke admin privileges or force re-certification
+ID0398,stale_token,MEDIUM,AWS API key not rotated in 620 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0399,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes
+ID0400,stale_token,MEDIUM,AWS API key not rotated in 509 days,RULE_5,T1550 - Use Alternate Authentication Material,Rotate AWS access key immediately
+ID0400,privilege_escalation,CRITICAL,1 privilege escalation events detected in audit log,RULE_6,T1098 - Account Manipulation,Review and revert all recent privilege changes

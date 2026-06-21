@@ -1,0 +1,1201 @@
+identity_id,platform,platform_username,ou,status,role_or_group,privilege_level,last_login,mfa_enabled,api_key_age_days,department,admin_justified,token_scope
+ID0001,AD,allison.hill,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-Legal-Staff|GG-DLP-Policy,standard,2025-10-11,True,,Legal,False,
+ID0001,AWS,allison-hill,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-04-03,False,29.0,Legal,False,read_only
+ID0001,Okta,allison.hill@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2026-03-31,False,,Legal,False,
+ID0002,AD,david.guzman,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2025-08-19,True,,Legal,False,
+ID0002,AWS,david-guzman,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-10-24,False,153.0,Legal,False,read_only
+ID0002,Okta,david.guzman@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2026-02-12,True,,Legal,False,
+ID0003,AD,caitlin.henderson,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2025-07-07,True,,Engineering,False,
+ID0003,AWS,caitlin-henderson,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-06-01,True,138.0,Engineering,False,read_only
+ID0003,Okta,caitlin.henderson@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2025-12-28,True,,Engineering,False,
+ID0004,AD,renee.blair,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2026-01-21,False,,Finance,False,
+ID0004,AWS,renee-blair,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2025-02-17,False,1.0,Finance,False,read_only
+ID0004,Okta,renee.blair@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2026-02-06,True,,Finance,False,
+ID0005,AD,michele.williams,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,elevated,2025-10-04,True,,Legal,False,
+ID0005,AWS,michele-williams,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-04-16,False,77.0,Legal,False,read_only
+ID0005,Okta,michele.williams@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2025-10-04,True,,Legal,False,
+ID0006,AD,roy.martin,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2025-06-18,False,,IT,True,
+ID0006,AWS,roy-martin,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-06-18,False,139.0,IT,True,admin
+ID0006,Okta,roy.martin@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2025-06-18,True,,IT,True,
+ID0007,AD,william.bowman,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2025-10-13,True,,Finance,False,
+ID0007,AWS,william-bowman,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2025-03-28,True,737.0,Finance,False,read_only
+ID0007,Okta,william.bowman@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2026-02-18,True,,Finance,False,
+ID0008,AD,austin.gentry,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-HR-Staff|GG-HRIS-Access,standard,2025-06-11,False,,HR,False,
+ID0008,AWS,austin-gentry,,inactive,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-09-21,True,195.0,HR,False,read_only
+ID0008,Okta,austin.gentry@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2026-04-16,False,,HR,False,
+ID0009,AD,nicole.patterson,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2025-09-12,True,,HR,False,
+ID0009,AWS,nicole-patterson,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-11-16,True,156.0,HR,False,read_only
+ID0009,Okta,nicole.patterson@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2025-09-17,True,,HR,False,
+ID0010,AD,rebecca.henderson,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,elevated,2025-06-20,False,,Sales,False,
+ID0010,AWS,rebecca-henderson,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-07-23,True,172.0,Sales,False,read_only
+ID0010,Okta,rebecca.henderson@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2025-11-08,False,,Sales,False,
+ID0011,AD,ashley.dyer,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2026-04-20,True,,Sales,False,
+ID0011,AWS,ashley-dyer,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-06-10,False,87.0,Sales,False,read_only
+ID0011,Okta,ashley.dyer@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2025-09-10,True,,Sales,False,
+ID0012,AD,pamela.romero,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2025-08-23,True,,HR,False,
+ID0012,AWS,pamela-romero,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-02-23,True,426.0,HR,False,read_only
+ID0012,Okta,pamela.romero@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2026-06-04,True,,HR,False,
+ID0013,AD,paula.moreno,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,elevated,2026-05-15,True,,HR,False,
+ID0013,AWS,paula-moreno,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-03-03,False,125.0,HR,False,read_only
+ID0013,Okta,paula.moreno@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2026-04-14,False,,HR,False,
+ID0014,AD,shawn.arroyo,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2026-02-16,False,,IT,True,
+ID0014,AWS,shawn-arroyo,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-05-03,True,49.0,IT,True,admin
+ID0014,Okta,shawn.arroyo@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2025-11-12,True,,IT,True,
+ID0015,AD,joseph.obrien,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2025-11-16,False,,Finance,False,
+ID0015,AWS,joseph-obrien,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2026-05-24,False,187.0,Finance,False,read_only
+ID0015,Okta,joseph.obrien@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2026-05-01,True,,Finance,False,
+ID0016,AD,joseph.martinez,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2025-11-26,False,,Legal,False,
+ID0016,AWS,joseph-martinez,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-02-13,True,28.0,Legal,False,read_only
+ID0016,Okta,joseph.martinez@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2026-03-15,False,,Legal,False,
+ID0017,AD,taylor.heath,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2026-04-10,False,,Finance,False,
+ID0017,AWS,taylor-heath,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2026-02-13,True,119.0,Finance,False,read_only
+ID0017,Okta,taylor.heath@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2025-11-06,True,,Finance,False,
+ID0018,AD,dana.kennedy,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2026-05-26,True,,HR,False,
+ID0018,AWS,dana-kennedy,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-04-12,True,193.0,HR,False,read_only
+ID0018,Okta,dana.kennedy@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2026-03-27,False,,HR,False,
+ID0019,AD,victoria.garcia,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2025-10-15,False,,Engineering,False,
+ID0019,AWS,victoria-garcia,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-03-15,True,103.0,Engineering,False,read_only
+ID0019,Okta,victoria.garcia@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2026-03-28,False,,Engineering,False,
+ID0020,AD,javier.ramirez,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",disabled,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk,standard,2025-10-31,False,,IT,True,
+ID0020,AWS,javier-ramirez,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-05-15,False,188.0,IT,True,read_only
+ID0020,Okta,javier.ramirez@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,,True,,IT,True,
+ID0021,AD,tammy.allison,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2026-03-15,False,,HR,False,
+ID0021,AWS,tammy-allison,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-08-28,False,15.0,HR,False,read_only
+ID0021,Okta,tammy.allison@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2025-09-16,True,,HR,False,
+ID0022,AD,mrs..gibson,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy|GG-Domain-Admins,admin,2025-10-27,False,,Legal,False,
+ID0022,AWS,mrs.-gibson,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-10-27,False,854.0,Legal,False,admin
+ID0022,Okta,mrs..gibson@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2025-10-27,True,,Legal,False,
+ID0023,AD,lauren.daniels,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2025-10-03,True,,Legal,False,
+ID0023,AWS,lauren-daniels,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-08-20,True,18.0,Legal,False,read_only
+ID0023,Okta,lauren.daniels@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2026-02-20,False,,Legal,False,
+ID0024,AD,cody.larson,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2026-04-20,True,,HR,False,
+ID0024,AWS,cody-larson,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-08-07,True,11.0,HR,False,read_only
+ID0024,Okta,cody.larson@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2025-11-18,True,,HR,False,
+ID0025,AD,krystal.stewart,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2026-02-07,True,,Engineering,False,
+ID0025,AWS,krystal-stewart,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2026-02-18,True,81.0,Engineering,False,read_only
+ID0025,Okta,krystal.stewart@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2025-11-30,True,,Engineering,False,
+ID0026,AD,timothy.walls,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2025-07-12,False,,Legal,False,
+ID0026,AWS,timothy-walls,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-02-26,True,193.0,Legal,False,read_only
+ID0026,Okta,timothy.walls@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2026-06-16,False,,Legal,False,
+ID0027,AD,timothy.ibarra,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2025-08-06,True,,Sales,False,
+ID0027,AWS,timothy-ibarra,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-10-04,True,584.0,Sales,False,read_only
+ID0027,Okta,timothy.ibarra@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2026-04-14,True,,Sales,False,
+ID0028,AD,robert.evans,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2026-05-16,True,,Engineering,False,
+ID0028,AWS,robert-evans,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-11-08,False,41.0,Engineering,False,read_only
+ID0028,Okta,robert.evans@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2026-01-17,True,,Engineering,False,
+ID0029,AD,douglas.clark,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2025-07-14,False,,Sales,False,
+ID0029,AWS,douglas-clark,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-02-25,True,27.0,Sales,False,read_only
+ID0029,Okta,douglas.clark@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2026-02-05,True,,Sales,False,
+ID0030,AD,jeff.hill,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2026-04-27,True,,HR,False,
+ID0030,AWS,jeff-hill,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-03-05,False,155.0,HR,False,read_only
+ID0030,Okta,jeff.hill@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2025-12-27,True,,HR,False,
+ID0031,AD,ashley.landry,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2025-07-04,False,,Legal,False,
+ID0031,AWS,ashley-landry,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-03-14,True,65.0,Legal,False,read_only
+ID0031,Okta,ashley.landry@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2026-05-04,False,,Legal,False,
+ID0032,AD,rebecca.valencia,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2026-01-30,True,,Sales,False,
+ID0032,AWS,rebecca-valencia,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-07-29,True,499.0,Sales,False,read_only
+ID0032,Okta,rebecca.valencia@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2026-03-30,False,,Sales,False,
+ID0033,AD,nicole.frost,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2025-09-11,False,,Legal,False,
+ID0033,AWS,nicole-frost,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-05-13,False,29.0,Legal,False,read_only
+ID0033,Okta,nicole.frost@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2026-04-05,True,,Legal,False,
+ID0034,AD,evelyn.galvan,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access|GG-Domain-Admins,admin,2025-12-10,True,,Sales,False,
+ID0034,AWS,evelyn-galvan,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-12-10,True,11.0,Sales,False,admin
+ID0034,Okta,evelyn.galvan@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2025-12-10,True,,Sales,False,
+ID0035,AD,robert.stevens,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",disabled,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk,standard,2025-05-17,False,,IT,True,
+ID0035,AWS,robert-stevens,,inactive,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2026-04-02,True,192.0,IT,True,read_only
+ID0035,Okta,robert.stevens@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2026-03-29,True,,IT,True,
+ID0036,AD,benjamin.ayala,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-HR-Staff|GG-HRIS-Access,standard,2026-01-01,False,,HR,False,
+ID0036,AWS,benjamin-ayala,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-05-01,True,189.0,HR,False,read_only
+ID0036,Okta,benjamin.ayala@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,,True,,HR,False,
+ID0037,AD,victor.baker,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2025-06-26,True,,Engineering,False,
+ID0037,AWS,victor-baker,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-04-07,True,10.0,Engineering,False,read_only
+ID0037,Okta,victor.baker@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2026-02-27,True,,Engineering,False,
+ID0038,AD,kenneth.scott,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2025-10-28,False,,Sales,False,
+ID0038,AWS,kenneth-scott,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-02-26,True,59.0,Sales,False,read_only
+ID0038,Okta,kenneth.scott@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2026-03-14,False,,Sales,False,
+ID0039,AD,benjamin.beck,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2026-01-03,False,,Sales,False,
+ID0039,AWS,benjamin-beck,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-01-29,True,198.0,Sales,False,read_only
+ID0039,Okta,benjamin.beck@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2025-10-03,False,,Sales,False,
+ID0040,AD,cheryl.ortega,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk,standard,2025-07-08,False,,IT,False,
+ID0040,AWS,cheryl-ortega,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-03-28,True,30.0,IT,False,read_only
+ID0040,Okta,cheryl.ortega@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk,standard,2026-03-21,True,,IT,False,
+ID0041,AD,jeffrey.carpenter,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy|GG-Domain-Admins,admin,2026-06-01,True,,Legal,False,
+ID0041,AWS,jeffrey-carpenter,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-06-12,True,89.0,Legal,False,admin
+ID0041,Okta,jeffrey.carpenter@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2025-11-09,True,,Legal,False,
+ID0042,AD,diane.beck,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,elevated,2025-12-05,True,,Legal,False,
+ID0042,AWS,diane-beck,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-11-09,True,182.0,Legal,False,read_only
+ID0042,Okta,diane.beck@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2025-09-27,True,,Legal,False,
+ID0043,AD,william.carr,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2025-12-16,False,,IT,True,
+ID0043,AWS,william-carr,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-08-05,True,704.0,IT,True,admin
+ID0043,Okta,william.carr@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2026-04-18,True,,IT,True,
+ID0044,AD,michael.stafford,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2025-10-04,False,,Sales,False,
+ID0044,AWS,michael-stafford,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-11-26,False,84.0,Sales,False,read_only
+ID0044,Okta,michael.stafford@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2026-01-20,True,,Sales,False,
+ID0045,AD,robert.contreras,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-Legal-Staff|GG-DLP-Policy,standard,2025-06-02,True,,Legal,False,
+ID0045,AWS,robert-contreras,,inactive,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-11-25,False,78.0,Legal,False,read_only
+ID0045,Okta,robert.contreras@socgen.com,,suspended,SharePoint|Slack|DocuSign|Relativity,standard,,True,,Legal,False,
+ID0046,AD,natasha.wells,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access|GG-Domain-Admins,admin,2026-01-25,True,,HR,False,
+ID0046,AWS,natasha-wells,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-08-14,False,149.0,HR,False,admin
+ID0046,Okta,natasha.wells@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2026-01-07,False,,HR,False,
+ID0047,AD,cynthia.rogers,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2025-11-06,False,,IT,True,
+ID0047,AWS,cynthia-rogers,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-10-21,False,131.0,IT,True,admin
+ID0047,Okta,cynthia.rogers@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2026-03-26,True,,IT,True,
+ID0048,AD,jennifer.clark,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2026-01-26,False,,Sales,False,
+ID0048,AWS,jennifer-clark,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-07-11,True,606.0,Sales,False,read_only
+ID0048,Okta,jennifer.clark@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2026-02-25,True,,Sales,False,
+ID0049,AD,aaron.bell,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",disabled,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk,standard,2025-08-12,True,,IT,True,
+ID0049,AWS,aaron-bell,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-08-30,True,162.0,IT,True,read_only
+ID0049,Okta,aaron.bell@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,,False,,IT,True,
+ID0050,AD,don.md,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2026-02-06,True,,IT,True,
+ID0050,AWS,don-md,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-02-06,True,177.0,IT,True,admin
+ID0050,Okta,don.md@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2026-02-06,True,,IT,True,
+ID0051,AD,leslie.alvarado,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2026-03-22,False,,Legal,False,
+ID0051,AWS,leslie-alvarado,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-03-08,True,621.0,Legal,False,read_only
+ID0051,Okta,leslie.alvarado@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2025-10-30,True,,Legal,False,
+ID0052,AD,gabriel.juarez,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2025-10-26,False,,Legal,False,
+ID0052,AWS,gabriel-juarez,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-08-11,False,114.0,Legal,False,read_only
+ID0052,Okta,gabriel.juarez@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2025-10-05,False,,Legal,False,
+ID0053,AD,trevor.walker,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS|GG-Domain-Admins,admin,2025-09-13,False,,Finance,False,
+ID0053,AWS,trevor-walker,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-04-05,True,191.0,Finance,False,admin
+ID0053,Okta,trevor.walker@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2025-11-02,True,,Finance,False,
+ID0054,AD,cynthia.wells,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2025-06-01,True,,HR,False,
+ID0054,AWS,cynthia-wells,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-05-24,False,71.0,HR,False,read_only
+ID0054,Okta,cynthia.wells@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2025-10-15,True,,HR,False,
+ID0055,AD,carla.collins,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",disabled,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk,standard,2026-02-01,False,,IT,False,
+ID0055,AWS,carla-collins,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2026-05-10,True,139.0,IT,False,read_only
+ID0055,Okta,carla.collins@socgen.com,,suspended,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk,standard,,True,,IT,False,
+ID0056,AD,sandra.sanchez,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2025-12-06,True,,Engineering,False,
+ID0056,AWS,sandra-sanchez,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-11-20,True,17.0,Engineering,False,read_only
+ID0056,Okta,sandra.sanchez@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2026-01-02,False,,Engineering,False,
+ID0057,AD,matthew.smith,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,elevated,2025-11-20,True,,Finance,False,
+ID0057,AWS,matthew-smith,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2025-12-03,False,108.0,Finance,False,read_only
+ID0057,Okta,matthew.smith@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2026-06-10,False,,Finance,False,
+ID0058,AD,jessica.gross,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2025-10-19,True,,Engineering,False,
+ID0058,AWS,jessica-gross,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-05-31,True,77.0,Engineering,False,read_only
+ID0058,Okta,jessica.gross@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2025-11-18,True,,Engineering,False,
+ID0059,AD,david.michael,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2025-10-14,True,,HR,False,
+ID0059,AWS,david-michael,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-06-06,True,125.0,HR,False,read_only
+ID0059,Okta,david.michael@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2025-12-30,False,,HR,False,
+ID0060,AD,daniel.salinas,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2025-06-15,True,,Legal,False,
+ID0060,AWS,daniel-salinas,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-08-06,False,33.0,Legal,False,read_only
+ID0060,Okta,daniel.salinas@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2026-06-07,False,,Legal,False,
+ID0061,AD,peter.dds,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2025-08-21,True,,Finance,False,
+ID0061,AWS,peter-dds,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2026-04-12,True,804.0,Finance,False,read_only
+ID0061,Okta,peter.dds@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2026-03-19,True,,Finance,False,
+ID0062,AD,kevin.kennedy,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2025-12-30,False,,Engineering,False,
+ID0062,AWS,kevin-kennedy,,inactive,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2026-02-11,True,108.0,Engineering,False,read_only
+ID0062,Okta,kevin.kennedy@socgen.com,,suspended,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,,True,,Engineering,False,
+ID0063,AD,nathan.stewart,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-Sales-Staff|GG-CRM-Access,standard,2026-02-26,True,,Sales,False,
+ID0063,AWS,nathan-stewart,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-05-31,True,167.0,Sales,False,read_only
+ID0063,Okta,nathan.stewart@socgen.com,,suspended,Salesforce|Slack|Zoom|HubSpot,standard,,True,,Sales,False,
+ID0064,AD,veronica.wall,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2025-10-21,True,,Engineering,False,
+ID0064,AWS,veronica-wall,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-10-25,False,56.0,Engineering,False,read_only
+ID0064,Okta,veronica.wall@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2026-02-09,True,,Engineering,False,
+ID0065,AD,anthony.carter,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,elevated,2026-03-27,True,,Sales,False,
+ID0065,AWS,anthony-carter,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-02-12,True,42.0,Sales,False,read_only
+ID0065,Okta,anthony.carter@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2026-04-26,True,,Sales,False,
+ID0066,AD,jeremiah.lopez,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2025-11-03,False,,IT,True,
+ID0066,AWS,jeremiah-lopez,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-11-03,True,184.0,IT,True,admin
+ID0066,Okta,jeremiah.lopez@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2025-11-03,True,,IT,True,
+ID0067,AD,mark.brown,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2025-06-29,False,,HR,False,
+ID0067,AWS,mark-brown,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-05-04,True,154.0,HR,False,read_only
+ID0067,Okta,mark.brown@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2025-09-04,True,,HR,False,
+ID0068,AD,lisa.gibbs,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2025-12-25,False,,HR,False,
+ID0068,AWS,lisa-gibbs,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-10-04,False,18.0,HR,False,read_only
+ID0068,Okta,lisa.gibbs@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2025-12-28,True,,HR,False,
+ID0069,AD,marc.lynch,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2025-08-14,False,,IT,False,
+ID0069,AWS,marc-lynch,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-08-14,True,736.0,IT,False,admin
+ID0069,Okta,marc.lynch@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk,standard,2025-08-14,False,,IT,False,
+ID0070,AD,juan.moore,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2026-03-22,False,,Engineering,False,
+ID0070,AWS,juan-moore,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-05-20,True,138.0,Engineering,False,read_only
+ID0070,Okta,juan.moore@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2025-10-25,False,,Engineering,False,
+ID0071,AD,jordan.mcdaniel,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2025-06-11,False,,Engineering,False,
+ID0071,AWS,jordan-mcdaniel,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-04-21,True,63.0,Engineering,False,read_only
+ID0071,Okta,jordan.mcdaniel@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2026-01-29,False,,Engineering,False,
+ID0072,AD,samantha.jones,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2026-02-16,False,,Finance,False,
+ID0072,AWS,samantha-jones,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2025-12-08,True,172.0,Finance,False,read_only
+ID0072,Okta,samantha.jones@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2026-06-06,False,,Finance,False,
+ID0073,AD,terri.mason,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2026-01-05,True,,HR,False,
+ID0073,AWS,terri-mason,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-05-08,True,91.0,HR,False,read_only
+ID0073,Okta,terri.mason@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2025-12-28,True,,HR,False,
+ID0074,AD,allison.perez,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2025-08-19,False,,Legal,False,
+ID0074,AWS,allison-perez,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-02-20,True,133.0,Legal,False,read_only
+ID0074,Okta,allison.perez@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2026-05-08,True,,Legal,False,
+ID0075,AD,matthew.moon,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-Legal-Staff|GG-DLP-Policy,standard,2025-07-02,False,,Legal,False,
+ID0075,AWS,matthew-moon,,inactive,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-11-03,True,126.0,Legal,False,read_only
+ID0075,Okta,matthew.moon@socgen.com,,suspended,SharePoint|Slack|DocuSign|Relativity,standard,,True,,Legal,False,
+ID0076,AD,michael.hodge,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2026-02-27,False,,Legal,False,
+ID0076,AWS,michael-hodge,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-07-16,False,79.0,Legal,False,read_only
+ID0076,Okta,michael.hodge@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2025-12-14,False,,Legal,False,
+ID0077,AD,david.wilson,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2025-09-10,False,,Engineering,False,
+ID0077,AWS,david-wilson,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-09-12,True,191.0,Engineering,False,read_only
+ID0077,Okta,david.wilson@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2025-12-22,False,,Engineering,False,
+ID0078,AD,peter.garrett,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2026-02-02,False,,Finance,False,
+ID0078,AWS,peter-garrett,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2025-06-16,True,31.0,Finance,False,read_only
+ID0078,Okta,peter.garrett@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2026-01-10,True,,Finance,False,
+ID0079,AD,mark.lloyd,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2025-06-05,True,,HR,False,
+ID0079,AWS,mark-lloyd,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-10-16,True,190.0,HR,False,read_only
+ID0079,Okta,mark.lloyd@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2025-09-25,True,,HR,False,
+ID0080,AD,bruce.collier,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2026-04-30,True,,Engineering,False,
+ID0080,AWS,bruce-collier,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2026-03-21,True,93.0,Engineering,False,read_only
+ID0080,Okta,bruce.collier@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2026-06-13,True,,Engineering,False,
+ID0081,AD,juan.reyes,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2026-01-31,True,,Engineering,False,
+ID0081,AWS,juan-reyes,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2026-01-22,False,142.0,Engineering,False,read_only
+ID0081,Okta,juan.reyes@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2026-04-17,False,,Engineering,False,
+ID0082,AD,diane.evans,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2026-04-29,True,,Finance,False,
+ID0082,AWS,diane-evans,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2025-10-18,True,121.0,Finance,False,read_only
+ID0082,Okta,diane.evans@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2025-12-28,True,,Finance,False,
+ID0083,AD,frank.lopez,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2026-04-23,True,,Engineering,False,
+ID0083,AWS,frank-lopez,,inactive,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-08-29,False,19.0,Engineering,False,read_only
+ID0083,Okta,frank.lopez@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,,True,,Engineering,False,
+ID0084,AD,matthew.hoover,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2026-04-05,False,,Sales,False,
+ID0084,AWS,matthew-hoover,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-04-21,False,620.0,Sales,False,read_only
+ID0084,Okta,matthew.hoover@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2025-11-19,True,,Sales,False,
+ID0085,AD,thomas.smith,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2025-05-19,False,,Finance,False,
+ID0085,AWS,thomas-smith,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2026-01-19,False,114.0,Finance,False,read_only
+ID0085,Okta,thomas.smith@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2025-11-13,True,,Finance,False,
+ID0086,AD,jennifer.miller,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2025-09-02,True,,Engineering,False,
+ID0086,AWS,jennifer-miller,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2026-05-01,True,190.0,Engineering,False,read_only
+ID0086,Okta,jennifer.miller@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2026-03-04,True,,Engineering,False,
+ID0087,AD,amanda.jones,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2025-07-17,True,,HR,False,
+ID0087,AWS,amanda-jones,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-09-11,True,45.0,HR,False,read_only
+ID0087,Okta,amanda.jones@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2026-04-01,True,,HR,False,
+ID0088,AD,michael.berger,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2025-11-23,False,,Sales,False,
+ID0088,AWS,michael-berger,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-01-22,True,121.0,Sales,False,read_only
+ID0088,Okta,michael.berger@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2026-02-22,True,,Sales,False,
+ID0089,AD,michael.white,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2025-07-04,True,,Finance,False,
+ID0089,AWS,michael-white,,inactive,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2025-08-23,False,161.0,Finance,False,read_only
+ID0089,Okta,michael.white@socgen.com,,suspended,SAP S4HANA|Workday|Slack|Concur,standard,,False,,Finance,False,
+ID0090,AD,david.scott,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk,standard,2026-04-23,True,,IT,False,
+ID0090,AWS,david-scott,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-04-23,True,69.0,IT,False,read_only
+ID0090,Okta,david.scott@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk,standard,2026-05-15,True,,IT,False,
+ID0091,AD,victoria.evans,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,elevated,2026-03-28,False,,HR,False,
+ID0091,AWS,victoria-evans,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-03-06,True,146.0,HR,False,read_only
+ID0091,Okta,victoria.evans@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2025-11-08,True,,HR,False,
+ID0092,AD,james.howard,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2025-10-24,False,,IT,True,
+ID0092,AWS,james-howard,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-10-07,False,70.0,IT,True,admin
+ID0092,Okta,james.howard@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2025-10-11,False,,IT,True,
+ID0093,AD,natasha.wall,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access|GG-Domain-Admins,admin,2026-05-10,True,,HR,False,
+ID0093,AWS,natasha-wall,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-01-06,False,189.0,HR,False,admin
+ID0093,Okta,natasha.wall@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2026-02-12,True,,HR,False,
+ID0094,AD,michelle.hopkins,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2026-05-05,True,,Finance,False,
+ID0094,AWS,michelle-hopkins,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2025-08-24,True,148.0,Finance,False,read_only
+ID0094,Okta,michelle.hopkins@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2026-02-03,True,,Finance,False,
+ID0095,AD,ann.phillips,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access|GG-Domain-Admins,admin,2025-09-23,True,,HR,False,
+ID0095,AWS,ann-phillips,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-09-23,True,167.0,HR,False,admin
+ID0095,Okta,ann.phillips@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2025-09-23,False,,HR,False,
+ID0096,AD,dawn.summers,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2025-07-30,False,,Legal,False,
+ID0096,AWS,dawn-summers,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-12-24,True,121.0,Legal,False,read_only
+ID0096,Okta,dawn.summers@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2026-01-01,True,,Legal,False,
+ID0097,AD,vincent.dalton,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2025-07-12,True,,Sales,False,
+ID0097,AWS,vincent-dalton,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-11-22,False,85.0,Sales,False,read_only
+ID0097,Okta,vincent.dalton@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2025-10-10,True,,Sales,False,
+ID0098,AD,jacob.curry,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2025-07-16,False,,Finance,False,
+ID0098,AWS,jacob-curry,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2026-06-02,True,141.0,Finance,False,read_only
+ID0098,Okta,jacob.curry@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2026-05-06,True,,Finance,False,
+ID0099,AD,leonard.holland,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2026-02-11,False,,Engineering,False,
+ID0099,AWS,leonard-holland,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-04-04,False,779.0,Engineering,False,read_only
+ID0099,Okta,leonard.holland@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2026-06-20,False,,Engineering,False,
+ID0100,AD,audrey.dds,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2025-11-21,True,,HR,False,
+ID0100,AWS,audrey-dds,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-08-06,True,93.0,HR,False,read_only
+ID0100,Okta,audrey.dds@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2025-11-06,True,,HR,False,
+ID0101,AD,mary.bass,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2026-03-08,False,,IT,True,
+ID0101,AWS,mary-bass,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-11-08,False,74.0,IT,True,admin
+ID0101,Okta,mary.bass@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2025-10-15,True,,IT,True,
+ID0102,AD,david.cox,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2026-06-06,True,,Engineering,False,
+ID0102,AWS,david-cox,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-09-11,True,80.0,Engineering,False,read_only
+ID0102,Okta,david.cox@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2025-09-11,False,,Engineering,False,
+ID0103,AD,daniel.fowler,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2026-05-04,True,,Legal,False,
+ID0103,AWS,daniel-fowler,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-10-27,True,30.0,Legal,False,read_only
+ID0103,Okta,daniel.fowler@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2026-04-03,False,,Legal,False,
+ID0104,AD,kristen.willis,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2025-06-19,False,,Legal,False,
+ID0104,AWS,kristen-willis,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-11-20,True,70.0,Legal,False,read_only
+ID0104,Okta,kristen.willis@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2025-10-22,True,,Legal,False,
+ID0105,AD,rebecca.rodriguez,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2025-10-30,True,,Engineering,False,
+ID0105,AWS,rebecca-rodriguez,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-10-03,False,154.0,Engineering,False,read_only
+ID0105,Okta,rebecca.rodriguez@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2026-04-12,True,,Engineering,False,
+ID0106,AD,cameron.fisher,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access|GG-Domain-Admins,admin,2026-01-30,False,,HR,False,
+ID0106,AWS,cameron-fisher,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-02-04,True,130.0,HR,False,admin
+ID0106,Okta,cameron.fisher@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2026-01-27,True,,HR,False,
+ID0107,AD,luis.acosta,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,elevated,2025-08-24,False,,Finance,False,
+ID0107,AWS,luis-acosta,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2025-09-18,True,115.0,Finance,False,read_only
+ID0107,Okta,luis.acosta@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2025-12-26,True,,Finance,False,
+ID0108,AD,theodore.jr.,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2025-09-11,False,,Legal,False,
+ID0108,AWS,theodore-jr.,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-04-01,True,83.0,Legal,False,read_only
+ID0108,Okta,theodore.jr.@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2026-02-18,False,,Legal,False,
+ID0109,AD,jody.jacobs,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,elevated,2026-02-21,False,,Sales,False,
+ID0109,AWS,jody-jacobs,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-06-24,True,850.0,Sales,False,read_only
+ID0109,Okta,jody.jacobs@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2025-12-05,True,,Sales,False,
+ID0110,AD,stephen.gutierrez,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access|GG-Domain-Admins,admin,2025-10-10,True,,Sales,False,
+ID0110,AWS,stephen-gutierrez,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-01-02,True,152.0,Sales,False,admin
+ID0110,Okta,stephen.gutierrez@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2025-11-07,True,,Sales,False,
+ID0111,AD,christian.leblanc,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,elevated,2025-09-24,False,,Legal,False,
+ID0111,AWS,christian-leblanc,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-11-23,False,513.0,Legal,False,read_only
+ID0111,Okta,christian.leblanc@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2026-04-02,True,,Legal,False,
+ID0112,AD,laurie.hoffman,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2025-10-23,False,,Legal,False,
+ID0112,AWS,laurie-hoffman,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-11-29,False,178.0,Legal,False,read_only
+ID0112,Okta,laurie.hoffman@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2026-05-10,True,,Legal,False,
+ID0113,AD,lindsay.bell,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2025-07-10,False,,Legal,False,
+ID0113,AWS,lindsay-bell,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-06-18,True,161.0,Legal,False,read_only
+ID0113,Okta,lindsay.bell@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2025-09-16,True,,Legal,False,
+ID0114,AD,donald.perez,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2025-08-08,True,,Legal,False,
+ID0114,AWS,donald-perez,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-03-06,True,176.0,Legal,False,read_only
+ID0114,Okta,donald.perez@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2026-02-24,True,,Legal,False,
+ID0115,AD,donald.farmer,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2025-11-10,True,,Engineering,False,
+ID0115,AWS,donald-farmer,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-03-31,True,181.0,Engineering,False,read_only
+ID0115,Okta,donald.farmer@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2025-11-05,True,,Engineering,False,
+ID0116,AD,joseph.bennett,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2025-06-30,False,,Engineering,False,
+ID0116,AWS,joseph-bennett,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2026-01-05,True,12.0,Engineering,False,read_only
+ID0116,Okta,joseph.bennett@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2026-01-21,True,,Engineering,False,
+ID0117,AD,sophia.moore,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2025-12-11,False,,Finance,False,
+ID0117,AWS,sophia-moore,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2025-11-22,False,136.0,Finance,False,read_only
+ID0117,Okta,sophia.moore@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2026-03-20,True,,Finance,False,
+ID0118,AD,ashley.jordan,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2026-03-23,True,,Legal,False,
+ID0118,AWS,ashley-jordan,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-08-07,False,98.0,Legal,False,read_only
+ID0118,Okta,ashley.jordan@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2026-02-17,False,,Legal,False,
+ID0119,AD,dan.dougherty,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2025-08-26,True,,Engineering,False,
+ID0119,AWS,dan-dougherty,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2026-02-10,True,164.0,Engineering,False,read_only
+ID0119,Okta,dan.dougherty@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2026-02-10,True,,Engineering,False,
+ID0120,AD,james.padilla,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2025-10-25,False,,Legal,False,
+ID0120,AWS,james-padilla,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-05-14,True,41.0,Legal,False,read_only
+ID0120,Okta,james.padilla@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2025-12-26,True,,Legal,False,
+ID0121,AD,laura.mckinney,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2025-07-28,False,,Engineering,False,
+ID0121,AWS,laura-mckinney,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-04-14,True,117.0,Engineering,False,read_only
+ID0121,Okta,laura.mckinney@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2026-03-11,False,,Engineering,False,
+ID0122,AD,michael.cox,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2025-10-16,True,,Sales,False,
+ID0122,AWS,michael-cox,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-12-19,False,147.0,Sales,False,read_only
+ID0122,Okta,michael.cox@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2026-01-20,True,,Sales,False,
+ID0123,AD,nichole.walker,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2026-06-09,False,,IT,True,
+ID0123,AWS,nichole-walker,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-04-04,False,145.0,IT,True,admin
+ID0123,Okta,nichole.walker@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2026-05-26,False,,IT,True,
+ID0124,AD,charles.gonzalez,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk,standard,2026-01-25,True,,IT,False,
+ID0124,AWS,charles-gonzalez,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2026-02-28,False,91.0,IT,False,read_only
+ID0124,Okta,charles.gonzalez@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk,standard,2026-03-15,True,,IT,False,
+ID0125,AD,justin.riley,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2025-07-08,True,,IT,True,
+ID0125,AWS,justin-riley,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-07-25,True,161.0,IT,True,admin
+ID0125,Okta,justin.riley@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2026-01-13,False,,IT,True,
+ID0126,AD,leslie.bell,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2026-06-03,False,,HR,False,
+ID0126,AWS,leslie-bell,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-03-12,True,24.0,HR,False,read_only
+ID0126,Okta,leslie.bell@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2026-01-04,False,,HR,False,
+ID0127,AD,vanessa.davis,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2026-03-23,True,,Engineering,False,
+ID0127,AWS,vanessa-davis,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-03-29,True,139.0,Engineering,False,read_only
+ID0127,Okta,vanessa.davis@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2025-09-22,True,,Engineering,False,
+ID0128,AD,john.hernandez,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2026-03-28,False,,Sales,False,
+ID0128,AWS,john-hernandez,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-02-10,True,124.0,Sales,False,read_only
+ID0128,Okta,john.hernandez@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2025-12-29,True,,Sales,False,
+ID0129,AD,michael.ritter,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2026-02-25,False,,Finance,False,
+ID0129,AWS,michael-ritter,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2025-12-15,True,143.0,Finance,False,read_only
+ID0129,Okta,michael.ritter@socgen.com,,suspended,SAP S4HANA|Workday|Slack|Concur,standard,,True,,Finance,False,
+ID0130,AD,mark.cook,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",disabled,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk,standard,2025-06-02,False,,IT,True,
+ID0130,AWS,mark-cook,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-02-24,True,164.0,IT,True,read_only
+ID0130,Okta,mark.cook@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,,True,,IT,True,
+ID0131,AD,felicia.aguilar,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2025-10-22,True,,Sales,False,
+ID0131,AWS,felicia-aguilar,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-01-04,False,144.0,Sales,False,read_only
+ID0131,Okta,felicia.aguilar@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2026-02-27,True,,Sales,False,
+ID0132,AD,james.conner,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",disabled,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk,standard,2025-07-23,False,,IT,False,
+ID0132,AWS,james-conner,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-02-21,True,412.0,IT,False,read_only
+ID0132,Okta,james.conner@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk,standard,,False,,IT,False,
+ID0133,AD,alicia.parker,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2026-04-22,True,,IT,True,
+ID0133,AWS,alicia-parker,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-04-12,True,138.0,IT,True,admin
+ID0133,Okta,alicia.parker@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2025-10-31,True,,IT,True,
+ID0134,AD,ryan.garcia,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,elevated,2025-07-12,False,,Sales,False,
+ID0134,AWS,ryan-garcia,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-04-02,True,187.0,Sales,False,read_only
+ID0134,Okta,ryan.garcia@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2026-05-01,False,,Sales,False,
+ID0135,AD,carol.kim,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk,standard,2025-08-09,False,,IT,False,
+ID0135,AWS,carol-kim,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2026-06-04,False,72.0,IT,False,read_only
+ID0135,Okta,carol.kim@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk,standard,2025-12-13,True,,IT,False,
+ID0136,AD,rachel.young,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2025-09-13,False,,IT,True,
+ID0136,AWS,rachel-young,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-09-13,False,93.0,IT,True,admin
+ID0136,Okta,rachel.young@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2025-09-13,True,,IT,True,
+ID0137,AD,mrs..reyes,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-Sales-Staff|GG-CRM-Access,standard,2025-10-31,True,,Sales,False,
+ID0137,AWS,mrs.-reyes,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-07-28,False,165.0,Sales,False,read_only
+ID0137,Okta,mrs..reyes@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,,True,,Sales,False,
+ID0138,AD,ashley.singleton,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-Legal-Staff|GG-DLP-Policy,standard,2025-09-04,True,,Legal,False,
+ID0138,AWS,ashley-singleton,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-08-24,True,578.0,Legal,False,read_only
+ID0138,Okta,ashley.singleton@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2026-02-21,True,,Legal,False,
+ID0139,AD,thomas.velasquez,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS|GG-Domain-Admins,admin,2025-05-20,True,,Finance,False,
+ID0139,AWS,thomas-velasquez,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-06-19,True,153.0,Finance,False,admin
+ID0139,Okta,thomas.velasquez@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2026-04-07,True,,Finance,False,
+ID0140,AD,alfred.galvan,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2025-11-22,False,,IT,False,
+ID0140,AWS,alfred-galvan,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-11-22,True,29.0,IT,False,admin
+ID0140,Okta,alfred.galvan@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk,standard,2025-11-22,True,,IT,False,
+ID0141,AD,julie.gilbert,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2025-12-19,True,,HR,False,
+ID0141,AWS,julie-gilbert,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-03-23,True,5.0,HR,False,read_only
+ID0141,Okta,julie.gilbert@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2026-05-25,True,,HR,False,
+ID0142,AD,ashley.roberts,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-Legal-Staff|GG-DLP-Policy,standard,2025-10-20,False,,Legal,False,
+ID0142,AWS,ashley-roberts,,inactive,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-08-21,True,132.0,Legal,False,read_only
+ID0142,Okta,ashley.roberts@socgen.com,,suspended,SharePoint|Slack|DocuSign|Relativity,standard,,True,,Legal,False,
+ID0143,AD,alexis.robertson,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2025-08-10,True,,Legal,False,
+ID0143,AWS,alexis-robertson,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-09-27,True,169.0,Legal,False,read_only
+ID0143,Okta,alexis.robertson@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2025-10-29,True,,Legal,False,
+ID0144,AD,matthew.miller,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2026-05-20,False,,Finance,False,
+ID0144,AWS,matthew-miller,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2025-07-04,True,110.0,Finance,False,read_only
+ID0144,Okta,matthew.miller@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2025-10-12,False,,Finance,False,
+ID0145,AD,james.brooks,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy|GG-Domain-Admins,admin,2026-01-28,True,,Legal,False,
+ID0145,AWS,james-brooks,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-01-28,True,38.0,Legal,False,admin
+ID0145,Okta,james.brooks@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2026-01-28,True,,Legal,False,
+ID0146,AD,nancy.cook,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2025-12-07,False,,HR,False,
+ID0146,AWS,nancy-cook,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-11-12,True,155.0,HR,False,read_only
+ID0146,Okta,nancy.cook@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2026-04-23,True,,HR,False,
+ID0147,AD,robin.brown,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2025-11-12,False,,Legal,False,
+ID0147,AWS,robin-brown,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-12-29,True,106.0,Legal,False,read_only
+ID0147,Okta,robin.brown@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2025-11-28,False,,Legal,False,
+ID0148,AD,kaylee.hays,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2026-02-10,False,,Engineering,False,
+ID0148,AWS,kaylee-hays,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-03-05,True,176.0,Engineering,False,read_only
+ID0148,Okta,kaylee.hays@socgen.com,,suspended,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,,True,,Engineering,False,
+ID0149,AD,robert.kim,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2025-10-21,True,,IT,True,
+ID0149,AWS,robert-kim,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-10-21,True,191.0,IT,True,admin
+ID0149,Okta,robert.kim@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2025-10-21,True,,IT,True,
+ID0150,AD,robert.adams,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2025-08-24,False,,Legal,False,
+ID0150,AWS,robert-adams,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-12-21,False,106.0,Legal,False,read_only
+ID0150,Okta,robert.adams@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2025-11-16,True,,Legal,False,
+ID0151,AD,matthew.parker,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2026-01-24,False,,HR,False,
+ID0151,AWS,matthew-parker,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-10-04,True,148.0,HR,False,read_only
+ID0151,Okta,matthew.parker@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2026-04-02,False,,HR,False,
+ID0152,AD,jessica.fowler,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access|GG-Domain-Admins,admin,2026-02-26,True,,Engineering,False,
+ID0152,AWS,jessica-fowler,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-12-14,True,143.0,Engineering,False,admin
+ID0152,Okta,jessica.fowler@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2026-01-29,True,,Engineering,False,
+ID0153,AD,brenda.lawson,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2025-11-13,True,,Engineering,False,
+ID0153,AWS,brenda-lawson,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-04-22,False,169.0,Engineering,False,read_only
+ID0153,Okta,brenda.lawson@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2026-02-04,True,,Engineering,False,
+ID0154,AD,keith.jacobs,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2026-01-30,False,,IT,False,
+ID0154,AWS,keith-jacobs,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-01-30,True,80.0,IT,False,admin
+ID0154,Okta,keith.jacobs@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk,standard,2026-01-30,True,,IT,False,
+ID0155,AD,ernest.ramirez,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk,standard,2026-03-20,True,,IT,False,
+ID0155,AWS,ernest-ramirez,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2026-05-16,True,103.0,IT,False,read_only
+ID0155,Okta,ernest.ramirez@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk,standard,2026-06-05,True,,IT,False,
+ID0156,AD,cindy.carr,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2025-06-03,True,,Legal,False,
+ID0156,AWS,cindy-carr,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-12-28,True,117.0,Legal,False,read_only
+ID0156,Okta,cindy.carr@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2025-12-13,True,,Legal,False,
+ID0157,AD,rita.dvm,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2025-06-16,False,,IT,True,
+ID0157,AWS,rita-dvm,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-08-19,True,146.0,IT,True,admin
+ID0157,Okta,rita.dvm@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2026-05-25,True,,IT,True,
+ID0158,AD,katie.martinez,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2026-04-01,True,,HR,False,
+ID0158,AWS,katie-martinez,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-11-06,False,70.0,HR,False,read_only
+ID0158,Okta,katie.martinez@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2025-11-15,False,,HR,False,
+ID0159,AD,william.anderson,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2025-08-14,False,,Engineering,False,
+ID0159,AWS,william-anderson,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-05-30,False,56.0,Engineering,False,read_only
+ID0159,Okta,william.anderson@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2026-04-23,True,,Engineering,False,
+ID0160,AD,william.day,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2025-11-12,True,,Sales,False,
+ID0160,AWS,william-day,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-08-21,True,174.0,Sales,False,read_only
+ID0160,Okta,william.day@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2025-09-24,True,,Sales,False,
+ID0161,AD,catherine.burch,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2026-05-28,True,,IT,True,
+ID0161,AWS,catherine-burch,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-05-23,True,154.0,IT,True,admin
+ID0161,Okta,catherine.burch@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2026-03-08,True,,IT,True,
+ID0162,AD,timothy.perez,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access|GG-Domain-Admins,admin,2026-03-04,True,,HR,False,
+ID0162,AWS,timothy-perez,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-01-04,True,75.0,HR,False,admin
+ID0162,Okta,timothy.perez@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2026-06-17,False,,HR,False,
+ID0163,AD,kathryn.jackson,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-HR-Staff|GG-HRIS-Access,standard,2025-06-25,True,,HR,False,
+ID0163,AWS,kathryn-jackson,,inactive,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-05-04,True,172.0,HR,False,read_only
+ID0163,Okta,kathryn.jackson@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,,False,,HR,False,
+ID0164,AD,travis.wise,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2025-09-27,True,,IT,False,
+ID0164,AWS,travis-wise,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-09-27,True,118.0,IT,False,admin
+ID0164,Okta,travis.wise@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk,standard,2025-09-27,False,,IT,False,
+ID0165,AD,elizabeth.sanchez,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2025-08-31,False,,Legal,False,
+ID0165,AWS,elizabeth-sanchez,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-01-23,True,107.0,Legal,False,read_only
+ID0165,Okta,elizabeth.sanchez@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2025-11-25,True,,Legal,False,
+ID0166,AD,charles.hensley,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2026-01-05,True,,Finance,False,
+ID0166,AWS,charles-hensley,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2025-10-28,False,159.0,Finance,False,read_only
+ID0166,Okta,charles.hensley@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2025-12-17,True,,Finance,False,
+ID0167,AD,david.martinez,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,elevated,2025-11-09,True,,Sales,False,
+ID0167,AWS,david-martinez,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-11-27,False,151.0,Sales,False,read_only
+ID0167,Okta,david.martinez@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2026-05-11,False,,Sales,False,
+ID0168,AD,victor.barrera,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2026-01-13,False,,IT,True,
+ID0168,AWS,victor-barrera,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-03-26,True,200.0,IT,True,admin
+ID0168,Okta,victor.barrera@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2025-10-02,True,,IT,True,
+ID0169,AD,mr..md,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2025-09-22,True,,HR,False,
+ID0169,AWS,mr.-md,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-12-23,False,90.0,HR,False,read_only
+ID0169,Okta,mr..md@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2026-04-06,True,,HR,False,
+ID0170,AD,adam.rodriguez,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2026-04-29,True,,HR,False,
+ID0170,AWS,adam-rodriguez,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-08-16,True,45.0,HR,False,read_only
+ID0170,Okta,adam.rodriguez@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2026-05-13,True,,HR,False,
+ID0171,AD,heidi.roberts,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2025-05-21,False,,Legal,False,
+ID0171,AWS,heidi-roberts,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-05-27,False,145.0,Legal,False,read_only
+ID0171,Okta,heidi.roberts@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2025-11-03,True,,Legal,False,
+ID0172,AD,brent.brooks,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2025-08-03,False,,HR,False,
+ID0172,AWS,brent-brooks,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-10-23,True,18.0,HR,False,read_only
+ID0172,Okta,brent.brooks@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2026-01-16,True,,HR,False,
+ID0173,AD,andrew.reeves,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access|GG-Domain-Admins,admin,2025-08-22,True,,HR,False,
+ID0173,AWS,andrew-reeves,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-01-13,True,19.0,HR,False,admin
+ID0173,Okta,andrew.reeves@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2025-11-01,True,,HR,False,
+ID0174,AD,william.stevenson,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access|GG-Domain-Admins,admin,2026-05-22,False,,HR,False,
+ID0174,AWS,william-stevenson,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-07-25,True,20.0,HR,False,admin
+ID0174,Okta,william.stevenson@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2025-10-04,False,,HR,False,
+ID0175,AD,michael.whitney,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2026-05-30,False,,Finance,False,
+ID0175,AWS,michael-whitney,,inactive,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2025-07-22,True,147.0,Finance,False,read_only
+ID0175,Okta,michael.whitney@socgen.com,,suspended,SAP S4HANA|Workday|Slack|Concur,standard,,False,,Finance,False,
+ID0176,AD,mikayla.silva,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy|GG-Domain-Admins,admin,2025-10-07,True,,Legal,False,
+ID0176,AWS,mikayla-silva,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-04-29,True,116.0,Legal,False,admin
+ID0176,Okta,mikayla.silva@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2026-05-08,True,,Legal,False,
+ID0177,AD,melody.lee,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access|GG-Domain-Admins,admin,2026-05-31,True,,Engineering,False,
+ID0177,AWS,melody-lee,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-09-25,False,113.0,Engineering,False,admin
+ID0177,Okta,melody.lee@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2026-03-31,True,,Engineering,False,
+ID0178,AD,shelley.fitzgerald,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2025-12-12,False,,IT,False,
+ID0178,AWS,shelley-fitzgerald,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-12-29,False,199.0,IT,False,admin
+ID0178,Okta,shelley.fitzgerald@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk,standard,2026-05-25,True,,IT,False,
+ID0179,AD,julia.patel,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2026-05-18,False,,Engineering,False,
+ID0179,AWS,julia-patel,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2026-01-26,True,761.0,Engineering,False,read_only
+ID0179,Okta,julia.patel@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2026-04-05,True,,Engineering,False,
+ID0180,AD,todd.hendrix,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2026-05-10,True,,Legal,False,
+ID0180,AWS,todd-hendrix,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-02-10,False,80.0,Legal,False,read_only
+ID0180,Okta,todd.hendrix@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2025-12-02,True,,Legal,False,
+ID0181,AD,kenneth.daniels,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2025-08-20,True,,HR,False,
+ID0181,AWS,kenneth-daniels,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-07-26,True,97.0,HR,False,read_only
+ID0181,Okta,kenneth.daniels@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2026-04-16,True,,HR,False,
+ID0182,AD,jeremy.scott,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access|GG-Domain-Admins,admin,2025-07-25,False,,Sales,False,
+ID0182,AWS,jeremy-scott,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-12-17,True,5.0,Sales,False,admin
+ID0182,Okta,jeremy.scott@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2026-03-20,True,,Sales,False,
+ID0183,AD,patrick.allen,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2025-12-28,False,,IT,True,
+ID0183,AWS,patrick-allen,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-04-02,True,36.0,IT,True,admin
+ID0183,Okta,patrick.allen@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2026-01-20,True,,IT,True,
+ID0184,AD,randy.smith,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2025-10-04,True,,Sales,False,
+ID0184,AWS,randy-smith,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-08-08,True,197.0,Sales,False,read_only
+ID0184,Okta,randy.smith@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2025-12-10,True,,Sales,False,
+ID0185,AD,matthew.velez,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2026-03-29,True,,Sales,False,
+ID0185,AWS,matthew-velez,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-08-05,True,198.0,Sales,False,read_only
+ID0185,Okta,matthew.velez@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2025-11-08,True,,Sales,False,
+ID0186,AD,ryan.peck,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-HR-Staff|GG-HRIS-Access,standard,2025-11-05,False,,HR,False,
+ID0186,AWS,ryan-peck,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-02-21,False,115.0,HR,False,read_only
+ID0186,Okta,ryan.peck@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2026-02-18,True,,HR,False,
+ID0187,AD,alexandra.bradley,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2025-10-23,True,,Finance,False,
+ID0187,AWS,alexandra-bradley,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2025-11-07,True,147.0,Finance,False,read_only
+ID0187,Okta,alexandra.bradley@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2026-01-27,False,,Finance,False,
+ID0188,AD,brandi.gordon,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",disabled,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk,standard,2026-03-10,True,,IT,True,
+ID0188,AWS,brandi-gordon,,inactive,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-07-27,True,14.0,IT,True,read_only
+ID0188,Okta,brandi.gordon@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2025-12-12,True,,IT,True,
+ID0189,AD,alexis.rogers,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-Legal-Staff|GG-DLP-Policy,standard,2026-05-09,True,,Legal,False,
+ID0189,AWS,alexis-rogers,,inactive,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-04-06,True,132.0,Legal,False,read_only
+ID0189,Okta,alexis.rogers@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2026-05-05,True,,Legal,False,
+ID0190,AD,james.davis,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2025-11-02,False,,Legal,False,
+ID0190,AWS,james-davis,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-05-24,True,107.0,Legal,False,read_only
+ID0190,Okta,james.davis@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2025-10-06,True,,Legal,False,
+ID0191,AD,tiffany.turner,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2026-02-20,False,,IT,True,
+ID0191,AWS,tiffany-turner,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-02-26,True,96.0,IT,True,admin
+ID0191,Okta,tiffany.turner@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2026-01-08,True,,IT,True,
+ID0192,AD,jared.shaw,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-HR-Staff|GG-HRIS-Access,standard,2026-04-11,True,,HR,False,
+ID0192,AWS,jared-shaw,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-06-29,True,121.0,HR,False,read_only
+ID0192,Okta,jared.shaw@socgen.com,,suspended,Workday|Slack|ServiceNow|BambooHR,standard,,False,,HR,False,
+ID0193,AD,lisa.perry,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,elevated,2025-08-09,True,,Sales,False,
+ID0193,AWS,lisa-perry,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-02-09,True,5.0,Sales,False,read_only
+ID0193,Okta,lisa.perry@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2026-04-05,False,,Sales,False,
+ID0194,AD,angela.griffin,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2026-04-25,False,,IT,True,
+ID0194,AWS,angela-griffin,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-05-27,True,32.0,IT,True,admin
+ID0194,Okta,angela.griffin@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2025-11-18,False,,IT,True,
+ID0195,AD,brittany.murphy,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access|GG-Domain-Admins,admin,2026-05-19,True,,HR,False,
+ID0195,AWS,brittany-murphy,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-08-19,False,128.0,HR,False,admin
+ID0195,Okta,brittany.murphy@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2026-06-12,True,,HR,False,
+ID0196,AD,jose.bryant,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2025-06-18,True,,Sales,False,
+ID0196,AWS,jose-bryant,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-08-10,True,1.0,Sales,False,read_only
+ID0196,Okta,jose.bryant@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2026-02-17,False,,Sales,False,
+ID0197,AD,laura.williams,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-Sales-Staff|GG-CRM-Access,standard,2025-12-18,True,,Sales,False,
+ID0197,AWS,laura-williams,,inactive,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-10-04,False,140.0,Sales,False,read_only
+ID0197,Okta,laura.williams@socgen.com,,suspended,Salesforce|Slack|Zoom|HubSpot,standard,,True,,Sales,False,
+ID0198,AD,christopher.taylor,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,elevated,2025-12-03,False,,Sales,False,
+ID0198,AWS,christopher-taylor,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-12-11,True,762.0,Sales,False,read_only
+ID0198,Okta,christopher.taylor@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2026-06-12,True,,Sales,False,
+ID0199,AD,victor.baxter,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2026-05-17,False,,Legal,False,
+ID0199,AWS,victor-baxter,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-08-03,True,169.0,Legal,False,read_only
+ID0199,Okta,victor.baxter@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2025-08-27,True,,Legal,False,
+ID0200,AD,william.davenport,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2026-04-13,True,,Finance,False,
+ID0200,AWS,william-davenport,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2025-04-30,False,87.0,Finance,False,read_only
+ID0200,Okta,william.davenport@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2026-03-23,False,,Finance,False,
+ID0201,AD,christopher.lopez,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2025-06-29,False,,HR,False,
+ID0201,AWS,christopher-lopez,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-05-19,False,35.0,HR,False,read_only
+ID0201,Okta,christopher.lopez@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2025-10-29,True,,HR,False,
+ID0202,AD,kirk.griffin,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2026-01-21,True,,IT,True,
+ID0202,AWS,kirk-griffin,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-03-24,True,570.0,IT,True,admin
+ID0202,Okta,kirk.griffin@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2026-01-10,True,,IT,True,
+ID0203,AD,wyatt.young,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-HR-Staff|GG-HRIS-Access,standard,2026-02-11,True,,HR,False,
+ID0203,AWS,wyatt-young,,inactive,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-01-25,True,49.0,HR,False,read_only
+ID0203,Okta,wyatt.young@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,,True,,HR,False,
+ID0204,AD,eric.brown,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2026-02-01,True,,Legal,False,
+ID0204,AWS,eric-brown,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-03-22,True,112.0,Legal,False,read_only
+ID0204,Okta,eric.brown@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2025-11-07,False,,Legal,False,
+ID0205,AD,emma.butler,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2025-12-29,True,,Sales,False,
+ID0205,AWS,emma-butler,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-12-14,False,128.0,Sales,False,read_only
+ID0205,Okta,emma.butler@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2026-02-04,True,,Sales,False,
+ID0206,AD,suzanne.hart,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2025-06-13,False,,HR,False,
+ID0206,AWS,suzanne-hart,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-09-14,True,550.0,HR,False,read_only
+ID0206,Okta,suzanne.hart@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2026-01-07,True,,HR,False,
+ID0207,AD,sarah.davis,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2026-05-11,False,,Sales,False,
+ID0207,AWS,sarah-davis,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-11-04,False,79.0,Sales,False,read_only
+ID0207,Okta,sarah.davis@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2025-11-14,True,,Sales,False,
+ID0208,AD,kristin.mendoza,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2025-07-02,False,,IT,True,
+ID0208,AWS,kristin-mendoza,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-06-13,True,11.0,IT,True,admin
+ID0208,Okta,kristin.mendoza@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2025-11-10,True,,IT,True,
+ID0209,AD,melissa.padilla,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2025-07-28,True,,IT,True,
+ID0209,AWS,melissa-padilla,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-12-16,False,781.0,IT,True,admin
+ID0209,Okta,melissa.padilla@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2026-03-31,True,,IT,True,
+ID0210,AD,elizabeth.ward,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,elevated,2026-04-08,False,,Sales,False,
+ID0210,AWS,elizabeth-ward,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-02-20,False,434.0,Sales,False,read_only
+ID0210,Okta,elizabeth.ward@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2025-12-15,True,,Sales,False,
+ID0211,AD,angel.shields,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,elevated,2025-12-06,True,,Legal,False,
+ID0211,AWS,angel-shields,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-11-02,True,174.0,Legal,False,read_only
+ID0211,Okta,angel.shields@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2025-12-12,False,,Legal,False,
+ID0212,AD,kelly.sanchez,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2025-05-26,True,,Sales,False,
+ID0212,AWS,kelly-sanchez,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-12-15,True,136.0,Sales,False,read_only
+ID0212,Okta,kelly.sanchez@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2026-01-11,True,,Sales,False,
+ID0213,AD,joshua.white,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access|GG-Domain-Admins,admin,2026-02-13,True,,Engineering,False,
+ID0213,AWS,joshua-white,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-10-08,False,556.0,Engineering,False,admin
+ID0213,Okta,joshua.white@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2025-12-04,True,,Engineering,False,
+ID0214,AD,jennifer.kirby,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2026-02-06,False,,IT,True,
+ID0214,AWS,jennifer-kirby,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-08-11,True,55.0,IT,True,admin
+ID0214,Okta,jennifer.kirby@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2025-10-12,True,,IT,True,
+ID0215,AD,mary.jensen,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2026-04-19,True,,Sales,False,
+ID0215,AWS,mary-jensen,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-03-24,False,116.0,Sales,False,read_only
+ID0215,Okta,mary.jensen@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2025-11-05,True,,Sales,False,
+ID0216,AD,nathan.nichols,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2025-12-01,False,,IT,True,
+ID0216,AWS,nathan-nichols,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-12-01,False,182.0,IT,True,admin
+ID0216,Okta,nathan.nichols@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2025-12-01,True,,IT,True,
+ID0217,AD,manuel.king,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2026-01-18,True,,Sales,False,
+ID0217,AWS,manuel-king,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-07-29,True,180.0,Sales,False,read_only
+ID0217,Okta,manuel.king@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2025-12-17,True,,Sales,False,
+ID0218,AD,courtney.dvm,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,elevated,2026-04-19,True,,HR,False,
+ID0218,AWS,courtney-dvm,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-05-12,True,61.0,HR,False,read_only
+ID0218,Okta,courtney.dvm@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2026-06-07,True,,HR,False,
+ID0219,AD,mr..phd,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2025-09-10,False,,HR,False,
+ID0219,AWS,mr.-phd,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-04-15,False,142.0,HR,False,read_only
+ID0219,Okta,mr..phd@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2026-05-07,True,,HR,False,
+ID0220,AD,anthony.jones,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access|GG-Domain-Admins,admin,2025-09-14,False,,Sales,False,
+ID0220,AWS,anthony-jones,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-09-14,False,185.0,Sales,False,admin
+ID0220,Okta,anthony.jones@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2025-09-14,False,,Sales,False,
+ID0221,AD,laurie.goodwin,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2025-08-30,True,,Finance,False,
+ID0221,AWS,laurie-goodwin,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2025-07-27,True,82.0,Finance,False,read_only
+ID0221,Okta,laurie.goodwin@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2025-11-02,False,,Finance,False,
+ID0222,AD,kimberly.reyes,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2025-07-07,False,,Sales,False,
+ID0222,AWS,kimberly-reyes,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-09-11,False,200.0,Sales,False,read_only
+ID0222,Okta,kimberly.reyes@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2026-03-19,True,,Sales,False,
+ID0223,AD,david.jones,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2025-11-11,True,,Finance,False,
+ID0223,AWS,david-jones,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2026-04-03,True,133.0,Finance,False,read_only
+ID0223,Okta,david.jones@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2026-03-28,True,,Finance,False,
+ID0224,AD,juan.bennett,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2026-01-06,True,,Engineering,False,
+ID0224,AWS,juan-bennett,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-03-19,True,133.0,Engineering,False,read_only
+ID0224,Okta,juan.bennett@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2026-05-11,True,,Engineering,False,
+ID0225,AD,angela.moore,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2026-03-12,False,,IT,True,
+ID0225,AWS,angela-moore,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-08-10,False,78.0,IT,True,admin
+ID0225,Okta,angela.moore@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2026-05-04,True,,IT,True,
+ID0226,AD,derrick.anderson,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2025-08-21,True,,Legal,False,
+ID0226,AWS,derrick-anderson,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-06-17,False,160.0,Legal,False,read_only
+ID0226,Okta,derrick.anderson@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2025-12-30,True,,Legal,False,
+ID0227,AD,rachel.shields,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,elevated,2026-06-06,True,,Sales,False,
+ID0227,AWS,rachel-shields,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-07-22,True,637.0,Sales,False,read_only
+ID0227,Okta,rachel.shields@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2025-09-01,False,,Sales,False,
+ID0228,AD,carolyn.james,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2025-08-08,True,,IT,True,
+ID0228,AWS,carolyn-james,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-09-14,True,161.0,IT,True,admin
+ID0228,Okta,carolyn.james@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2026-01-17,False,,IT,True,
+ID0229,AD,john.jones,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2026-02-15,False,,Legal,False,
+ID0229,AWS,john-jones,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-07-03,True,19.0,Legal,False,read_only
+ID0229,Okta,john.jones@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2026-04-01,False,,Legal,False,
+ID0230,AD,manuel.brock,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2025-11-20,False,,Finance,False,
+ID0230,AWS,manuel-brock,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2025-08-14,True,88.0,Finance,False,read_only
+ID0230,Okta,manuel.brock@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2026-01-11,True,,Finance,False,
+ID0231,AD,christopher.sanders,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2025-06-10,False,,HR,False,
+ID0231,AWS,christopher-sanders,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-05-27,True,34.0,HR,False,read_only
+ID0231,Okta,christopher.sanders@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2025-09-30,True,,HR,False,
+ID0232,AD,timothy.gonzalez,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2026-01-08,True,,HR,False,
+ID0232,AWS,timothy-gonzalez,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-11-02,True,69.0,HR,False,read_only
+ID0232,Okta,timothy.gonzalez@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2026-04-09,True,,HR,False,
+ID0233,AD,andrea.abbott,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,elevated,2026-05-26,False,,HR,False,
+ID0233,AWS,andrea-abbott,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-11-18,True,158.0,HR,False,read_only
+ID0233,Okta,andrea.abbott@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2026-03-31,True,,HR,False,
+ID0234,AD,angela.ewing,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2025-08-29,False,,Sales,False,
+ID0234,AWS,angela-ewing,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-10-08,False,41.0,Sales,False,read_only
+ID0234,Okta,angela.ewing@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2025-10-24,False,,Sales,False,
+ID0235,AD,heather.woodard,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2026-01-14,False,,Finance,False,
+ID0235,AWS,heather-woodard,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2025-10-05,True,768.0,Finance,False,read_only
+ID0235,Okta,heather.woodard@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2026-02-17,True,,Finance,False,
+ID0236,AD,erin.hogan,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2026-02-10,False,,IT,True,
+ID0236,AWS,erin-hogan,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-02-10,False,654.0,IT,True,admin
+ID0236,Okta,erin.hogan@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2026-02-10,True,,IT,True,
+ID0237,AD,james.barton,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2025-09-19,True,,Engineering,False,
+ID0237,AWS,james-barton,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2026-04-13,True,111.0,Engineering,False,read_only
+ID0237,Okta,james.barton@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2025-12-15,False,,Engineering,False,
+ID0238,AD,monica.bailey,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access|GG-Domain-Admins,admin,2025-12-15,True,,HR,False,
+ID0238,AWS,monica-bailey,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-09-06,True,146.0,HR,False,admin
+ID0238,Okta,monica.bailey@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2025-12-17,True,,HR,False,
+ID0239,AD,eric.patrick,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2026-05-14,False,,Sales,False,
+ID0239,AWS,eric-patrick,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-09-12,True,196.0,Sales,False,read_only
+ID0239,Okta,eric.patrick@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2026-04-21,True,,Sales,False,
+ID0240,AD,kristen.rivera,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2026-05-02,False,,Sales,False,
+ID0240,AWS,kristen-rivera,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-09-08,True,87.0,Sales,False,read_only
+ID0240,Okta,kristen.rivera@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2026-04-08,True,,Sales,False,
+ID0241,AD,omar.ware,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,elevated,2025-08-16,False,,Finance,False,
+ID0241,AWS,omar-ware,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2026-06-01,True,12.0,Finance,False,read_only
+ID0241,Okta,omar.ware@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2026-01-01,False,,Finance,False,
+ID0242,AD,rhonda.brown,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-HR-Staff|GG-HRIS-Access,standard,2026-04-10,False,,HR,False,
+ID0242,AWS,rhonda-brown,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-03-29,True,82.0,HR,False,read_only
+ID0242,Okta,rhonda.brown@socgen.com,,suspended,Workday|Slack|ServiceNow|BambooHR,standard,,True,,HR,False,
+ID0243,AD,katherine.church,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2025-10-04,False,,HR,False,
+ID0243,AWS,katherine-church,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-10-20,True,77.0,HR,False,read_only
+ID0243,Okta,katherine.church@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2025-12-14,True,,HR,False,
+ID0244,AD,michele.evans,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access|GG-Domain-Admins,admin,2025-07-11,True,,Sales,False,
+ID0244,AWS,michele-evans,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-01-14,False,150.0,Sales,False,admin
+ID0244,Okta,michele.evans@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2026-06-07,False,,Sales,False,
+ID0245,AD,kayla.barnes,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2026-02-05,True,,HR,False,
+ID0245,AWS,kayla-barnes,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-10-18,True,150.0,HR,False,read_only
+ID0245,Okta,kayla.barnes@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2025-09-25,False,,HR,False,
+ID0246,AD,katherine.taylor,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk,standard,2026-04-06,True,,IT,False,
+ID0246,AWS,katherine-taylor,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2026-03-15,True,478.0,IT,False,read_only
+ID0246,Okta,katherine.taylor@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk,standard,2025-11-07,True,,IT,False,
+ID0247,AD,tracey.wagner,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access|GG-Domain-Admins,admin,2025-11-18,True,,Sales,False,
+ID0247,AWS,tracey-wagner,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-11-22,False,53.0,Sales,False,admin
+ID0247,Okta,tracey.wagner@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2025-10-22,True,,Sales,False,
+ID0248,AD,andre.juarez,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2025-06-24,True,,Legal,False,
+ID0248,AWS,andre-juarez,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-01-05,False,144.0,Legal,False,read_only
+ID0248,Okta,andre.juarez@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2025-10-19,False,,Legal,False,
+ID0249,AD,ashley.wilson,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2026-01-11,True,,Legal,False,
+ID0249,AWS,ashley-wilson,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-12-27,False,137.0,Legal,False,read_only
+ID0249,Okta,ashley.wilson@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2025-12-21,True,,Legal,False,
+ID0250,AD,zachary.cole,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2025-08-12,False,,HR,False,
+ID0250,AWS,zachary-cole,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-01-29,False,64.0,HR,False,read_only
+ID0250,Okta,zachary.cole@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2026-01-19,True,,HR,False,
+ID0251,AD,leah.bell,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2026-01-19,False,,Legal,False,
+ID0251,AWS,leah-bell,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-06-25,True,177.0,Legal,False,read_only
+ID0251,Okta,leah.bell@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2026-01-09,False,,Legal,False,
+ID0252,AD,douglas.ryan,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy|GG-Domain-Admins,admin,2025-12-24,False,,Legal,False,
+ID0252,AWS,douglas-ryan,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-07-09,False,147.0,Legal,False,admin
+ID0252,Okta,douglas.ryan@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2025-12-08,False,,Legal,False,
+ID0253,AD,paul.jenkins,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-Legal-Staff|GG-DLP-Policy,standard,2026-01-23,True,,Legal,False,
+ID0253,AWS,paul-jenkins,,inactive,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-05-11,True,183.0,Legal,False,read_only
+ID0253,Okta,paul.jenkins@socgen.com,,suspended,SharePoint|Slack|DocuSign|Relativity,standard,,True,,Legal,False,
+ID0254,AD,frank.wright,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2025-06-03,False,,Sales,False,
+ID0254,AWS,frank-wright,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-02-02,False,138.0,Sales,False,read_only
+ID0254,Okta,frank.wright@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2026-02-01,True,,Sales,False,
+ID0255,AD,paul.neal,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2026-04-26,True,,HR,False,
+ID0255,AWS,paul-neal,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-03-14,False,172.0,HR,False,read_only
+ID0255,Okta,paul.neal@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2026-02-25,True,,HR,False,
+ID0256,AD,melissa.horn,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2026-05-25,True,,HR,False,
+ID0256,AWS,melissa-horn,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-10-22,True,184.0,HR,False,read_only
+ID0256,Okta,melissa.horn@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2026-04-11,True,,HR,False,
+ID0257,AD,kenneth.knight,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2025-09-12,True,,Finance,False,
+ID0257,AWS,kenneth-knight,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2025-10-19,False,122.0,Finance,False,read_only
+ID0257,Okta,kenneth.knight@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2026-03-10,True,,Finance,False,
+ID0258,AD,timothy.moore,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2026-01-07,False,,HR,False,
+ID0258,AWS,timothy-moore,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-05-06,False,197.0,HR,False,read_only
+ID0258,Okta,timothy.moore@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2025-08-31,True,,HR,False,
+ID0259,AD,timothy.hill,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2025-09-20,True,,Engineering,False,
+ID0259,AWS,timothy-hill,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-11-19,True,45.0,Engineering,False,read_only
+ID0259,Okta,timothy.hill@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2026-06-02,False,,Engineering,False,
+ID0260,AD,brandon.davis,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2025-10-10,True,,Legal,False,
+ID0260,AWS,brandon-davis,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-03-29,True,75.0,Legal,False,read_only
+ID0260,Okta,brandon.davis@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2026-06-16,True,,Legal,False,
+ID0261,AD,greg.martinez,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-Sales-Staff|GG-CRM-Access,standard,2026-01-26,False,,Sales,False,
+ID0261,AWS,greg-martinez,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-09-25,True,140.0,Sales,False,read_only
+ID0261,Okta,greg.martinez@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,,False,,Sales,False,
+ID0262,AD,jacob.evans,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access|GG-Domain-Admins,admin,2026-02-01,True,,Engineering,False,
+ID0262,AWS,jacob-evans,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-03-29,False,85.0,Engineering,False,admin
+ID0262,Okta,jacob.evans@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2025-10-29,True,,Engineering,False,
+ID0263,AD,justin.bishop,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2025-06-18,True,,HR,False,
+ID0263,AWS,justin-bishop,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-05-12,True,711.0,HR,False,read_only
+ID0263,Okta,justin.bishop@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2025-09-03,True,,HR,False,
+ID0264,AD,angelica.garcia,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access|GG-Domain-Admins,admin,2026-03-23,False,,HR,False,
+ID0264,AWS,angelica-garcia,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-01-04,True,132.0,HR,False,admin
+ID0264,Okta,angelica.garcia@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2025-11-27,True,,HR,False,
+ID0265,AD,danielle.burke,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access|GG-Domain-Admins,admin,2025-11-19,True,,Sales,False,
+ID0265,AWS,danielle-burke,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-11-19,True,64.0,Sales,False,admin
+ID0265,Okta,danielle.burke@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2025-11-19,True,,Sales,False,
+ID0266,AD,elizabeth.brown,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2025-11-04,False,,Legal,False,
+ID0266,AWS,elizabeth-brown,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-08-26,False,78.0,Legal,False,read_only
+ID0266,Okta,elizabeth.brown@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2025-08-31,True,,Legal,False,
+ID0267,AD,dr..valencia,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2026-02-07,False,,Legal,False,
+ID0267,AWS,dr.-valencia,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-07-14,True,16.0,Legal,False,read_only
+ID0267,Okta,dr..valencia@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2025-10-25,True,,Legal,False,
+ID0268,AD,alexis.lewis,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2026-03-31,False,,Engineering,False,
+ID0268,AWS,alexis-lewis,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-05-22,True,181.0,Engineering,False,read_only
+ID0268,Okta,alexis.lewis@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2026-04-21,True,,Engineering,False,
+ID0269,AD,james.davidson,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2025-12-14,True,,Sales,False,
+ID0269,AWS,james-davidson,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-10-19,True,35.0,Sales,False,read_only
+ID0269,Okta,james.davidson@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2025-10-31,True,,Sales,False,
+ID0270,AD,mark.davenport,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,elevated,2025-11-20,False,,Legal,False,
+ID0270,AWS,mark-davenport,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-04-24,True,171.0,Legal,False,read_only
+ID0270,Okta,mark.davenport@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2026-02-14,True,,Legal,False,
+ID0271,AD,logan.brown,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2025-09-24,False,,Finance,False,
+ID0271,AWS,logan-brown,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2026-05-12,False,93.0,Finance,False,read_only
+ID0271,Okta,logan.brown@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2026-04-24,True,,Finance,False,
+ID0272,AD,michelle.jackson,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2025-09-13,True,,Sales,False,
+ID0272,AWS,michelle-jackson,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-03-28,True,39.0,Sales,False,read_only
+ID0272,Okta,michelle.jackson@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2025-09-27,False,,Sales,False,
+ID0273,AD,austin.joseph,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2026-04-22,True,,Legal,False,
+ID0273,AWS,austin-joseph,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-05-05,False,126.0,Legal,False,read_only
+ID0273,Okta,austin.joseph@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2025-11-04,True,,Legal,False,
+ID0274,AD,david.garcia,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2026-05-22,False,,Finance,False,
+ID0274,AWS,david-garcia,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2025-06-15,True,79.0,Finance,False,read_only
+ID0274,Okta,david.garcia@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,,True,,Finance,False,
+ID0275,AD,jack.mora,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-Legal-Staff|GG-DLP-Policy,standard,2026-05-28,False,,Legal,False,
+ID0275,AWS,jack-mora,,inactive,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-09-16,True,17.0,Legal,False,read_only
+ID0275,Okta,jack.mora@socgen.com,,suspended,SharePoint|Slack|DocuSign|Relativity,standard,,False,,Legal,False,
+ID0276,AD,jason.cortez,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2026-06-04,False,,IT,True,
+ID0276,AWS,jason-cortez,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-04-12,False,197.0,IT,True,admin
+ID0276,Okta,jason.cortez@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2025-11-17,True,,IT,True,
+ID0277,AD,jose.williams,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-Sales-Staff|GG-CRM-Access,standard,2025-12-09,False,,Sales,False,
+ID0277,AWS,jose-williams,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-07-21,True,502.0,Sales,False,read_only
+ID0277,Okta,jose.williams@socgen.com,,suspended,Salesforce|Slack|Zoom|HubSpot,standard,,True,,Sales,False,
+ID0278,AD,aimee.gonzalez,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-Sales-Staff|GG-CRM-Access,standard,2026-02-26,True,,Sales,False,
+ID0278,AWS,aimee-gonzalez,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-10-26,False,77.0,Sales,False,read_only
+ID0278,Okta,aimee.gonzalez@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2025-09-15,False,,Sales,False,
+ID0279,AD,kimberly.flynn,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,elevated,2025-09-21,False,,Sales,False,
+ID0279,AWS,kimberly-flynn,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-10-28,True,64.0,Sales,False,read_only
+ID0279,Okta,kimberly.flynn@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2026-04-02,True,,Sales,False,
+ID0280,AD,april.sandoval,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,elevated,2026-03-16,True,,Sales,False,
+ID0280,AWS,april-sandoval,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-08-10,True,795.0,Sales,False,read_only
+ID0280,Okta,april.sandoval@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2026-02-17,True,,Sales,False,
+ID0281,AD,anna.morse,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2026-05-17,True,,Finance,False,
+ID0281,AWS,anna-morse,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2025-08-18,False,115.0,Finance,False,read_only
+ID0281,Okta,anna.morse@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2026-05-27,True,,Finance,False,
+ID0282,AD,mandy.foster,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2025-06-06,True,,Finance,False,
+ID0282,AWS,mandy-foster,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2025-09-17,True,60.0,Finance,False,read_only
+ID0282,Okta,mandy.foster@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2026-05-23,True,,Finance,False,
+ID0283,AD,nancy.stewart,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-Sales-Staff|GG-CRM-Access,standard,2025-06-11,False,,Sales,False,
+ID0283,AWS,nancy-stewart,,inactive,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-07-11,True,198.0,Sales,False,read_only
+ID0283,Okta,nancy.stewart@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,,True,,Sales,False,
+ID0284,AD,joshua.oconnell,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2026-04-08,True,,Sales,False,
+ID0284,AWS,joshua-oconnell,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-05-20,False,71.0,Sales,False,read_only
+ID0284,Okta,joshua.oconnell@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2026-03-23,False,,Sales,False,
+ID0285,AD,melissa.williams,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access|GG-Domain-Admins,admin,2025-09-09,False,,HR,False,
+ID0285,AWS,melissa-williams,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-02-23,False,718.0,HR,False,admin
+ID0285,Okta,melissa.williams@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2025-12-07,True,,HR,False,
+ID0286,AD,carrie.crane,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2026-03-18,False,,Finance,False,
+ID0286,AWS,carrie-crane,,inactive,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2026-01-18,False,58.0,Finance,False,read_only
+ID0286,Okta,carrie.crane@socgen.com,,suspended,SAP S4HANA|Workday|Slack|Concur,standard,,False,,Finance,False,
+ID0287,AD,antonio.norman,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2026-05-22,False,,Legal,False,
+ID0287,AWS,antonio-norman,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-09-22,True,143.0,Legal,False,read_only
+ID0287,Okta,antonio.norman@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2025-12-04,True,,Legal,False,
+ID0288,AD,deanna.hess,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2026-02-10,True,,Engineering,False,
+ID0288,AWS,deanna-hess,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-03-05,True,21.0,Engineering,False,read_only
+ID0288,Okta,deanna.hess@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2025-12-13,True,,Engineering,False,
+ID0289,AD,tom.williams,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",disabled,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk,standard,2025-12-09,True,,IT,True,
+ID0289,AWS,tom-williams,,inactive,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-05-05,False,49.0,IT,True,read_only
+ID0289,Okta,tom.williams@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2025-09-07,True,,IT,True,
+ID0290,AD,terry.hill,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2025-10-18,True,,Engineering,False,
+ID0290,AWS,terry-hill,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2026-01-16,True,86.0,Engineering,False,read_only
+ID0290,Okta,terry.hill@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2026-03-04,True,,Engineering,False,
+ID0291,AD,karen.miller,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2025-06-06,True,,HR,False,
+ID0291,AWS,karen-miller,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-10-18,True,194.0,HR,False,read_only
+ID0291,Okta,karen.miller@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2026-03-08,False,,HR,False,
+ID0292,AD,virginia.casey,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2026-02-18,False,,HR,False,
+ID0292,AWS,virginia-casey,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-10-25,False,98.0,HR,False,read_only
+ID0292,Okta,virginia.casey@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2025-12-19,True,,HR,False,
+ID0293,AD,alyssa.cochran,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2026-02-07,False,,IT,True,
+ID0293,AWS,alyssa-cochran,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-10-25,True,128.0,IT,True,admin
+ID0293,Okta,alyssa.cochran@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2025-10-23,True,,IT,True,
+ID0294,AD,matthew.adams,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Legal-Staff|GG-DLP-Policy,standard,2026-03-08,False,,Legal,False,
+ID0294,AWS,matthew-adams,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-09-05,True,12.0,Legal,False,read_only
+ID0294,Okta,matthew.adams@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2026-04-07,True,,Legal,False,
+ID0295,AD,kevin.drake,"OU=Finance,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Finance-Staff|GG-SAP-Users|GG-ReadOnly-FS,standard,2026-02-07,False,,Finance,False,
+ID0295,AWS,kevin-drake,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess,standard,2026-01-03,True,51.0,Finance,False,read_only
+ID0295,Okta,kevin.drake@socgen.com,,active,SAP S4HANA|Workday|Slack|Concur,standard,2025-12-08,True,,Finance,False,
+ID0296,AD,casey.johnson,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2026-01-14,False,,IT,True,
+ID0296,AWS,casey-johnson,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-01-14,False,126.0,IT,True,admin
+ID0296,Okta,casey.johnson@socgen.com,,active,AWS SSO|GitHub Enterprise|ServiceNow|Slack|CyberArk|Okta Admin Console,admin,2026-01-14,False,,IT,True,
+ID0297,AD,christopher.lang,"OU=HR,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-HR-Staff|GG-HRIS-Access,standard,2026-03-26,False,,HR,False,
+ID0297,AWS,christopher-lang,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-09-14,True,185.0,HR,False,read_only
+ID0297,Okta,christopher.lang@socgen.com,,active,Workday|Slack|ServiceNow|BambooHR,standard,2026-03-18,True,,HR,False,
+ID0298,AD,jacqueline.mcmahon,"OU=Legal,OU=Users,DC=corp,DC=socgen,DC=com",disabled,GG-Legal-Staff|GG-DLP-Policy,standard,2025-07-13,True,,Legal,False,
+ID0298,AWS,jacqueline-mcmahon,,inactive,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-04-11,False,106.0,Legal,False,read_only
+ID0298,Okta,jacqueline.mcmahon@socgen.com,,active,SharePoint|Slack|DocuSign|Relativity,standard,2026-02-22,True,,Legal,False,
+ID0299,AD,toni.banks,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2025-06-23,True,,Engineering,False,
+ID0299,AWS,toni-banks,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-10-30,True,883.0,Engineering,False,read_only
+ID0299,Okta,toni.banks@socgen.com,,active,GitHub Enterprise|AWS SSO|Jira|Slack|Confluence,standard,2026-05-21,False,,Engineering,False,
+ID0300,AD,nicholas.phillips,"OU=Sales,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Sales-Staff|GG-CRM-Access,standard,2025-07-18,False,,Sales,False,
+ID0300,AWS,nicholas-phillips,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-06-14,True,787.0,Sales,False,read_only
+ID0300,Okta,nicholas.phillips@socgen.com,,active,Salesforce|Slack|Zoom|HubSpot,standard,2025-09-22,True,,Sales,False,
+ID0301,AD,evan.lamb,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",disabled,GG-Contractors|GG-Guest-Access,standard,2025-06-28,False,,External,False,
+ID0301,AWS,evan-lamb,,inactive,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-04-27,True,46.0,External,False,read_only
+ID0301,Okta,evan.lamb@external.socgen.com,,active,Jira|Slack,standard,,True,,External,False,
+ID0302,AD,patrick.young,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",active,GG-Contractors|GG-Guest-Access,standard,2026-02-17,True,,External,False,
+ID0302,AWS,patrick-young,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-04-29,True,65.0,External,False,read_only
+ID0302,Okta,patrick.young@external.socgen.com,,active,Jira|Slack,standard,2026-02-04,False,,External,False,
+ID0303,AD,daniel.steele,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",disabled,GG-Contractors|GG-Guest-Access,standard,2026-02-16,True,,External,False,
+ID0303,AWS,daniel-steele,,inactive,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-07-21,False,21.0,External,False,read_only
+ID0303,Okta,daniel.steele@external.socgen.com,,active,Jira|Slack,standard,,True,,External,False,
+ID0304,AD,nicholas.costa,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",disabled,GG-Contractors|GG-Guest-Access,standard,2025-07-29,True,,External,False,
+ID0304,AWS,nicholas-costa,,inactive,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-10-08,True,22.0,External,False,read_only
+ID0304,Okta,nicholas.costa@external.socgen.com,,suspended,Jira|Slack,standard,,True,,External,False,
+ID0305,AD,ashley.mendoza,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",disabled,GG-Contractors|GG-Guest-Access,standard,2025-07-01,False,,External,False,
+ID0305,AWS,ashley-mendoza,,inactive,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-07-05,True,20.0,External,False,read_only
+ID0305,Okta,ashley.mendoza@external.socgen.com,,active,Jira|Slack,standard,2025-09-15,True,,External,False,
+ID0306,AD,fernando.lynn,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",active,GG-Contractors|GG-Guest-Access,standard,2026-03-21,False,,External,False,
+ID0306,AWS,fernando-lynn,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-08-24,True,578.0,External,False,read_only
+ID0306,Okta,fernando.lynn@external.socgen.com,,active,Jira|Slack,standard,2025-11-29,True,,External,False,
+ID0307,AD,kimberly.villanueva,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",active,GG-Contractors|GG-Guest-Access|GG-Domain-Admins,admin,2026-01-18,True,,External,False,
+ID0307,AWS,kimberly-villanueva,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-04-19,True,146.0,External,False,admin
+ID0307,Okta,kimberly.villanueva@external.socgen.com,,active,Jira|Slack,standard,2025-09-17,True,,External,False,
+ID0308,AD,jessica.valdez,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",active,GG-Contractors|GG-Guest-Access,standard,2025-12-06,True,,External,False,
+ID0308,AWS,jessica-valdez,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-06-15,True,177.0,External,False,read_only
+ID0308,Okta,jessica.valdez@external.socgen.com,,active,Jira|Slack,standard,2025-10-07,True,,External,False,
+ID0309,AD,colton.terry,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",disabled,GG-Contractors|GG-Guest-Access,standard,2025-12-28,False,,External,False,
+ID0309,AWS,colton-terry,,inactive,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-06-05,False,84.0,External,False,read_only
+ID0309,Okta,colton.terry@external.socgen.com,,suspended,Jira|Slack,standard,,False,,External,False,
+ID0310,AD,kenneth.larsen,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",disabled,GG-Contractors|GG-Guest-Access,standard,2025-11-11,True,,External,False,
+ID0310,AWS,kenneth-larsen,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-12-08,True,170.0,External,False,read_only
+ID0310,Okta,kenneth.larsen@external.socgen.com,,active,Jira|Slack,standard,,True,,External,False,
+ID0311,AD,matthew.greene,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",disabled,GG-Contractors|GG-Guest-Access,standard,2025-06-21,True,,External,False,
+ID0311,AWS,matthew-greene,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-12-18,True,82.0,External,False,read_only
+ID0311,Okta,matthew.greene@external.socgen.com,,active,Jira|Slack,standard,2026-05-05,True,,External,False,
+ID0312,AD,bradley.anthony,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",active,GG-Contractors|GG-Guest-Access|GG-Domain-Admins,admin,2025-07-29,False,,External,False,
+ID0312,AWS,bradley-anthony,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-07-29,True,70.0,External,False,admin
+ID0312,Okta,bradley.anthony@external.socgen.com,,active,Jira|Slack,standard,2025-07-29,True,,External,False,
+ID0313,AD,martin.hughes,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",active,GG-Contractors|GG-Guest-Access,elevated,2025-11-12,False,,External,False,
+ID0313,AWS,martin-hughes,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-11-24,True,132.0,External,False,read_only
+ID0313,Okta,martin.hughes@external.socgen.com,,active,Jira|Slack,standard,2026-06-07,True,,External,False,
+ID0314,AD,jeremiah.baker,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",disabled,GG-Contractors|GG-Guest-Access,standard,2026-01-05,False,,External,False,
+ID0314,AWS,jeremiah-baker,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-12-04,True,789.0,External,False,read_only
+ID0314,Okta,jeremiah.baker@external.socgen.com,,suspended,Jira|Slack,standard,,True,,External,False,
+ID0315,AD,rhonda.gutierrez,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",disabled,GG-Contractors|GG-Guest-Access,standard,2026-04-10,False,,External,False,
+ID0315,AWS,rhonda-gutierrez,,inactive,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-04-07,True,127.0,External,False,read_only
+ID0315,Okta,rhonda.gutierrez@external.socgen.com,,active,Jira|Slack,standard,,False,,External,False,
+ID0316,AD,joseph.camacho,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",active,GG-Contractors|GG-Guest-Access|GG-Domain-Admins,admin,2026-01-30,False,,External,False,
+ID0316,AWS,joseph-camacho,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-12-18,True,20.0,External,False,admin
+ID0316,Okta,joseph.camacho@external.socgen.com,,active,Jira|Slack,standard,2026-02-14,False,,External,False,
+ID0317,AD,james.nash,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",disabled,GG-Contractors|GG-Guest-Access,standard,2026-01-16,True,,External,False,
+ID0317,AWS,james-nash,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-04-16,False,86.0,External,False,read_only
+ID0317,Okta,james.nash@external.socgen.com,,active,Jira|Slack,standard,2025-12-08,True,,External,False,
+ID0318,AD,lisa.martinez,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",active,GG-Contractors|GG-Guest-Access,elevated,2025-11-07,False,,External,False,
+ID0318,AWS,lisa-martinez,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-02-07,False,167.0,External,False,read_only
+ID0318,Okta,lisa.martinez@external.socgen.com,,active,Jira|Slack,standard,2026-04-12,True,,External,False,
+ID0319,AD,beth.henderson,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",disabled,GG-Contractors|GG-Guest-Access,standard,2026-01-11,True,,External,False,
+ID0319,AWS,beth-henderson,,inactive,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-01-22,False,82.0,External,False,read_only
+ID0319,Okta,beth.henderson@external.socgen.com,,active,Jira|Slack,standard,2025-10-12,True,,External,False,
+ID0320,AD,deanna.bartlett,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",active,GG-Contractors|GG-Guest-Access,elevated,2026-01-05,False,,External,False,
+ID0320,AWS,deanna-bartlett,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-12-16,True,101.0,External,False,read_only
+ID0320,Okta,deanna.bartlett@external.socgen.com,,active,Jira|Slack,standard,2025-09-05,True,,External,False,
+ID0321,AD,donald.ellis,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",disabled,GG-Contractors|GG-Guest-Access,standard,2025-09-12,True,,External,False,
+ID0321,AWS,donald-ellis,,inactive,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-02-23,False,119.0,External,False,read_only
+ID0321,Okta,donald.ellis@external.socgen.com,,suspended,Jira|Slack,standard,,False,,External,False,
+ID0322,AD,ashley.hernandez,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",active,GG-Contractors|GG-Guest-Access,standard,2026-01-22,True,,External,False,
+ID0322,AWS,ashley-hernandez,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-07-11,True,105.0,External,False,read_only
+ID0322,Okta,ashley.hernandez@external.socgen.com,,active,Jira|Slack,standard,2026-04-10,True,,External,False,
+ID0323,AD,sharon.beard,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",active,GG-Contractors|GG-Guest-Access,standard,2026-02-17,False,,External,False,
+ID0323,AWS,sharon-beard,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-11-16,True,184.0,External,False,read_only
+ID0323,Okta,sharon.beard@external.socgen.com,,active,Jira|Slack,standard,2026-05-14,False,,External,False,
+ID0324,AD,kara.jackson,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",active,GG-Contractors|GG-Guest-Access,standard,2025-08-18,False,,External,False,
+ID0324,AWS,kara-jackson,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-10-04,False,137.0,External,False,read_only
+ID0324,Okta,kara.jackson@external.socgen.com,,active,Jira|Slack,standard,2025-11-18,True,,External,False,
+ID0325,AD,amanda.preston,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",disabled,GG-Contractors|GG-Guest-Access,standard,2025-09-19,True,,External,False,
+ID0325,AWS,amanda-preston,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-07-19,False,620.0,External,False,read_only
+ID0325,Okta,amanda.preston@external.socgen.com,,suspended,Jira|Slack,standard,,True,,External,False,
+ID0326,AD,alicia.roth,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",disabled,GG-Contractors|GG-Guest-Access,standard,2025-07-09,False,,External,False,
+ID0326,AWS,alicia-roth,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-02-11,True,85.0,External,False,read_only
+ID0326,Okta,alicia.roth@external.socgen.com,,suspended,Jira|Slack,standard,,True,,External,False,
+ID0327,AD,william.ramos,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",active,GG-Contractors|GG-Guest-Access,standard,2026-05-01,False,,External,False,
+ID0327,AWS,william-ramos,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-09-28,False,192.0,External,False,read_only
+ID0327,Okta,william.ramos@external.socgen.com,,active,Jira|Slack,standard,2025-08-27,True,,External,False,
+ID0328,AD,jeremy.mcintyre,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",disabled,GG-Contractors|GG-Guest-Access,standard,2025-08-23,True,,External,False,
+ID0328,AWS,jeremy-mcintyre,,inactive,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-10-16,True,7.0,External,False,read_only
+ID0328,Okta,jeremy.mcintyre@external.socgen.com,,active,Jira|Slack,standard,,False,,External,False,
+ID0329,AD,samantha.robertson,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",disabled,GG-Contractors|GG-Guest-Access,standard,2025-06-12,True,,External,False,
+ID0329,AWS,samantha-robertson,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-10-30,True,88.0,External,False,read_only
+ID0329,Okta,samantha.robertson@external.socgen.com,,suspended,Jira|Slack,standard,,False,,External,False,
+ID0330,AD,samuel.suarez,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",active,GG-Contractors|GG-Guest-Access,standard,2025-12-24,False,,External,False,
+ID0330,AWS,samuel-suarez,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-01-08,True,829.0,External,False,read_only
+ID0330,Okta,samuel.suarez@external.socgen.com,,active,Jira|Slack,standard,2026-01-18,True,,External,False,
+ID0331,AD,danielle.bryant,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",disabled,GG-Contractors|GG-Guest-Access,standard,2025-07-24,True,,External,False,
+ID0331,AWS,danielle-bryant,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-03-01,False,43.0,External,False,read_only
+ID0331,Okta,danielle.bryant@external.socgen.com,,suspended,Jira|Slack,standard,,True,,External,False,
+ID0332,AD,madison.martinez,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",active,GG-Contractors|GG-Guest-Access,elevated,2025-09-11,True,,External,False,
+ID0332,AWS,madison-martinez,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-02-15,True,110.0,External,False,read_only
+ID0332,Okta,madison.martinez@external.socgen.com,,active,Jira|Slack,standard,2026-02-22,False,,External,False,
+ID0333,AD,seth.matthews,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",active,GG-Contractors|GG-Guest-Access,standard,2025-08-02,True,,External,False,
+ID0333,AWS,seth-matthews,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-11-11,True,169.0,External,False,read_only
+ID0333,Okta,seth.matthews@external.socgen.com,,active,Jira|Slack,standard,2026-06-06,True,,External,False,
+ID0334,AD,anthony.nash,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",active,GG-Contractors|GG-Guest-Access,standard,2025-11-02,False,,External,False,
+ID0334,AWS,anthony-nash,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-03-03,True,181.0,External,False,read_only
+ID0334,Okta,anthony.nash@external.socgen.com,,active,Jira|Slack,standard,2026-01-29,True,,External,False,
+ID0335,AD,matthew.palmer,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",disabled,GG-Contractors|GG-Guest-Access,standard,2025-12-15,False,,External,False,
+ID0335,AWS,matthew-palmer,,inactive,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-02-06,False,30.0,External,False,read_only
+ID0335,Okta,matthew.palmer@external.socgen.com,,suspended,Jira|Slack,standard,,True,,External,False,
+ID0336,AD,alejandra.king,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",active,GG-Contractors|GG-Guest-Access,standard,2025-08-19,False,,External,False,
+ID0336,AWS,alejandra-king,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-04-23,True,151.0,External,False,read_only
+ID0336,Okta,alejandra.king@external.socgen.com,,active,Jira|Slack,standard,2025-12-22,False,,External,False,
+ID0337,AD,judy.robinson,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",active,GG-Contractors|GG-Guest-Access,standard,2025-08-08,True,,External,False,
+ID0337,AWS,judy-robinson,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-05-07,True,181.0,External,False,read_only
+ID0337,Okta,judy.robinson@external.socgen.com,,active,Jira|Slack,standard,2026-05-08,True,,External,False,
+ID0338,AD,jorge.bates,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",active,GG-Contractors|GG-Guest-Access,standard,2026-01-11,True,,External,False,
+ID0338,AWS,jorge-bates,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-03-19,True,30.0,External,False,read_only
+ID0338,Okta,jorge.bates@external.socgen.com,,active,Jira|Slack,standard,2026-04-09,False,,External,False,
+ID0339,AD,brian.brown,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",active,GG-Contractors|GG-Guest-Access,standard,2025-11-18,True,,External,False,
+ID0339,AWS,brian-brown,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-03-17,True,109.0,External,False,read_only
+ID0339,Okta,brian.brown@external.socgen.com,,active,Jira|Slack,standard,2025-09-18,True,,External,False,
+ID0340,AD,stephanie.evans,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",disabled,GG-Contractors|GG-Guest-Access,standard,2026-01-10,False,,External,False,
+ID0340,AWS,stephanie-evans,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-02-18,True,92.0,External,False,read_only
+ID0340,Okta,stephanie.evans@external.socgen.com,,active,Jira|Slack,standard,2025-10-15,True,,External,False,
+ID0341,AD,rebekah.greene,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",disabled,GG-Contractors|GG-Guest-Access,standard,2025-07-21,False,,External,False,
+ID0341,AWS,rebekah-greene,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-11-20,False,126.0,External,False,read_only
+ID0341,Okta,rebekah.greene@external.socgen.com,,suspended,Jira|Slack,standard,,False,,External,False,
+ID0342,AD,jason.price,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",active,GG-Contractors|GG-Guest-Access,standard,2026-03-27,True,,External,False,
+ID0342,AWS,jason-price,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2026-02-28,True,195.0,External,False,read_only
+ID0342,Okta,jason.price@external.socgen.com,,active,Jira|Slack,standard,2026-06-04,True,,External,False,
+ID0343,AD,micheal.parks,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",disabled,GG-Contractors|GG-Guest-Access,standard,2025-09-04,False,,External,False,
+ID0343,AWS,micheal-parks,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-08-31,True,29.0,External,False,read_only
+ID0343,Okta,micheal.parks@external.socgen.com,,active,Jira|Slack,standard,,True,,External,False,
+ID0344,AD,sarah.pittman,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",active,GG-Contractors|GG-Guest-Access,standard,2025-09-16,True,,External,False,
+ID0344,AWS,sarah-pittman,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-09-14,True,113.0,External,False,read_only
+ID0344,Okta,sarah.pittman@external.socgen.com,,active,Jira|Slack,standard,2025-11-15,True,,External,False,
+ID0345,AD,robert.hines,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",disabled,GG-Contractors|GG-Guest-Access,standard,2026-06-04,False,,External,False,
+ID0345,AWS,robert-hines,,inactive,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-11-08,True,23.0,External,False,read_only
+ID0345,Okta,robert.hines@external.socgen.com,,active,Jira|Slack,standard,2026-02-19,True,,External,False,
+ID0346,AD,henry.garner,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",disabled,GG-Contractors|GG-Guest-Access,standard,2025-06-22,False,,External,False,
+ID0346,AWS,henry-garner,,inactive,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-05-15,True,36.0,External,False,read_only
+ID0346,Okta,henry.garner@external.socgen.com,,active,Jira|Slack,standard,,True,,External,False,
+ID0347,AD,julie.wilson,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",active,GG-Contractors|GG-Guest-Access,standard,2025-09-02,False,,External,False,
+ID0347,AWS,julie-wilson,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-09-18,True,153.0,External,False,read_only
+ID0347,Okta,julie.wilson@external.socgen.com,,active,Jira|Slack,standard,2026-01-06,True,,External,False,
+ID0348,AD,steve.mason,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",active,GG-Contractors|GG-Guest-Access,standard,2026-01-23,False,,External,False,
+ID0348,AWS,steve-mason,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-03-17,False,132.0,External,False,read_only
+ID0348,Okta,steve.mason@external.socgen.com,,active,Jira|Slack,standard,2026-05-03,True,,External,False,
+ID0349,AD,brittany.gay,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",active,GG-Contractors|GG-Guest-Access|GG-Domain-Admins,admin,2025-06-01,False,,External,False,
+ID0349,AWS,brittany-gay,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-04-03,False,71.0,External,False,admin
+ID0349,Okta,brittany.gay@external.socgen.com,,active,Jira|Slack,standard,2026-04-17,True,,External,False,
+ID0350,AD,mike.maxwell,"OU=Contractors,OU=External,DC=corp,DC=socgen,DC=com",active,GG-Contractors|GG-Guest-Access,elevated,2026-02-13,True,,External,False,
+ID0350,AWS,mike-maxwell,,active,arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess,standard,2025-05-27,False,64.0,External,False,read_only
+ID0350,Okta,mike.maxwell@external.socgen.com,,active,Jira|Slack,standard,2025-12-01,False,,External,False,
+ID0351,AD,svc-protect-test,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2026-04-09,False,,Engineering,False,
+ID0351,AWS,svc-protect-test,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-11-01,True,97.0,Engineering,False,read_only
+ID0351,Okta,,,not_applicable,,standard,,False,,Engineering,False,
+ID0352,AD,svc-article-prod,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access|GG-Domain-Admins,admin,2025-09-30,False,,Engineering,True,
+ID0352,AWS,svc-article-prod,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-10-31,True,95.0,Engineering,True,admin
+ID0352,Okta,,,not_applicable,,standard,,True,,Engineering,True,
+ID0353,AD,svc-above-dev,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access|GG-Domain-Admins,admin,2025-10-19,True,,Engineering,True,
+ID0353,AWS,svc-above-dev,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-10-19,False,118.0,Engineering,True,admin
+ID0353,Okta,,,not_applicable,,standard,2025-10-19,True,,Engineering,True,
+ID0354,AD,svc-live-dev,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk,standard,2025-09-20,False,,IT,False,
+ID0354,AWS,svc-live-dev,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-04-24,True,110.0,IT,False,read_only
+ID0354,Okta,,,not_applicable,,standard,,True,,IT,False,
+ID0355,AD,svc-eye-dev,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk,elevated,2026-01-06,False,,IT,False,
+ID0355,AWS,svc-eye-dev,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2026-04-15,False,148.0,IT,False,read_only
+ID0355,Okta,,,not_applicable,,standard,,True,,IT,False,
+ID0356,AD,svc-determine-dev,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2025-07-06,True,,IT,True,
+ID0356,AWS,svc-determine-dev,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-06-12,True,836.0,IT,True,admin
+ID0356,Okta,,,not_applicable,,standard,,False,,IT,True,
+ID0357,AD,svc-sort-test,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access|GG-Domain-Admins,admin,2026-01-26,True,,Engineering,True,
+ID0357,AWS,svc-sort-test,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-01-26,False,110.0,Engineering,True,admin
+ID0357,Okta,,,not_applicable,,standard,2026-01-26,True,,Engineering,True,
+ID0358,AD,svc-staff-test,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2026-03-31,False,,IT,True,
+ID0358,AWS,svc-staff-test,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-02-12,True,735.0,IT,True,admin
+ID0358,Okta,,,not_applicable,,standard,,True,,IT,True,
+ID0359,AD,svc-concern-test,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk,standard,2026-05-25,False,,IT,False,
+ID0359,AWS,svc-concern-test,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-06-27,True,186.0,IT,False,read_only
+ID0359,Okta,,,not_applicable,,standard,,True,,IT,False,
+ID0360,AD,svc-part-dev,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk,standard,2025-06-25,True,,IT,False,
+ID0360,AWS,svc-part-dev,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2026-05-12,True,854.0,IT,False,read_only
+ID0360,Okta,,,not_applicable,,standard,,False,,IT,False,
+ID0361,AD,svc-south-prod,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2026-06-16,True,,Engineering,False,
+ID0361,AWS,svc-south-prod,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-04-06,True,31.0,Engineering,False,read_only
+ID0361,Okta,,,not_applicable,,standard,,False,,Engineering,False,
+ID0362,AD,svc-cold-test,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk,standard,2026-05-15,True,,IT,False,
+ID0362,AWS,svc-cold-test,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-05-04,True,188.0,IT,False,read_only
+ID0362,Okta,,,not_applicable,,standard,,True,,IT,False,
+ID0363,AD,svc-might-test,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access|GG-Domain-Admins,admin,2025-12-14,False,,Engineering,True,
+ID0363,AWS,svc-might-test,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-04-30,True,199.0,Engineering,True,admin
+ID0363,Okta,,,not_applicable,,standard,,True,,Engineering,True,
+ID0364,AD,svc-stock-test,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk,standard,2025-09-22,True,,IT,False,
+ID0364,AWS,svc-stock-test,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-11-07,True,43.0,IT,False,read_only
+ID0364,Okta,,,not_applicable,,standard,,True,,IT,False,
+ID0365,AD,svc-source-dev,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2025-11-22,False,,Engineering,False,
+ID0365,AWS,svc-source-dev,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-03-18,True,23.0,Engineering,False,read_only
+ID0365,Okta,,,not_applicable,,standard,,True,,Engineering,False,
+ID0366,AD,svc-state-dev,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk,elevated,2025-08-23,False,,IT,False,
+ID0366,AWS,svc-state-dev,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2026-01-10,True,110.0,IT,False,read_only
+ID0366,Okta,,,not_applicable,,standard,,True,,IT,False,
+ID0367,AD,svc-behavior-dev,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2025-07-25,True,,IT,True,
+ID0367,AWS,svc-behavior-dev,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-08-17,False,154.0,IT,True,admin
+ID0367,Okta,,,not_applicable,,standard,,True,,IT,True,
+ID0368,AD,svc-carry-test,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2025-07-18,False,,Engineering,False,
+ID0368,AWS,svc-carry-test,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-10-03,True,156.0,Engineering,False,read_only
+ID0368,Okta,,,not_applicable,,standard,,True,,Engineering,False,
+ID0369,AD,svc-possible-test,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2025-12-27,True,,IT,True,
+ID0369,AWS,svc-possible-test,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-12-27,True,62.0,IT,True,admin
+ID0369,Okta,,,not_applicable,,standard,2025-12-27,True,,IT,True,
+ID0370,AD,svc-leader-test,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk,standard,2025-10-08,True,,IT,False,
+ID0370,AWS,svc-leader-test,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-12-18,True,4.0,IT,False,read_only
+ID0370,Okta,,,not_applicable,,standard,,False,,IT,False,
+ID0371,AD,svc-property-test,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2025-09-02,False,,Engineering,False,
+ID0371,AWS,svc-property-test,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2026-03-24,True,175.0,Engineering,False,read_only
+ID0371,Okta,,,not_applicable,,standard,,True,,Engineering,False,
+ID0372,AD,svc-laugh-test,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2025-08-24,True,,IT,True,
+ID0372,AWS,svc-laugh-test,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-05-31,True,586.0,IT,True,admin
+ID0372,Okta,,,not_applicable,,standard,,True,,IT,True,
+ID0373,AD,svc-international-dev,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access|GG-Domain-Admins,admin,2025-08-03,False,,Engineering,True,
+ID0373,AWS,svc-international-dev,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-05-09,False,103.0,Engineering,True,admin
+ID0373,Okta,,,not_applicable,,standard,,True,,Engineering,True,
+ID0374,AD,svc-laugh-test,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2026-01-29,True,,IT,True,
+ID0374,AWS,svc-laugh-test,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-03-06,True,131.0,IT,True,admin
+ID0374,Okta,,,not_applicable,,standard,,True,,IT,True,
+ID0375,AD,svc-me-dev,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access|GG-Domain-Admins,admin,2025-10-27,True,,Engineering,True,
+ID0375,AWS,svc-me-dev,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-10-27,True,112.0,Engineering,True,admin
+ID0375,Okta,,,not_applicable,,standard,2025-10-27,True,,Engineering,True,
+ID0376,AD,svc-identify-dev,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk,standard,2026-05-07,False,,IT,False,
+ID0376,AWS,svc-identify-dev,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2026-01-13,False,422.0,IT,False,read_only
+ID0376,Okta,,,not_applicable,,standard,,True,,IT,False,
+ID0377,AD,svc-above-dev,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk,standard,2026-06-14,True,,IT,False,
+ID0377,AWS,svc-above-dev,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-10-09,True,42.0,IT,False,read_only
+ID0377,Okta,,,not_applicable,,standard,,True,,IT,False,
+ID0378,AD,svc-always-prod,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk,standard,2026-03-27,False,,IT,False,
+ID0378,AWS,svc-always-prod,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-03-30,True,200.0,IT,False,read_only
+ID0378,Okta,,,not_applicable,,standard,,True,,IT,False,
+ID0379,AD,svc-none-prod,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2025-07-26,False,,IT,False,
+ID0379,AWS,svc-none-prod,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-07-26,False,17.0,IT,False,admin
+ID0379,Okta,,,not_applicable,,standard,2025-07-26,True,,IT,False,
+ID0380,AD,svc-decision-test,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2025-10-09,False,,IT,True,
+ID0380,AWS,svc-decision-test,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-10-08,False,15.0,IT,True,admin
+ID0380,Okta,,,not_applicable,,standard,,True,,IT,True,
+ID0381,AD,svc-side-prod,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk,standard,2026-04-01,False,,IT,False,
+ID0381,AWS,svc-side-prod,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-07-10,False,147.0,IT,False,read_only
+ID0381,Okta,,,not_applicable,,standard,,True,,IT,False,
+ID0382,AD,svc-hour-test,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2025-06-06,True,,IT,False,
+ID0382,AWS,svc-hour-test,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-02-15,True,378.0,IT,False,admin
+ID0382,Okta,,,not_applicable,,standard,,True,,IT,False,
+ID0383,AD,svc-address-prod,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2025-12-06,True,,Engineering,False,
+ID0383,AWS,svc-address-prod,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-09-10,False,10.0,Engineering,False,read_only
+ID0383,Okta,,,not_applicable,,standard,,True,,Engineering,False,
+ID0384,AD,svc-wait-test,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk,standard,2026-01-07,True,,IT,False,
+ID0384,AWS,svc-wait-test,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2026-01-08,True,185.0,IT,False,read_only
+ID0384,Okta,,,not_applicable,,standard,,True,,IT,False,
+ID0385,AD,svc-fund-dev,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access|GG-Domain-Admins,admin,2026-02-23,True,,Engineering,True,
+ID0385,AWS,svc-fund-dev,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-02-23,True,133.0,Engineering,True,admin
+ID0385,Okta,,,not_applicable,,standard,2026-02-23,False,,Engineering,True,
+ID0386,AD,svc-sometimes-prod,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access|GG-Domain-Admins,admin,2025-09-10,False,,Engineering,True,
+ID0386,AWS,svc-sometimes-prod,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-09-10,True,142.0,Engineering,True,admin
+ID0386,Okta,,,not_applicable,,standard,2025-09-10,True,,Engineering,True,
+ID0387,AD,svc-these-prod,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access|GG-Domain-Admins,admin,2026-01-22,False,,Engineering,True,
+ID0387,AWS,svc-these-prod,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-10-26,True,63.0,Engineering,True,admin
+ID0387,Okta,,,not_applicable,,standard,,True,,Engineering,True,
+ID0388,AD,svc-nice-dev,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2025-06-10,True,,Engineering,False,
+ID0388,AWS,svc-nice-dev,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2026-06-08,True,105.0,Engineering,False,read_only
+ID0388,Okta,,,not_applicable,,standard,,True,,Engineering,False,
+ID0389,AD,svc-cut-dev,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access|GG-Domain-Admins,admin,2025-07-30,True,,Engineering,True,
+ID0389,AWS,svc-cut-dev,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-05-28,False,1.0,Engineering,True,admin
+ID0389,Okta,,,not_applicable,,standard,,True,,Engineering,True,
+ID0390,AD,svc-affect-prod,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2026-04-28,True,,IT,True,
+ID0390,AWS,svc-affect-prod,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-11-18,True,61.0,IT,True,admin
+ID0390,Okta,,,not_applicable,,standard,,True,,IT,True,
+ID0391,AD,svc-require-test,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2025-06-21,False,,Engineering,False,
+ID0391,AWS,svc-require-test,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-03-18,False,603.0,Engineering,False,read_only
+ID0391,Okta,,,not_applicable,,standard,,True,,Engineering,False,
+ID0392,AD,svc-above-prod,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk,standard,2025-10-29,True,,IT,False,
+ID0392,AWS,svc-above-prod,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2026-04-13,False,130.0,IT,False,read_only
+ID0392,Okta,,,not_applicable,,standard,,True,,IT,False,
+ID0393,AD,svc-produce-prod,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access|GG-Domain-Admins,admin,2025-11-28,True,,Engineering,True,
+ID0393,AWS,svc-produce-prod,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-11-28,True,34.0,Engineering,True,admin
+ID0393,Okta,,,not_applicable,,standard,2025-11-28,True,,Engineering,True,
+ID0394,AD,svc-similar-prod,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access|GG-Domain-Admins,admin,2025-12-01,False,,Engineering,True,
+ID0394,AWS,svc-similar-prod,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-02-21,True,70.0,Engineering,True,admin
+ID0394,Okta,,,not_applicable,,standard,,True,,Engineering,True,
+ID0395,AD,svc-energy-dev,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access,standard,2025-05-17,True,,Engineering,False,
+ID0395,AWS,svc-energy-dev,,active,arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess|arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess|arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess,standard,2025-11-02,True,43.0,Engineering,False,read_only
+ID0395,Okta,,,not_applicable,,standard,,False,,Engineering,False,
+ID0396,AD,svc-draw-prod,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access|GG-Domain-Admins,admin,2025-12-21,False,,Engineering,True,
+ID0396,AWS,svc-draw-prod,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-12-21,True,54.0,Engineering,True,admin
+ID0396,Okta,,,not_applicable,,standard,2025-12-21,True,,Engineering,True,
+ID0397,AD,svc-rule-prod,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access|GG-Domain-Admins,admin,2025-11-02,True,,Engineering,True,
+ID0397,AWS,svc-rule-prod,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2025-11-02,False,176.0,Engineering,True,admin
+ID0397,Okta,,,not_applicable,,standard,2025-11-02,True,,Engineering,True,
+ID0398,AD,svc-understand-prod,"OU=IT,OU=Privileged,DC=corp,DC=socgen,DC=com",active,GG-IT-Staff|GG-Infra-Ops|GG-ServiceDesk|GG-Domain-Admins,admin,2026-02-11,True,,IT,True,
+ID0398,AWS,svc-understand-prod,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-02-11,True,620.0,IT,True,admin
+ID0398,Okta,,,not_applicable,,standard,2026-02-11,True,,IT,True,
+ID0399,AD,svc-guy-test,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access|GG-Domain-Admins,admin,2025-07-09,False,,Engineering,True,
+ID0399,AWS,svc-guy-test,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-06-05,True,45.0,Engineering,True,admin
+ID0399,Okta,,,not_applicable,,standard,,True,,Engineering,True,
+ID0400,AD,svc-forget-prod,"OU=Engineering,OU=Users,DC=corp,DC=socgen,DC=com",active,GG-Dev-Staff|GG-Git-Users|GG-VPN-Access|GG-Domain-Admins,admin,2026-05-03,False,,Engineering,True,
+ID0400,AWS,svc-forget-prod,,active,arn:aws:iam::aws:policy/AdministratorAccess,admin,2026-04-19,True,509.0,Engineering,True,admin
+ID0400,Okta,,,not_applicable,,standard,,True,,Engineering,True,

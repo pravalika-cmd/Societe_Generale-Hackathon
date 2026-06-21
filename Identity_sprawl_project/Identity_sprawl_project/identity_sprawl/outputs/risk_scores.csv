@@ -1,0 +1,401 @@
+identity_id,name,type,department,is_terminated,effective_privilege,is_cross_platform_admin,inherited_admin,days_since_last_login,has_offboarding_gap,last_role_change_date,AWS_api_key_age,risk_score,risk_band,reasons,anomaly_count
+ID0001,Allison Hill,employee,Legal,True,standard,False,False,79,True,2024-12-04,29.0,40,HIGH,"OFFBOARDING_GAP: Terminated but active on AWS, Okta",1
+ID0002,David Guzman,employee,Legal,False,standard,False,False,129,False,,153.0,0,LOW,No anomalies detected,0
+ID0003,Caitlin Henderson,employee,Engineering,False,standard,False,False,175,False,2021-10-23,138.0,0,LOW,No anomalies detected,0
+ID0004,Renee Blair,employee,Finance,False,standard,False,False,135,False,,1.0,0,LOW,No anomalies detected,0
+ID0005,Michele Williams,employee,Legal,False,standard,False,False,260,False,,77.0,35,MEDIUM,PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log,1
+ID0006,Roy Martin,employee,IT,False,admin,True,False,368,False,,139.0,55,HIGH,"DORMANT_ADMIN: Admin privilege with 368 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",2
+ID0007,William Bowman,employee,Finance,False,standard,False,False,123,False,2025-07-09,737.0,20,MEDIUM,STALE_TOKEN: AWS API key is 737 days old,1
+ID0008,Austin Gentry,employee,HR,True,standard,False,False,66,True,,195.0,40,HIGH,OFFBOARDING_GAP: Terminated but active on Okta,1
+ID0009,Nicole Patterson,employee,HR,False,standard,False,False,217,False,2024-05-12,156.0,0,LOW,No anomalies detected,0
+ID0010,Rebecca Henderson,employee,Sales,False,standard,False,False,225,False,,172.0,35,MEDIUM,PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log,1
+ID0011,Ashley Dyer,employee,Sales,False,standard,False,False,11,False,,87.0,0,LOW,No anomalies detected,0
+ID0012,Pamela Romero,employee,HR,False,standard,False,False,17,False,2022-01-23,426.0,20,MEDIUM,STALE_TOKEN: AWS API key is 426 days old,1
+ID0013,Paula Moreno,employee,HR,False,standard,False,False,37,False,,125.0,35,MEDIUM,PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log,1
+ID0014,Shawn Arroyo,employee,IT,False,admin,True,False,49,False,,49.0,0,LOW,"CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",0
+ID0015,Joseph Obrien,employee,Finance,False,standard,False,False,28,False,,187.0,0,LOW,No anomalies detected,0
+ID0016,Joseph Martinez,employee,Legal,False,standard,False,False,98,False,,28.0,0,LOW,No anomalies detected,0
+ID0017,Taylor Heath,employee,Finance,False,standard,False,False,72,False,2024-03-31,119.0,0,LOW,No anomalies detected,0
+ID0018,Dana Kennedy,employee,HR,False,standard,False,False,26,False,2022-06-10,193.0,0,LOW,No anomalies detected,0
+ID0019,Victoria Garcia,employee,Engineering,False,standard,False,False,85,False,,103.0,0,LOW,No anomalies detected,0
+ID0020,Javier Ramirez,employee,IT,True,admin,False,True,233,True,,188.0,85,CRITICAL,"OFFBOARDING_GAP: Terminated but active on AWS, Okta | DORMANT_ADMIN: Admin privilege with 233 days since last login | INHERITED_ADMIN: Hidden admin via GG-Domain-Admins | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",3
+ID0021,Tammy Allison,employee,HR,False,standard,False,False,98,False,,15.0,0,LOW,No anomalies detected,0
+ID0022,Mrs. Rachel Gibson,employee,Legal,False,admin,True,False,237,False,2023-10-13,854.0,100,CRITICAL,"DORMANT_ADMIN: Admin privilege with 237 days since last login | CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS | STALE_TOKEN: AWS API key is 854 days old | DORMANT_ADMIN_ROLE_CHANGE: Admin dormant 237d, but role changed on 2023-10-13 — verify transition is legitimate",4
+ID0023,Lauren Daniels,employee,Legal,False,standard,False,False,121,False,,18.0,0,LOW,No anomalies detected,0
+ID0024,Cody Larson,employee,HR,False,standard,False,False,62,False,2026-04-15,11.0,0,LOW,No anomalies detected,0
+ID0025,Krystal Stewart,employee,Engineering,False,standard,False,False,123,False,2025-09-04,81.0,0,LOW,No anomalies detected,0
+ID0026,Timothy Walls,employee,Legal,False,standard,False,False,5,False,,193.0,0,LOW,No anomalies detected,0
+ID0027,Timothy Ibarra,employee,Sales,False,standard,False,False,68,False,,584.0,20,MEDIUM,STALE_TOKEN: AWS API key is 584 days old,1
+ID0028,Robert Evans,employee,Engineering,False,standard,False,False,36,False,,41.0,0,LOW,No anomalies detected,0
+ID0029,Douglas Clark,employee,Sales,False,standard,False,False,136,False,,27.0,0,LOW,No anomalies detected,0
+ID0030,Jeff Hill,employee,HR,False,standard,False,False,55,False,2025-02-25,155.0,0,LOW,No anomalies detected,0
+ID0031,Ashley Landry,employee,Legal,False,standard,False,False,48,False,,65.0,0,LOW,No anomalies detected,0
+ID0032,Rebecca Valencia,employee,Sales,False,standard,False,False,83,False,,499.0,20,MEDIUM,STALE_TOKEN: AWS API key is 499 days old,1
+ID0033,Nicole Frost,employee,Legal,False,standard,False,False,39,False,2022-02-05,29.0,0,LOW,No anomalies detected,0
+ID0034,Evelyn Galvan,employee,Sales,False,admin,True,False,193,False,,11.0,65,CRITICAL,"DORMANT_ADMIN: Admin privilege with 193 days since last login | CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS",2
+ID0035,Robert Stevens,employee,IT,True,admin,False,True,80,True,,192.0,50,HIGH,OFFBOARDING_GAP: Terminated but active on Okta | INHERITED_ADMIN: Hidden admin via GG-Domain-Admins | LEGITIMATE_HIGH_PRIV: IT department admin — expected role,2
+ID0036,Benjamin Ayala,employee,HR,True,standard,False,False,171,True,,189.0,40,HIGH,"OFFBOARDING_GAP: Terminated but active on AWS, Okta",1
+ID0037,Victor Baker,employee,Engineering,False,standard,False,False,114,False,,10.0,0,LOW,No anomalies detected,0
+ID0038,Kenneth Scott,employee,Sales,False,standard,False,False,99,False,,59.0,0,LOW,No anomalies detected,0
+ID0039,Benjamin Beck,employee,Sales,False,standard,False,False,143,False,,198.0,0,LOW,No anomalies detected,0
+ID0040,Cheryl Ortega,employee,IT,False,admin,False,True,92,False,,30.0,45,HIGH,DORMANT_ADMIN: Admin privilege with 92 days since last login | INHERITED_ADMIN: Hidden admin via GG-Domain-Admins | LEGITIMATE_HIGH_PRIV: IT department admin — expected role,2
+ID0041,Jeffrey Carpenter,employee,Legal,False,admin,True,False,20,False,,89.0,30,MEDIUM,"CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS",1
+ID0042,Diane Beck,employee,Legal,False,standard,False,False,198,False,,182.0,35,MEDIUM,PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log,1
+ID0043,William Carr,employee,IT,False,admin,True,False,64,False,2024-09-06,704.0,5,LOW,"CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | STALE_TOKEN: AWS API key is 704 days old | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",1
+ID0044,Michael Stafford,employee,Sales,False,standard,False,False,152,False,2020-07-25,84.0,0,LOW,No anomalies detected,0
+ID0045,Robert Contreras,employee,Legal,True,standard,False,False,208,True,,78.0,0,LOW,No anomalies detected,0
+ID0046,Natasha Wells,employee,HR,False,admin,True,False,147,False,,149.0,65,CRITICAL,"DORMANT_ADMIN: Admin privilege with 147 days since last login | CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS",2
+ID0047,Cynthia Rogers,employee,IT,False,admin,True,False,87,False,,131.0,20,MEDIUM,"CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | PRIVILEGE_ESCALATION: 2 unexpected privilege change(s) in audit log | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",1
+ID0048,Jennifer Clark,employee,Sales,False,standard,False,False,116,False,,606.0,20,MEDIUM,STALE_TOKEN: AWS API key is 606 days old,1
+ID0049,Aaron Bell,employee,IT,True,admin,False,True,295,True,,162.0,85,CRITICAL,"OFFBOARDING_GAP: Terminated but active on AWS, Okta | DORMANT_ADMIN: Admin privilege with 295 days since last login | INHERITED_ADMIN: Hidden admin via GG-Domain-Admins | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",3
+ID0050,Don Tucker MD,employee,IT,False,admin,True,False,135,False,,177.0,20,MEDIUM,"DORMANT_ADMIN: Admin privilege with 135 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",1
+ID0051,Leslie Alvarado,employee,Legal,False,standard,False,False,91,False,2023-03-03,621.0,20,MEDIUM,STALE_TOKEN: AWS API key is 621 days old,1
+ID0052,Gabriel Juarez,employee,Legal,False,standard,False,False,238,False,2023-04-02,114.0,0,LOW,No anomalies detected,0
+ID0053,Trevor Walker,employee,Finance,False,admin,True,False,231,False,,191.0,100,CRITICAL,"DORMANT_ADMIN: Admin privilege with 231 days since last login | CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS | PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log",3
+ID0054,Cynthia Wells,employee,HR,False,standard,False,False,249,False,,71.0,0,LOW,No anomalies detected,0
+ID0055,Carla Collins,employee,IT,True,admin,False,True,42,True,,139.0,50,HIGH,OFFBOARDING_GAP: Terminated but active on AWS | INHERITED_ADMIN: Hidden admin via GG-Domain-Admins | LEGITIMATE_HIGH_PRIV: IT department admin — expected role,2
+ID0056,Sandra Sanchez,employee,Engineering,False,standard,False,False,170,False,,17.0,0,LOW,No anomalies detected,0
+ID0057,Matthew Smith,employee,Finance,False,standard,False,False,11,False,2023-09-03,108.0,35,MEDIUM,PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log,1
+ID0058,Jessica Gross,employee,Engineering,False,standard,False,False,215,False,,77.0,0,LOW,No anomalies detected,0
+ID0059,David Michael,employee,HR,False,standard,False,False,15,False,,125.0,0,LOW,No anomalies detected,0
+ID0060,Daniel Salinas,employee,Legal,False,standard,False,False,14,False,,33.0,0,LOW,No anomalies detected,0
+ID0061,Peter Vaughn DDS,employee,Finance,False,standard,False,False,70,False,2025-09-10,804.0,20,MEDIUM,STALE_TOKEN: AWS API key is 804 days old,1
+ID0062,Kevin Kennedy,employee,Engineering,True,standard,False,False,130,True,,108.0,0,LOW,No anomalies detected,0
+ID0063,Nathan Stewart,employee,Sales,True,standard,False,False,21,True,2024-09-26,167.0,40,HIGH,OFFBOARDING_GAP: Terminated but active on AWS,1
+ID0064,Veronica Wall,employee,Engineering,True,standard,False,False,132,True,2019-08-23,56.0,40,HIGH,"OFFBOARDING_GAP: Terminated but active on AWS, Okta",1
+ID0065,Anthony Carter,employee,Sales,False,standard,False,False,56,False,2023-09-05,42.0,35,MEDIUM,PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log,1
+ID0066,Jeremiah Lopez,employee,IT,False,admin,True,False,230,False,,184.0,20,MEDIUM,"DORMANT_ADMIN: Admin privilege with 230 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",1
+ID0067,Mark Brown,employee,HR,False,standard,False,False,290,False,,154.0,0,LOW,No anomalies detected,0
+ID0068,Lisa Gibbs,employee,HR,False,standard,False,False,175,False,,18.0,0,LOW,No anomalies detected,0
+ID0069,Marc Lynch,employee,IT,False,admin,True,False,311,False,,736.0,70,CRITICAL,"DORMANT_ADMIN: Admin privilege with 311 days since last login | CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS | STALE_TOKEN: AWS API key is 736 days old | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",3
+ID0070,Juan Moore,employee,Engineering,False,standard,False,False,91,False,,138.0,0,LOW,No anomalies detected,0
+ID0071,Jordan Mcdaniel,employee,Engineering,False,standard,False,False,143,False,,63.0,0,LOW,No anomalies detected,0
+ID0072,Samantha Jones,employee,Finance,False,standard,False,False,15,False,,172.0,0,LOW,No anomalies detected,0
+ID0073,Terri Mason,employee,HR,False,standard,False,False,167,False,,91.0,0,LOW,No anomalies detected,0
+ID0074,Allison Perez,employee,Legal,False,standard,False,False,44,False,,133.0,0,LOW,No anomalies detected,0
+ID0075,Matthew Moon,employee,Legal,True,standard,False,False,230,True,,126.0,0,LOW,No anomalies detected,0
+ID0076,Michael Hodge,employee,Legal,False,standard,False,False,114,False,2025-02-21,79.0,0,LOW,No anomalies detected,0
+ID0077,David Wilson,employee,Engineering,False,standard,False,False,181,False,,191.0,0,LOW,No anomalies detected,0
+ID0078,Peter Garrett,employee,Finance,False,standard,False,False,139,False,,31.0,0,LOW,No anomalies detected,0
+ID0079,Mark Lloyd,employee,HR,False,standard,False,False,248,False,,190.0,0,LOW,No anomalies detected,0
+ID0080,Bruce Collier,employee,Engineering,False,standard,False,False,8,False,,93.0,0,LOW,No anomalies detected,0
+ID0081,Juan Reyes,employee,Engineering,False,standard,False,False,65,False,2026-02-15,142.0,0,LOW,No anomalies detected,0
+ID0082,Diane Evans,employee,Finance,False,standard,False,False,53,False,,121.0,0,LOW,No anomalies detected,0
+ID0083,Frank Lopez,employee,Engineering,True,standard,False,False,59,True,,19.0,40,HIGH,OFFBOARDING_GAP: Terminated but active on Okta,1
+ID0084,Matthew Hoover,employee,Sales,False,standard,False,False,61,False,,620.0,20,MEDIUM,STALE_TOKEN: AWS API key is 620 days old,1
+ID0085,Thomas Smith,employee,Finance,False,standard,False,False,153,False,,114.0,0,LOW,No anomalies detected,0
+ID0086,Jennifer Miller,employee,Engineering,False,standard,False,False,51,False,2022-07-18,190.0,0,LOW,No anomalies detected,0
+ID0087,Amanda Jones,employee,HR,False,standard,False,False,81,False,,45.0,0,LOW,No anomalies detected,0
+ID0088,Michael Berger,employee,Sales,False,standard,False,False,119,False,2024-09-13,121.0,0,LOW,No anomalies detected,0
+ID0089,Michael White,employee,Finance,True,standard,False,False,302,True,,161.0,0,LOW,No anomalies detected,0
+ID0090,David Scott,employee,IT,False,admin,False,True,37,False,,69.0,10,LOW,INHERITED_ADMIN: Hidden admin via GG-Domain-Admins | LEGITIMATE_HIGH_PRIV: IT department admin — expected role,1
+ID0091,Victoria Evans,employee,HR,False,standard,False,False,85,False,2024-04-20,146.0,35,MEDIUM,PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log,1
+ID0092,James Howard,employee,IT,False,admin,True,False,240,False,,70.0,20,MEDIUM,"DORMANT_ADMIN: Admin privilege with 240 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",1
+ID0093,Natasha Wall,employee,HR,False,admin,True,False,42,False,,189.0,30,MEDIUM,"CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS",1
+ID0094,Michelle Hopkins,employee,Finance,False,standard,False,False,47,False,,148.0,0,LOW,No anomalies detected,0
+ID0095,Ann Phillips,employee,HR,False,admin,True,False,271,False,,167.0,65,CRITICAL,"DORMANT_ADMIN: Admin privilege with 271 days since last login | CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS",2
+ID0096,Dawn Summers,employee,Legal,False,standard,False,False,171,False,,121.0,0,LOW,No anomalies detected,0
+ID0097,Vincent Dalton,employee,Sales,False,standard,False,False,211,False,2023-09-24,85.0,0,LOW,No anomalies detected,0
+ID0098,Jacob Curry,employee,Finance,False,standard,False,False,19,False,,141.0,0,LOW,No anomalies detected,0
+ID0099,Leonard Holland,employee,Engineering,False,standard,False,False,1,False,,779.0,20,MEDIUM,STALE_TOKEN: AWS API key is 779 days old,1
+ID0100,Audrey Young DDS,employee,HR,False,standard,False,False,212,False,,93.0,0,LOW,No anomalies detected,0
+ID0101,Mary Bass,employee,IT,False,admin,True,False,105,False,2024-05-28,74.0,35,MEDIUM,"DORMANT_ADMIN: Admin privilege with 105 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | DORMANT_ADMIN_ROLE_CHANGE: Admin dormant 105d, but role changed on 2024-05-28 — verify transition is legitimate | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",2
+ID0102,David Cox,employee,Engineering,False,standard,False,False,15,False,,80.0,0,LOW,No anomalies detected,0
+ID0103,Daniel Fowler,employee,Legal,False,standard,False,False,48,False,,30.0,0,LOW,No anomalies detected,0
+ID0104,Kristen Willis,employee,Legal,False,standard,False,False,213,False,,70.0,0,LOW,No anomalies detected,0
+ID0105,Rebecca Rodriguez,employee,Engineering,False,standard,False,False,70,False,,154.0,0,LOW,No anomalies detected,0
+ID0106,Cameron Fisher,employee,HR,False,admin,True,False,137,False,,130.0,100,CRITICAL,"DORMANT_ADMIN: Admin privilege with 137 days since last login | CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS | PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log",3
+ID0107,Luis Acosta,employee,Finance,False,standard,False,False,177,False,,115.0,35,MEDIUM,PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log,1
+ID0108,Theodore Jones Jr.,employee,Legal,False,standard,False,False,123,False,,83.0,0,LOW,No anomalies detected,0
+ID0109,Jody Jacobs,employee,Sales,False,standard,False,False,120,False,2026-05-20,850.0,55,HIGH,STALE_TOKEN: AWS API key is 850 days old | PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log,2
+ID0110,Stephen Gutierrez,employee,Sales,False,admin,True,False,170,False,,152.0,65,CRITICAL,"DORMANT_ADMIN: Admin privilege with 170 days since last login | CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS",2
+ID0111,Christian Leblanc,employee,Legal,False,standard,False,False,80,False,,513.0,55,HIGH,STALE_TOKEN: AWS API key is 513 days old | PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log,2
+ID0112,Laurie Hoffman,employee,Legal,False,standard,False,False,42,False,,178.0,0,LOW,No anomalies detected,0
+ID0113,Lindsay Bell,employee,Legal,False,standard,False,False,278,False,2021-07-08,161.0,0,LOW,No anomalies detected,0
+ID0114,Donald Perez,employee,Legal,False,standard,False,False,117,False,2022-08-21,176.0,0,LOW,No anomalies detected,0
+ID0115,Donald Farmer,employee,Engineering,False,standard,False,False,223,False,,181.0,0,LOW,No anomalies detected,0
+ID0116,Joseph Bennett,employee,Engineering,False,standard,False,False,151,False,,12.0,0,LOW,No anomalies detected,0
+ID0117,Sophia Moore,employee,Finance,False,standard,False,False,93,False,2025-05-09,136.0,0,LOW,No anomalies detected,0
+ID0118,Ashley Jordan,employee,Legal,False,standard,False,False,90,False,,98.0,0,LOW,No anomalies detected,0
+ID0119,Dan Dougherty,employee,Engineering,False,standard,False,False,131,False,,164.0,0,LOW,No anomalies detected,0
+ID0120,James Padilla,employee,Legal,False,standard,False,False,38,False,,41.0,0,LOW,No anomalies detected,0
+ID0121,Laura Mckinney,employee,Engineering,False,standard,False,False,102,False,,117.0,0,LOW,No anomalies detected,0
+ID0122,Michael Cox,employee,Sales,False,standard,False,False,152,False,,147.0,0,LOW,No anomalies detected,0
+ID0123,Nichole Walker,employee,IT,False,admin,True,False,12,False,,145.0,0,LOW,"CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",0
+ID0124,Charles Gonzalez,employee,IT,False,admin,False,True,98,False,2025-02-27,91.0,60,CRITICAL,"DORMANT_ADMIN: Admin privilege with 98 days since last login | INHERITED_ADMIN: Hidden admin via GG-Domain-Admins | DORMANT_ADMIN_ROLE_CHANGE: Admin dormant 98d, but role changed on 2025-02-27 — verify transition is legitimate | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",3
+ID0125,Justin Riley,employee,IT,False,admin,True,False,159,False,,161.0,20,MEDIUM,"DORMANT_ADMIN: Admin privilege with 159 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",1
+ID0126,Leslie Bell,employee,HR,False,standard,False,False,18,False,2025-01-24,24.0,0,LOW,No anomalies detected,0
+ID0127,Vanessa Davis,employee,Engineering,False,standard,False,False,90,False,,139.0,0,LOW,No anomalies detected,0
+ID0128,John Hernandez,employee,Sales,False,standard,False,False,85,False,2026-01-18,124.0,0,LOW,No anomalies detected,0
+ID0129,Michael Ritter,employee,Finance,True,standard,False,False,116,True,,143.0,40,HIGH,OFFBOARDING_GAP: Terminated but active on AWS,1
+ID0130,Mark Cook,employee,IT,True,admin,False,True,384,True,,164.0,85,CRITICAL,"OFFBOARDING_GAP: Terminated but active on AWS, Okta | DORMANT_ADMIN: Admin privilege with 384 days since last login | INHERITED_ADMIN: Hidden admin via GG-Domain-Admins | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",3
+ID0131,Felicia Aguilar,employee,Sales,False,standard,False,False,114,False,,144.0,0,LOW,No anomalies detected,0
+ID0132,James Conner,employee,IT,True,admin,False,True,333,True,,412.0,100,CRITICAL,"OFFBOARDING_GAP: Terminated but active on AWS, Okta | DORMANT_ADMIN: Admin privilege with 333 days since last login | INHERITED_ADMIN: Hidden admin via GG-Domain-Admins | STALE_TOKEN: AWS API key is 412 days old | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",4
+ID0133,Alicia Parker,employee,IT,False,admin,True,False,60,False,,138.0,0,LOW,"CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",0
+ID0134,Ryan Garcia,employee,Sales,False,standard,False,False,51,False,,187.0,35,MEDIUM,PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log,1
+ID0135,Carol Kim,employee,IT,False,admin,False,True,17,False,,72.0,10,LOW,INHERITED_ADMIN: Hidden admin via GG-Domain-Admins | LEGITIMATE_HIGH_PRIV: IT department admin — expected role,1
+ID0136,Rachel Young,employee,IT,False,admin,True,False,281,False,,93.0,20,MEDIUM,"DORMANT_ADMIN: Admin privilege with 281 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",1
+ID0137,Mrs. Diane Reyes,employee,Sales,True,standard,False,False,233,True,,165.0,40,HIGH,"OFFBOARDING_GAP: Terminated but active on AWS, Okta",1
+ID0138,Ashley Singleton,employee,Legal,True,standard,False,False,120,True,2026-12-20,578.0,60,CRITICAL,"OFFBOARDING_GAP: Terminated but active on AWS, Okta | STALE_TOKEN: AWS API key is 578 days old",2
+ID0139,Thomas Velasquez,employee,Finance,False,admin,True,False,2,False,,153.0,65,CRITICAL,"CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS | PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log",2
+ID0140,Alfred Galvan,employee,IT,False,admin,True,False,211,False,,29.0,50,HIGH,"DORMANT_ADMIN: Admin privilege with 211 days since last login | CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",2
+ID0141,Julie Gilbert,employee,HR,False,standard,False,False,27,False,2021-05-12,5.0,0,LOW,No anomalies detected,0
+ID0142,Ashley Roberts,employee,Legal,True,standard,False,False,244,True,2020-01-11,132.0,0,LOW,No anomalies detected,0
+ID0143,Alexis Robertson,employee,Legal,False,standard,False,False,235,False,,169.0,0,LOW,No anomalies detected,0
+ID0144,Matthew Miller,employee,Finance,False,standard,False,False,32,False,2026-06-01,110.0,0,LOW,No anomalies detected,0
+ID0145,James Brooks,employee,Legal,False,admin,True,False,144,False,2025-06-01,38.0,80,CRITICAL,"DORMANT_ADMIN: Admin privilege with 144 days since last login | CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS | DORMANT_ADMIN_ROLE_CHANGE: Admin dormant 144d, but role changed on 2025-06-01 — verify transition is legitimate",3
+ID0146,Nancy Cook,employee,HR,False,standard,False,False,59,False,,155.0,0,LOW,No anomalies detected,0
+ID0147,Robin Brown,employee,Legal,False,standard,False,False,174,False,2025-07-26,106.0,0,LOW,No anomalies detected,0
+ID0148,Kaylee Hays,employee,Engineering,True,standard,False,False,131,True,,176.0,40,HIGH,OFFBOARDING_GAP: Terminated but active on AWS,1
+ID0149,Robert Kim,employee,IT,False,admin,True,False,243,False,2024-11-07,191.0,35,MEDIUM,"DORMANT_ADMIN: Admin privilege with 243 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | DORMANT_ADMIN_ROLE_CHANGE: Admin dormant 243d, but role changed on 2024-11-07 — verify transition is legitimate | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",2
+ID0150,Robert Adams,employee,Legal,False,standard,False,False,182,False,,106.0,0,LOW,No anomalies detected,0
+ID0151,Matthew Parker,employee,HR,False,standard,False,False,80,False,2024-08-27,148.0,0,LOW,No anomalies detected,0
+ID0152,Jessica Fowler,employee,Engineering,False,admin,True,False,115,False,,143.0,65,CRITICAL,"DORMANT_ADMIN: Admin privilege with 115 days since last login | CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS",2
+ID0153,Brenda Lawson,employee,Engineering,False,standard,False,False,137,False,2025-01-06,169.0,0,LOW,No anomalies detected,0
+ID0154,Keith Jacobs,employee,IT,False,admin,True,False,142,False,,80.0,50,HIGH,"DORMANT_ADMIN: Admin privilege with 142 days since last login | CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",2
+ID0155,Ernest Ramirez,employee,IT,False,admin,False,True,16,False,,103.0,10,LOW,INHERITED_ADMIN: Hidden admin via GG-Domain-Admins | LEGITIMATE_HIGH_PRIV: IT department admin — expected role,1
+ID0156,Cindy Carr,employee,Legal,False,standard,False,False,175,False,,117.0,0,LOW,No anomalies detected,0
+ID0157,Rita Ponce DVM,employee,IT,False,admin,True,False,27,False,,146.0,0,LOW,"CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",0
+ID0158,Katie Martinez,employee,HR,False,standard,False,False,81,False,,70.0,0,LOW,No anomalies detected,0
+ID0159,William Anderson,employee,Engineering,False,standard,False,False,59,False,2025-06-16,56.0,0,LOW,No anomalies detected,0
+ID0160,William Day,employee,Sales,False,standard,False,False,221,False,,174.0,0,LOW,No anomalies detected,0
+ID0161,Catherine Burch,employee,IT,False,admin,True,False,24,False,2023-10-14,154.0,20,MEDIUM,"CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",1
+ID0162,Timothy Perez,employee,HR,False,admin,True,False,4,False,,75.0,65,CRITICAL,"CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS | PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log",2
+ID0163,Kathryn Jackson,employee,HR,True,standard,False,False,361,True,2020-04-26,172.0,40,HIGH,OFFBOARDING_GAP: Terminated but active on Okta,1
+ID0164,Travis Wise,employee,IT,False,admin,True,False,267,False,,118.0,50,HIGH,"DORMANT_ADMIN: Admin privilege with 267 days since last login | CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",2
+ID0165,Elizabeth Sanchez,employee,Legal,False,standard,False,False,149,False,2023-10-11,107.0,0,LOW,No anomalies detected,0
+ID0166,Charles Hensley,employee,Finance,False,standard,False,False,167,False,,159.0,0,LOW,No anomalies detected,0
+ID0167,David Martinez,employee,Sales,False,standard,False,False,41,False,,151.0,35,MEDIUM,PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log,1
+ID0168,Victor Barrera,employee,IT,False,admin,True,False,87,False,,200.0,0,LOW,"CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",0
+ID0169,Mr. Alexander Landry MD,employee,HR,False,standard,False,False,76,False,2023-08-16,90.0,0,LOW,No anomalies detected,0
+ID0170,Adam Rodriguez,employee,HR,False,standard,False,False,39,False,,45.0,0,LOW,No anomalies detected,0
+ID0171,Heidi Roberts,employee,Legal,False,standard,False,False,230,False,,145.0,0,LOW,No anomalies detected,0
+ID0172,Brent Brooks,employee,HR,False,standard,False,False,156,False,,18.0,0,LOW,No anomalies detected,0
+ID0173,Andrew Reeves,employee,HR,False,admin,True,False,159,False,,19.0,65,CRITICAL,"DORMANT_ADMIN: Admin privilege with 159 days since last login | CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS",2
+ID0174,William Stevenson,employee,HR,False,admin,True,False,30,False,,20.0,30,MEDIUM,"CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS",1
+ID0175,Michael Whitney,employee,Finance,True,standard,False,False,22,True,,147.0,0,LOW,No anomalies detected,0
+ID0176,Mikayla Silva,employee,Legal,False,admin,True,False,44,False,,116.0,30,MEDIUM,"CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS",1
+ID0177,Melody Lee,employee,Engineering,False,admin,True,False,21,False,,113.0,65,CRITICAL,"CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS | PRIVILEGE_ESCALATION: 2 unexpected privilege change(s) in audit log",2
+ID0178,Shelley Fitzgerald,employee,IT,False,admin,True,False,27,False,2024-11-02,199.0,15,LOW,"CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",1
+ID0179,Julia Patel,employee,Engineering,False,standard,False,False,34,False,2026-02-17,761.0,20,MEDIUM,STALE_TOKEN: AWS API key is 761 days old,1
+ID0180,Todd Hendrix,employee,Legal,False,standard,False,False,42,False,,80.0,0,LOW,No anomalies detected,0
+ID0181,Kenneth Daniels,employee,HR,False,standard,False,False,66,False,2026-03-12,97.0,0,LOW,No anomalies detected,0
+ID0182,Jeremy Scott,employee,Sales,False,admin,True,False,93,False,2025-02-26,5.0,80,CRITICAL,"DORMANT_ADMIN: Admin privilege with 93 days since last login | CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS | DORMANT_ADMIN_ROLE_CHANGE: Admin dormant 93d, but role changed on 2025-02-26 — verify transition is legitimate",3
+ID0183,Patrick Allen,employee,IT,False,admin,True,False,80,False,,36.0,0,LOW,"CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",0
+ID0184,Randy Smith,employee,Sales,False,standard,False,False,193,False,,197.0,0,LOW,No anomalies detected,0
+ID0185,Matthew Velez,employee,Sales,False,standard,False,False,84,False,2025-06-17,198.0,0,LOW,No anomalies detected,0
+ID0186,Ryan Peck,employee,HR,True,standard,False,False,120,True,2018-09-05,115.0,40,HIGH,"OFFBOARDING_GAP: Terminated but active on AWS, Okta",1
+ID0187,Alexandra Bradley,employee,Finance,False,standard,False,False,145,False,,147.0,0,LOW,No anomalies detected,0
+ID0188,Brandi Gordon,employee,IT,True,admin,False,True,103,True,,14.0,85,CRITICAL,OFFBOARDING_GAP: Terminated but active on Okta | DORMANT_ADMIN: Admin privilege with 103 days since last login | INHERITED_ADMIN: Hidden admin via GG-Domain-Admins | LEGITIMATE_HIGH_PRIV: IT department admin — expected role,3
+ID0189,Alexis Rogers,employee,Legal,True,standard,False,False,43,True,,132.0,40,HIGH,OFFBOARDING_GAP: Terminated but active on Okta,1
+ID0190,James Davis,employee,Legal,False,standard,False,False,28,False,,107.0,0,LOW,No anomalies detected,0
+ID0191,Tiffany Turner,employee,IT,False,admin,True,False,115,False,,96.0,55,HIGH,"DORMANT_ADMIN: Admin privilege with 115 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",2
+ID0192,Jared Shaw,employee,HR,True,standard,False,False,71,True,,121.0,40,HIGH,OFFBOARDING_GAP: Terminated but active on AWS,1
+ID0193,Lisa Perry,employee,Sales,False,standard,False,False,77,False,,5.0,35,MEDIUM,PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log,1
+ID0194,Angela Griffin,employee,IT,False,admin,True,False,25,False,,32.0,20,MEDIUM,"CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | PRIVILEGE_ESCALATION: 2 unexpected privilege change(s) in audit log | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",1
+ID0195,Brittany Murphy,employee,HR,False,admin,True,False,9,False,,128.0,65,CRITICAL,"CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS | PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log",2
+ID0196,Jose Bryant,employee,Sales,False,standard,False,False,124,False,,1.0,0,LOW,No anomalies detected,0
+ID0197,Laura Williams,employee,Sales,True,standard,False,False,185,True,,140.0,0,LOW,No anomalies detected,0
+ID0198,Christopher Taylor,employee,Sales,False,standard,False,False,9,False,,762.0,55,HIGH,STALE_TOKEN: AWS API key is 762 days old | PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log,2
+ID0199,Victor Baxter,employee,Legal,False,standard,False,False,35,False,,169.0,0,LOW,No anomalies detected,0
+ID0200,William Davenport,employee,Finance,False,standard,False,False,69,False,,87.0,0,LOW,No anomalies detected,0
+ID0201,Christopher Lopez,employee,HR,False,standard,False,False,33,False,,35.0,0,LOW,No anomalies detected,0
+ID0202,Kirk Griffin,employee,IT,False,admin,True,False,151,False,,570.0,40,HIGH,"DORMANT_ADMIN: Admin privilege with 151 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | STALE_TOKEN: AWS API key is 570 days old | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",2
+ID0203,Wyatt Young,employee,HR,True,standard,False,False,130,True,,49.0,40,HIGH,OFFBOARDING_GAP: Terminated but active on Okta,1
+ID0204,Eric Brown,employee,Legal,False,standard,False,False,140,False,,112.0,0,LOW,No anomalies detected,0
+ID0205,Emma Butler,employee,Sales,False,standard,False,False,137,False,,128.0,0,LOW,No anomalies detected,0
+ID0206,Suzanne Hart,employee,HR,False,standard,False,False,165,False,,550.0,20,MEDIUM,STALE_TOKEN: AWS API key is 550 days old,1
+ID0207,Sarah Davis,employee,Sales,False,standard,False,False,41,False,,79.0,0,LOW,No anomalies detected,0
+ID0208,Kristin Mendoza,employee,IT,False,admin,True,False,223,False,,11.0,20,MEDIUM,"DORMANT_ADMIN: Admin privilege with 223 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",1
+ID0209,Melissa Padilla,employee,IT,False,admin,True,False,82,False,2021-12-17,781.0,5,LOW,"CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | STALE_TOKEN: AWS API key is 781 days old | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",1
+ID0210,Elizabeth Ward,employee,Sales,False,standard,False,False,74,False,,434.0,55,HIGH,STALE_TOKEN: AWS API key is 434 days old | PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log,2
+ID0211,Angel Shields,employee,Legal,False,standard,False,False,191,False,,174.0,35,MEDIUM,PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log,1
+ID0212,Kelly Sanchez,employee,Sales,False,standard,False,False,161,False,,136.0,0,LOW,No anomalies detected,0
+ID0213,Joshua White,employee,Engineering,False,admin,True,False,128,False,2021-01-21,556.0,100,CRITICAL,"DORMANT_ADMIN: Admin privilege with 128 days since last login | CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS | STALE_TOKEN: AWS API key is 556 days old | DORMANT_ADMIN_ROLE_CHANGE: Admin dormant 128d, but role changed on 2021-01-21 — verify transition is legitimate",4
+ID0214,Jennifer Kirby,employee,IT,False,admin,True,False,135,False,2025-06-24,55.0,35,MEDIUM,"DORMANT_ADMIN: Admin privilege with 135 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | DORMANT_ADMIN_ROLE_CHANGE: Admin dormant 135d, but role changed on 2025-06-24 — verify transition is legitimate | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",2
+ID0215,Mary Jensen,employee,Sales,False,standard,False,False,63,False,,116.0,0,LOW,No anomalies detected,0
+ID0216,Nathan Nichols,employee,IT,False,admin,True,False,202,False,2024-04-25,182.0,35,MEDIUM,"DORMANT_ADMIN: Admin privilege with 202 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | DORMANT_ADMIN_ROLE_CHANGE: Admin dormant 202d, but role changed on 2024-04-25 — verify transition is legitimate | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",2
+ID0217,Manuel King,employee,Sales,False,standard,False,False,154,False,2021-01-23,180.0,0,LOW,No anomalies detected,0
+ID0218,Courtney Sutton DVM,employee,HR,False,standard,False,False,14,False,,61.0,35,MEDIUM,PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log,1
+ID0219,Mr. Richard Knight PhD,employee,HR,False,standard,False,False,45,False,,142.0,0,LOW,No anomalies detected,0
+ID0220,Anthony Jones,employee,Sales,False,admin,True,False,280,False,,185.0,65,CRITICAL,"DORMANT_ADMIN: Admin privilege with 280 days since last login | CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS",2
+ID0221,Laurie Goodwin,employee,Finance,False,standard,False,False,231,False,,82.0,0,LOW,No anomalies detected,0
+ID0222,Kimberly Reyes,employee,Sales,False,standard,False,False,94,False,,200.0,0,LOW,No anomalies detected,0
+ID0223,David Jones,employee,Finance,False,standard,False,False,79,False,2025-08-09,133.0,0,LOW,No anomalies detected,0
+ID0224,Juan Bennett,employee,Engineering,False,standard,False,False,41,False,,133.0,0,LOW,No anomalies detected,0
+ID0225,Angela Moore,employee,IT,False,admin,True,False,48,False,,78.0,0,LOW,"CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",0
+ID0226,Derrick Anderson,employee,Legal,False,standard,False,False,173,False,2025-09-06,160.0,0,LOW,No anomalies detected,0
+ID0227,Rachel Shields,employee,Sales,False,standard,False,False,15,False,,637.0,55,HIGH,STALE_TOKEN: AWS API key is 637 days old | PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log,2
+ID0228,Carolyn James,employee,IT,False,admin,True,False,155,False,,161.0,20,MEDIUM,"DORMANT_ADMIN: Admin privilege with 155 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",1
+ID0229,John Jones,employee,Legal,False,standard,False,False,81,False,,19.0,0,LOW,No anomalies detected,0
+ID0230,Manuel Brock,employee,Finance,False,standard,False,False,161,False,,88.0,0,LOW,No anomalies detected,0
+ID0231,Christopher Sanders,employee,HR,False,standard,False,False,264,False,,34.0,0,LOW,No anomalies detected,0
+ID0232,Timothy Gonzalez,employee,HR,False,standard,False,False,73,False,,69.0,0,LOW,No anomalies detected,0
+ID0233,Andrea Abbott,employee,HR,False,standard,False,False,26,False,,158.0,35,MEDIUM,PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log,1
+ID0234,Angela Ewing,employee,Sales,False,standard,False,False,240,False,2025-12-24,41.0,0,LOW,No anomalies detected,0
+ID0235,Heather Woodard,employee,Finance,False,standard,False,False,124,False,2025-03-31,768.0,20,MEDIUM,STALE_TOKEN: AWS API key is 768 days old,1
+ID0236,Erin Hogan,employee,IT,False,admin,True,False,131,False,,654.0,40,HIGH,"DORMANT_ADMIN: Admin privilege with 131 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | STALE_TOKEN: AWS API key is 654 days old | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",2
+ID0237,James Barton,employee,Engineering,False,standard,False,False,69,False,,111.0,0,LOW,No anomalies detected,0
+ID0238,Monica Bailey,employee,HR,False,admin,True,False,186,False,,146.0,65,CRITICAL,"DORMANT_ADMIN: Admin privilege with 186 days since last login | CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS",2
+ID0239,Eric Patrick,employee,Sales,False,standard,False,False,38,False,2019-03-22,196.0,0,LOW,No anomalies detected,0
+ID0240,Kristen Rivera,employee,Sales,False,standard,False,False,50,False,2024-12-17,87.0,0,LOW,No anomalies detected,0
+ID0241,Omar Ware,employee,Finance,False,standard,False,False,20,False,,12.0,35,MEDIUM,PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log,1
+ID0242,Rhonda Brown,employee,HR,True,standard,False,False,72,True,,82.0,40,HIGH,OFFBOARDING_GAP: Terminated but active on AWS,1
+ID0243,Katherine Church,employee,HR,False,standard,False,False,189,False,2022-04-04,77.0,0,LOW,No anomalies detected,0
+ID0244,Michele Evans,employee,Sales,False,admin,True,False,14,False,,150.0,30,MEDIUM,"CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS",1
+ID0245,Kayla Barnes,employee,HR,False,standard,False,False,136,False,2025-03-03,150.0,0,LOW,No anomalies detected,0
+ID0246,Katherine Taylor,employee,IT,False,admin,False,True,76,False,,478.0,30,MEDIUM,INHERITED_ADMIN: Hidden admin via GG-Domain-Admins | STALE_TOKEN: AWS API key is 478 days old | LEGITIMATE_HIGH_PRIV: IT department admin — expected role,2
+ID0247,Tracey Wagner,employee,Sales,False,admin,True,False,211,False,,53.0,65,CRITICAL,"DORMANT_ADMIN: Admin privilege with 211 days since last login | CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS",2
+ID0248,Andre Juarez,employee,Legal,False,standard,False,False,167,False,,144.0,0,LOW,No anomalies detected,0
+ID0249,Ashley Wilson,employee,Legal,False,standard,False,False,161,False,,137.0,0,LOW,No anomalies detected,0
+ID0250,Zachary Cole,employee,HR,False,standard,False,False,143,False,,64.0,0,LOW,No anomalies detected,0
+ID0251,Leah Bell,employee,Legal,False,standard,False,False,153,False,,177.0,0,LOW,No anomalies detected,0
+ID0252,Douglas Ryan,employee,Legal,False,admin,True,False,179,False,2019-09-04,147.0,80,CRITICAL,"DORMANT_ADMIN: Admin privilege with 179 days since last login | CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS | DORMANT_ADMIN_ROLE_CHANGE: Admin dormant 179d, but role changed on 2019-09-04 — verify transition is legitimate",3
+ID0253,Paul Jenkins,employee,Legal,True,standard,False,False,41,True,,183.0,0,LOW,No anomalies detected,0
+ID0254,Frank Wright,employee,Sales,False,standard,False,False,139,False,2023-07-18,138.0,0,LOW,No anomalies detected,0
+ID0255,Paul Neal,employee,HR,False,standard,False,False,56,False,2024-05-06,172.0,0,LOW,No anomalies detected,0
+ID0256,Melissa Horn,employee,HR,False,standard,False,False,27,False,,184.0,0,LOW,No anomalies detected,0
+ID0257,Kenneth Knight,employee,Finance,False,standard,False,False,103,False,,122.0,0,LOW,No anomalies detected,0
+ID0258,Timothy Moore,employee,HR,False,standard,False,False,46,False,,197.0,0,LOW,No anomalies detected,0
+ID0259,Timothy Hill,employee,Engineering,False,standard,False,False,19,False,2026-04-19,45.0,0,LOW,No anomalies detected,0
+ID0260,Brandon Davis,employee,Legal,False,standard,False,False,5,False,,75.0,0,LOW,No anomalies detected,0
+ID0261,Greg Martinez,employee,Sales,True,standard,False,False,146,True,2022-08-18,140.0,40,HIGH,"OFFBOARDING_GAP: Terminated but active on AWS, Okta",1
+ID0262,Jacob Evans,employee,Engineering,False,admin,True,False,84,False,,85.0,65,CRITICAL,"CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS | PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log",2
+ID0263,Justin Bishop,employee,HR,False,standard,False,False,291,False,,711.0,20,MEDIUM,STALE_TOKEN: AWS API key is 711 days old,1
+ID0264,Angelica Garcia,employee,HR,False,admin,True,False,90,False,,132.0,30,MEDIUM,"CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS",1
+ID0265,Danielle Burke,employee,Sales,False,admin,True,False,214,False,,64.0,100,CRITICAL,"DORMANT_ADMIN: Admin privilege with 214 days since last login | CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS | PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log",3
+ID0266,Elizabeth Brown,employee,Legal,False,standard,False,False,229,False,,78.0,0,LOW,No anomalies detected,0
+ID0267,Dr. Bonnie Valencia,employee,Legal,False,standard,False,False,134,False,2022-11-05,16.0,0,LOW,No anomalies detected,0
+ID0268,Alexis Lewis,employee,Engineering,False,standard,False,False,61,False,2023-11-19,181.0,0,LOW,No anomalies detected,0
+ID0269,James Davidson,employee,Sales,False,standard,False,False,189,False,,35.0,0,LOW,No anomalies detected,0
+ID0270,Mark Davenport,employee,Legal,False,standard,False,False,127,False,,171.0,35,MEDIUM,PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log,1
+ID0271,Logan Brown,employee,Finance,False,standard,False,False,40,False,,93.0,0,LOW,No anomalies detected,0
+ID0272,Michelle Jackson,employee,Sales,False,standard,False,False,85,False,,39.0,0,LOW,No anomalies detected,0
+ID0273,Austin Joseph,employee,Legal,False,standard,False,False,47,False,,126.0,0,LOW,No anomalies detected,0
+ID0274,David Garcia,employee,Finance,True,standard,False,False,30,True,,79.0,40,HIGH,"OFFBOARDING_GAP: Terminated but active on AWS, Okta",1
+ID0275,Jack Mora,employee,Legal,True,standard,False,False,24,True,2022-02-16,17.0,0,LOW,No anomalies detected,0
+ID0276,Jason Cortez,employee,IT,False,admin,True,False,17,False,,197.0,0,LOW,"CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",0
+ID0277,Jose Williams,employee,Sales,True,standard,False,False,194,True,2025-12-01,502.0,60,CRITICAL,OFFBOARDING_GAP: Terminated but active on AWS | STALE_TOKEN: AWS API key is 502 days old,2
+ID0278,Aimee Gonzalez,employee,Sales,True,standard,False,False,115,True,,77.0,40,HIGH,"OFFBOARDING_GAP: Terminated but active on AWS, Okta",1
+ID0279,Kimberly Flynn,employee,Sales,False,standard,False,False,80,False,2024-05-21,64.0,35,MEDIUM,PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log,1
+ID0280,April Sandoval,employee,Sales,False,standard,False,False,97,False,,795.0,55,HIGH,STALE_TOKEN: AWS API key is 795 days old | PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log,2
+ID0281,Anna Morse,employee,Finance,False,standard,False,False,25,False,2020-03-18,115.0,0,LOW,No anomalies detected,0
+ID0282,Mandy Foster,employee,Finance,False,standard,False,False,29,False,,60.0,0,LOW,No anomalies detected,0
+ID0283,Nancy Stewart,employee,Sales,True,standard,False,False,345,True,2022-12-09,198.0,40,HIGH,OFFBOARDING_GAP: Terminated but active on Okta,1
+ID0284,Joshua Oconnell,employee,Sales,False,standard,False,False,32,False,,71.0,0,LOW,No anomalies detected,0
+ID0285,Melissa Williams,employee,HR,False,admin,True,False,196,False,,718.0,100,CRITICAL,"DORMANT_ADMIN: Admin privilege with 196 days since last login | CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS | STALE_TOKEN: AWS API key is 718 days old | PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log",4
+ID0286,Carrie Crane,employee,Finance,True,standard,False,False,95,True,,58.0,0,LOW,No anomalies detected,0
+ID0287,Antonio Norman,employee,Legal,False,standard,False,False,30,False,,143.0,0,LOW,No anomalies detected,0
+ID0288,Deanna Hess,employee,Engineering,False,standard,False,False,131,False,,21.0,0,LOW,No anomalies detected,0
+ID0289,Tom Williams,employee,IT,True,admin,False,True,194,True,,49.0,85,CRITICAL,OFFBOARDING_GAP: Terminated but active on Okta | DORMANT_ADMIN: Admin privilege with 194 days since last login | INHERITED_ADMIN: Hidden admin via GG-Domain-Admins | LEGITIMATE_HIGH_PRIV: IT department admin — expected role,3
+ID0290,Terry Hill,employee,Engineering,False,standard,False,False,109,False,2025-04-02,86.0,0,LOW,No anomalies detected,0
+ID0291,Karen Miller,employee,HR,False,standard,False,False,105,False,,194.0,0,LOW,No anomalies detected,0
+ID0292,Virginia Casey,employee,HR,False,standard,False,False,123,False,,98.0,0,LOW,No anomalies detected,0
+ID0293,Alyssa Cochran,employee,IT,False,admin,True,False,134,False,2021-08-05,128.0,35,MEDIUM,"DORMANT_ADMIN: Admin privilege with 134 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | DORMANT_ADMIN_ROLE_CHANGE: Admin dormant 134d, but role changed on 2021-08-05 — verify transition is legitimate | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",2
+ID0294,Matthew Adams,employee,Legal,False,standard,False,False,75,False,,12.0,0,LOW,No anomalies detected,0
+ID0295,Kevin Drake,employee,Finance,False,standard,False,False,134,False,2023-01-22,51.0,0,LOW,No anomalies detected,0
+ID0296,Casey Johnson,employee,IT,False,admin,True,False,158,False,2023-11-26,126.0,35,MEDIUM,"DORMANT_ADMIN: Admin privilege with 158 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | DORMANT_ADMIN_ROLE_CHANGE: Admin dormant 158d, but role changed on 2023-11-26 — verify transition is legitimate | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",2
+ID0297,Christopher Lang,employee,HR,False,standard,False,False,87,False,,185.0,0,LOW,No anomalies detected,0
+ID0298,Jacqueline Mcmahon,employee,Legal,True,standard,False,False,71,True,2021-11-15,106.0,40,HIGH,OFFBOARDING_GAP: Terminated but active on Okta,1
+ID0299,Toni Banks,employee,Engineering,False,standard,False,False,31,False,,883.0,20,MEDIUM,STALE_TOKEN: AWS API key is 883 days old,1
+ID0300,Nicholas Phillips,employee,Sales,False,standard,False,False,7,False,,787.0,20,MEDIUM,STALE_TOKEN: AWS API key is 787 days old,1
+ID0301,Evan Lamb,contractor,External,True,standard,False,False,55,True,,46.0,40,HIGH,OFFBOARDING_GAP: Terminated but active on Okta,1
+ID0302,Patrick Young,contractor,External,False,standard,False,False,124,False,,65.0,0,LOW,No anomalies detected,0
+ID0303,Daniel Steele,contractor,External,True,standard,False,False,125,True,,21.0,40,HIGH,OFFBOARDING_GAP: Terminated but active on Okta,1
+ID0304,Nicholas Costa,contractor,External,True,standard,False,False,256,True,,22.0,0,LOW,No anomalies detected,0
+ID0305,Ashley Mendoza,contractor,External,True,standard,False,False,279,True,,20.0,40,HIGH,OFFBOARDING_GAP: Terminated but active on Okta,1
+ID0306,Fernando Lynn,contractor,External,False,standard,False,False,92,False,,578.0,20,MEDIUM,STALE_TOKEN: AWS API key is 578 days old,1
+ID0307,Kimberly Villanueva,contractor,External,False,admin,True,False,154,False,,146.0,65,CRITICAL,"DORMANT_ADMIN: Admin privilege with 154 days since last login | CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS",2
+ID0308,Jessica Valdez,contractor,External,False,standard,False,False,197,False,,177.0,0,LOW,No anomalies detected,0
+ID0309,Colton Terry,contractor,External,True,standard,False,False,16,True,,84.0,0,LOW,No anomalies detected,0
+ID0310,Kenneth Larsen,contractor,External,True,standard,False,False,195,True,,170.0,40,HIGH,"OFFBOARDING_GAP: Terminated but active on AWS, Okta",1
+ID0311,Matthew Greene,contractor,External,True,standard,False,False,47,True,,82.0,40,HIGH,"OFFBOARDING_GAP: Terminated but active on AWS, Okta",1
+ID0312,Bradley Anthony,contractor,External,False,admin,True,False,327,False,,70.0,65,CRITICAL,"DORMANT_ADMIN: Admin privilege with 327 days since last login | CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS",2
+ID0313,Martin Hughes,contractor,External,False,standard,False,False,14,False,,132.0,35,MEDIUM,PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log,1
+ID0314,Jeremiah Baker,contractor,External,True,standard,False,False,167,True,,789.0,60,CRITICAL,OFFBOARDING_GAP: Terminated but active on AWS | STALE_TOKEN: AWS API key is 789 days old,2
+ID0315,Rhonda Gutierrez,contractor,External,True,standard,False,False,72,True,,127.0,40,HIGH,OFFBOARDING_GAP: Terminated but active on Okta,1
+ID0316,Joseph Camacho,contractor,External,False,admin,True,False,127,False,,20.0,65,CRITICAL,"DORMANT_ADMIN: Admin privilege with 127 days since last login | CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS",2
+ID0317,James Nash,contractor,External,True,standard,False,False,156,True,,86.0,40,HIGH,"OFFBOARDING_GAP: Terminated but active on AWS, Okta",1
+ID0318,Lisa Martinez,contractor,External,False,standard,False,False,70,False,,167.0,35,MEDIUM,PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log,1
+ID0319,Beth Henderson,contractor,External,True,standard,False,False,150,True,,82.0,40,HIGH,OFFBOARDING_GAP: Terminated but active on Okta,1
+ID0320,Deanna Bartlett,contractor,External,False,standard,False,False,167,False,,101.0,35,MEDIUM,PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log,1
+ID0321,Donald Ellis,contractor,External,True,standard,False,False,282,True,,119.0,0,LOW,No anomalies detected,0
+ID0322,Ashley Hernandez,contractor,External,False,standard,False,False,72,False,,105.0,0,LOW,No anomalies detected,0
+ID0323,Sharon Beard,contractor,External,False,standard,False,False,38,False,,184.0,0,LOW,No anomalies detected,0
+ID0324,Kara Jackson,contractor,External,False,standard,False,False,215,False,,137.0,0,LOW,No anomalies detected,0
+ID0325,Amanda Preston,contractor,External,True,standard,False,False,275,True,,620.0,60,CRITICAL,OFFBOARDING_GAP: Terminated but active on AWS | STALE_TOKEN: AWS API key is 620 days old,2
+ID0326,Alicia Roth,contractor,External,True,standard,False,False,347,True,,85.0,40,HIGH,OFFBOARDING_GAP: Terminated but active on AWS,1
+ID0327,William Ramos,contractor,External,False,standard,False,False,51,False,,192.0,0,LOW,No anomalies detected,0
+ID0328,Jeremy Mcintyre,contractor,External,True,standard,False,False,248,True,,7.0,40,HIGH,OFFBOARDING_GAP: Terminated but active on Okta,1
+ID0329,Samantha Robertson,contractor,External,True,standard,False,False,234,True,,88.0,40,HIGH,OFFBOARDING_GAP: Terminated but active on AWS,1
+ID0330,Samuel Suarez,contractor,External,False,standard,False,False,154,False,,829.0,20,MEDIUM,STALE_TOKEN: AWS API key is 829 days old,1
+ID0331,Danielle Bryant,contractor,External,True,standard,False,False,332,True,,43.0,40,HIGH,OFFBOARDING_GAP: Terminated but active on AWS,1
+ID0332,Madison Martinez,contractor,External,False,standard,False,False,119,False,,110.0,35,MEDIUM,PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log,1
+ID0333,Seth Matthews,contractor,External,False,standard,False,False,15,False,,169.0,0,LOW,No anomalies detected,0
+ID0334,Anthony Nash,contractor,External,False,standard,False,False,110,False,,181.0,0,LOW,No anomalies detected,0
+ID0335,Matthew Palmer,contractor,External,True,standard,False,False,135,True,,30.0,0,LOW,No anomalies detected,0
+ID0336,Alejandra King,contractor,External,False,standard,False,False,59,False,,151.0,0,LOW,No anomalies detected,0
+ID0337,Judy Robinson,contractor,External,False,standard,False,False,44,False,,181.0,0,LOW,No anomalies detected,0
+ID0338,Jorge Bates,contractor,External,False,standard,False,False,73,False,,30.0,0,LOW,No anomalies detected,0
+ID0339,Brian Brown,contractor,External,False,standard,False,False,96,False,,109.0,0,LOW,No anomalies detected,0
+ID0340,Stephanie Evans,contractor,External,True,standard,False,False,162,True,,92.0,40,HIGH,"OFFBOARDING_GAP: Terminated but active on AWS, Okta",1
+ID0341,Rebekah Greene,contractor,External,True,standard,False,False,213,True,,126.0,40,HIGH,OFFBOARDING_GAP: Terminated but active on AWS,1
+ID0342,Jason Price,contractor,External,False,standard,False,False,17,False,,195.0,0,LOW,No anomalies detected,0
+ID0343,Micheal Parks,contractor,External,True,standard,False,False,290,True,,29.0,40,HIGH,"OFFBOARDING_GAP: Terminated but active on AWS, Okta",1
+ID0344,Sarah Pittman,contractor,External,False,standard,False,False,218,False,,113.0,0,LOW,No anomalies detected,0
+ID0345,Robert Hines,contractor,External,True,standard,False,False,17,True,,23.0,40,HIGH,OFFBOARDING_GAP: Terminated but active on Okta,1
+ID0346,Henry Garner,contractor,External,True,standard,False,False,364,True,,36.0,40,HIGH,OFFBOARDING_GAP: Terminated but active on Okta,1
+ID0347,Julie Wilson,contractor,External,False,standard,False,False,166,False,,153.0,0,LOW,No anomalies detected,0
+ID0348,Steve Mason,contractor,External,False,standard,False,False,49,False,,132.0,0,LOW,No anomalies detected,0
+ID0349,Brittany Gay,contractor,External,False,admin,True,False,65,False,,71.0,30,MEDIUM,"CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS",1
+ID0350,Mike Maxwell,contractor,External,False,standard,False,False,128,False,,64.0,35,MEDIUM,PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log,1
+ID0351,svc-protect-test,service_account,Engineering,False,standard,False,False,73,False,,97.0,0,LOW,No anomalies detected,0
+ID0352,svc-article-prod,service_account,Engineering,False,admin,True,False,233,False,,95.0,70,CRITICAL,"DORMANT_ADMIN: Admin privilege with 233 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log",2
+ID0353,svc-above-dev,service_account,Engineering,False,admin,True,False,245,False,,118.0,35,MEDIUM,"DORMANT_ADMIN: Admin privilege with 245 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file",1
+ID0354,svc-live-dev,service_account,IT,False,admin,False,True,274,False,,110.0,45,HIGH,DORMANT_ADMIN: Admin privilege with 274 days since last login | INHERITED_ADMIN: Hidden admin via GG-Domain-Admins | LEGITIMATE_HIGH_PRIV: IT department admin — expected role,2
+ID0355,svc-eye-dev,service_account,IT,False,admin,False,True,67,False,,148.0,45,HIGH,INHERITED_ADMIN: Hidden admin via GG-Domain-Admins | PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log | LEGITIMATE_HIGH_PRIV: IT department admin — expected role,2
+ID0356,svc-determine-dev,service_account,IT,False,admin,True,False,9,False,,836.0,5,LOW,"CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | STALE_TOKEN: AWS API key is 836 days old | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",1
+ID0357,svc-sort-test,service_account,Engineering,False,admin,True,False,146,False,,110.0,35,MEDIUM,"DORMANT_ADMIN: Admin privilege with 146 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file",1
+ID0358,svc-staff-test,service_account,IT,False,admin,True,False,82,False,,735.0,5,LOW,"CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | STALE_TOKEN: AWS API key is 735 days old | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",1
+ID0359,svc-concern-test,service_account,IT,False,admin,False,True,27,False,,186.0,10,LOW,INHERITED_ADMIN: Hidden admin via GG-Domain-Admins | LEGITIMATE_HIGH_PRIV: IT department admin — expected role,1
+ID0360,svc-part-dev,service_account,IT,False,admin,False,True,40,False,,854.0,30,MEDIUM,INHERITED_ADMIN: Hidden admin via GG-Domain-Admins | STALE_TOKEN: AWS API key is 854 days old | LEGITIMATE_HIGH_PRIV: IT department admin — expected role,2
+ID0361,svc-south-prod,service_account,Engineering,False,standard,False,False,5,False,,31.0,0,LOW,No anomalies detected,0
+ID0362,svc-cold-test,service_account,IT,False,admin,False,True,37,False,,188.0,10,LOW,INHERITED_ADMIN: Hidden admin via GG-Domain-Admins | LEGITIMATE_HIGH_PRIV: IT department admin — expected role,1
+ID0363,svc-might-test,service_account,Engineering,False,admin,True,False,189,False,,199.0,35,MEDIUM,"DORMANT_ADMIN: Admin privilege with 189 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file",1
+ID0364,svc-stock-test,service_account,IT,False,admin,False,True,226,False,,43.0,45,HIGH,DORMANT_ADMIN: Admin privilege with 226 days since last login | INHERITED_ADMIN: Hidden admin via GG-Domain-Admins | LEGITIMATE_HIGH_PRIV: IT department admin — expected role,2
+ID0365,svc-source-dev,service_account,Engineering,False,standard,False,False,211,False,,23.0,0,LOW,No anomalies detected,0
+ID0366,svc-state-dev,service_account,IT,False,admin,False,True,162,False,,110.0,80,CRITICAL,DORMANT_ADMIN: Admin privilege with 162 days since last login | INHERITED_ADMIN: Hidden admin via GG-Domain-Admins | PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log | LEGITIMATE_HIGH_PRIV: IT department admin — expected role,3
+ID0367,svc-behavior-dev,service_account,IT,False,admin,True,False,308,False,,154.0,20,MEDIUM,"DORMANT_ADMIN: Admin privilege with 308 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",1
+ID0368,svc-carry-test,service_account,Engineering,False,standard,False,False,261,False,,156.0,0,LOW,No anomalies detected,0
+ID0369,svc-possible-test,service_account,IT,False,admin,True,False,176,False,,62.0,20,MEDIUM,"DORMANT_ADMIN: Admin privilege with 176 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",1
+ID0370,svc-leader-test,service_account,IT,False,admin,False,True,185,False,,4.0,45,HIGH,DORMANT_ADMIN: Admin privilege with 185 days since last login | INHERITED_ADMIN: Hidden admin via GG-Domain-Admins | LEGITIMATE_HIGH_PRIV: IT department admin — expected role,2
+ID0371,svc-property-test,service_account,Engineering,False,standard,False,False,89,False,,175.0,0,LOW,No anomalies detected,0
+ID0372,svc-laugh-test,service_account,IT,False,admin,True,False,21,False,,586.0,5,LOW,"CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | STALE_TOKEN: AWS API key is 586 days old | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",1
+ID0373,svc-international-dev,service_account,Engineering,False,admin,True,False,43,False,,103.0,35,MEDIUM,"CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log",1
+ID0374,svc-laugh-test,service_account,IT,False,admin,True,False,143,False,,131.0,20,MEDIUM,"DORMANT_ADMIN: Admin privilege with 143 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",1
+ID0375,svc-me-dev,service_account,Engineering,False,admin,True,False,237,False,,112.0,35,MEDIUM,"DORMANT_ADMIN: Admin privilege with 237 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file",1
+ID0376,svc-identify-dev,service_account,IT,False,admin,False,True,45,False,,422.0,30,MEDIUM,INHERITED_ADMIN: Hidden admin via GG-Domain-Admins | STALE_TOKEN: AWS API key is 422 days old | LEGITIMATE_HIGH_PRIV: IT department admin — expected role,2
+ID0377,svc-above-dev,service_account,IT,False,admin,False,True,7,False,,42.0,10,LOW,INHERITED_ADMIN: Hidden admin via GG-Domain-Admins | LEGITIMATE_HIGH_PRIV: IT department admin — expected role,1
+ID0378,svc-always-prod,service_account,IT,False,admin,False,True,86,False,,200.0,10,LOW,INHERITED_ADMIN: Hidden admin via GG-Domain-Admins | LEGITIMATE_HIGH_PRIV: IT department admin — expected role,1
+ID0379,svc-none-prod,service_account,IT,False,admin,True,False,330,False,,17.0,50,HIGH,"DORMANT_ADMIN: Admin privilege with 330 days since last login | CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",2
+ID0380,svc-decision-test,service_account,IT,False,admin,True,False,255,False,,15.0,20,MEDIUM,"DORMANT_ADMIN: Admin privilege with 255 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",1
+ID0381,svc-side-prod,service_account,IT,False,admin,False,True,81,False,,147.0,10,LOW,INHERITED_ADMIN: Hidden admin via GG-Domain-Admins | LEGITIMATE_HIGH_PRIV: IT department admin — expected role,1
+ID0382,svc-hour-test,service_account,IT,False,admin,True,False,126,False,,378.0,70,CRITICAL,"DORMANT_ADMIN: Admin privilege with 126 days since last login | CROSS_PLATFORM_ADMIN: Unjustified admin on AD, AWS | STALE_TOKEN: AWS API key is 378 days old | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",3
+ID0383,svc-address-prod,service_account,Engineering,False,standard,False,False,197,False,,10.0,0,LOW,No anomalies detected,0
+ID0384,svc-wait-test,service_account,IT,False,admin,False,True,164,False,,185.0,45,HIGH,DORMANT_ADMIN: Admin privilege with 164 days since last login | INHERITED_ADMIN: Hidden admin via GG-Domain-Admins | LEGITIMATE_HIGH_PRIV: IT department admin — expected role,2
+ID0385,svc-fund-dev,service_account,Engineering,False,admin,True,False,118,False,,133.0,35,MEDIUM,"DORMANT_ADMIN: Admin privilege with 118 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file",1
+ID0386,svc-sometimes-prod,service_account,Engineering,False,admin,True,False,284,False,,142.0,35,MEDIUM,"DORMANT_ADMIN: Admin privilege with 284 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file",1
+ID0387,svc-these-prod,service_account,Engineering,False,admin,True,False,150,False,,63.0,35,MEDIUM,"DORMANT_ADMIN: Admin privilege with 150 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file",1
+ID0388,svc-nice-dev,service_account,Engineering,False,standard,False,False,13,False,,105.0,0,LOW,No anomalies detected,0
+ID0389,svc-cut-dev,service_account,Engineering,False,admin,True,False,326,False,,1.0,35,MEDIUM,"DORMANT_ADMIN: Admin privilege with 326 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file",1
+ID0390,svc-affect-prod,service_account,IT,False,admin,True,False,54,False,,61.0,20,MEDIUM,"CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",1
+ID0391,svc-require-test,service_account,Engineering,False,standard,False,False,365,False,,603.0,20,MEDIUM,STALE_TOKEN: AWS API key is 603 days old,1
+ID0392,svc-above-prod,service_account,IT,False,admin,False,True,69,False,,130.0,10,LOW,INHERITED_ADMIN: Hidden admin via GG-Domain-Admins | LEGITIMATE_HIGH_PRIV: IT department admin — expected role,1
+ID0393,svc-produce-prod,service_account,Engineering,False,admin,True,False,205,False,,34.0,35,MEDIUM,"DORMANT_ADMIN: Admin privilege with 205 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file",1
+ID0394,svc-similar-prod,service_account,Engineering,False,admin,True,False,120,False,,70.0,35,MEDIUM,"DORMANT_ADMIN: Admin privilege with 120 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file",1
+ID0395,svc-energy-dev,service_account,Engineering,False,standard,False,False,231,False,,43.0,0,LOW,No anomalies detected,0
+ID0396,svc-draw-prod,service_account,Engineering,False,admin,True,False,182,False,,54.0,35,MEDIUM,"DORMANT_ADMIN: Admin privilege with 182 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file",1
+ID0397,svc-rule-prod,service_account,Engineering,False,admin,True,False,231,False,,176.0,35,MEDIUM,"DORMANT_ADMIN: Admin privilege with 231 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file",1
+ID0398,svc-understand-prod,service_account,IT,False,admin,True,False,130,False,,620.0,40,HIGH,"DORMANT_ADMIN: Admin privilege with 130 days since last login | CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | STALE_TOKEN: AWS API key is 620 days old | LEGITIMATE_HIGH_PRIV: IT department admin — expected role",2
+ID0399,svc-guy-test,service_account,Engineering,False,admin,True,False,16,False,,45.0,35,MEDIUM,"CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log",1
+ID0400,svc-forget-prod,service_account,Engineering,False,admin,True,False,49,False,,509.0,55,HIGH,"CROSS_PLATFORM_ADMIN_JUSTIFIED: Admin on 2+ platforms, recorded business justification on file | STALE_TOKEN: AWS API key is 509 days old | PRIVILEGE_ESCALATION: 1 unexpected privilege change(s) in audit log",2
